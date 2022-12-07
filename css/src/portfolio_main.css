@@ -215,23 +215,23 @@
 }
 .html {
   width: 90%;
-  animation: html 3s;
+  animation: html 10s;
 }
 .css {
   width: 90%;
-  animation: css 3s;
+  animation: css 10s;
 }
 .javascript {
   width: 60%;
-  animation: javascript 3s;
+  animation: javascript 10s;
 }
 .figma {
   width: 90%;
-  animation: figma 3s;
+  animation: figma 10s;
 }
 .git {
   width: 70%;
-  animation: git 3s;
+  animation: git 10s;
 }
 @keyframes html {
   0%{
