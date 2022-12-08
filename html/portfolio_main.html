@@ -13,28 +13,27 @@
   <link rel="stylesheet" href="../css/common/reset.css">
   <link rel="stylesheet" href="../css/common/common.css">
   <link rel="stylesheet" href="../css/src/portfolio_main.css">
-
+  
+  
   <script src="../js/common/modernizr-custom.js"></script>
   
   <title>hyuna portfolio</title>
   <link rel="shortcut icon" href="" type="image/png">
   <link rel="apple-touch-icon" href="">
+  <link rel="stylesheet" href="../jquery.fullPage.css">
 </head>
 <body>
-  <section data-scroll></section>
-  <section data-scroll></section>
-  <section data-scroll></section>
   <!-- layout -->
   <div id="wrap">
     <header id="headBox">
       <div class="headinner">   
         <h1>
-          <a href="../html/portfolio_main.html" class="blind">HYUNA PortFolio</a>
+          <a href="../html/portfolio_test.html" class="blind">HYUNA PortFolio</a>
           <button><img src="../img/portfolio_logoV2_black.png" alt="현아 포트폴리오" style="width:130px; height:60px;"></button>
         </h1>
         <nav class="unb">
           <h2 class="blind">유틸리티네비게이션</h2>
-          <div class="portfolio_part">
+          <div class="portfolio_part" data-menuanchor="portfolio">
             <a href="#portfolio">
               <span>portfolio</span>
             </a>
@@ -62,36 +61,37 @@
         </nav>
       </div>
     </header>
-    <section id="portfolio">
-      <h2 class="portfolio_title">
-        <img src="../img/portfolio_cover.png" alt="">
-      </h2>
-    </section>
-    <article id="about">
-      <h2 class="about_title">about me</h2>
-      <div class="about_inner">
-        <div class="proflie_part">
-          <div class="about_logo">
-            <img src="../img/about_img.png" alt="">
+    <main id="fullpage">
+      <section class="section portfolio">
+        <h2 class="portfolio_title">
+          <img src="../img/portfolio_cover.png" alt="">
+        </h2>
+      </section>
+      <section class="section about">
+        <h2 class="about_title">about me</h2>
+        <div class="about_inner">
+          <div class="proflie_part">
+            <div class="about_logo">
+              <img src="../img/about_img.png" alt="">
+            </div>
+            <div class="about_text">
+              <span>오현아</span>
+              <p>1999.03.23</p>
+              <h2 class="sub_title">education</h2>
+              <ul>
+                <li>2021.09 - 2022.01 스마트웹uiux&프론트엔드</li>
+                <li>2021.05 - 2022.08 (주) 이지놈 인턴</li>
+                <li>2018.02 - 2021.02 대림대학교 비서사무행정과 졸업</li>
+              </ul>
+            </div>
           </div>
-          <div class="about_text">
-            <span>오현아</span>
-            <p>1999.03.23</p>
-            <h2 class="sub_title">education</h2>
-            <ul>
-              <li>2021.09 - 2022.01 스마트웹uiux&프론트엔드</li>
-              <li>2021.05 - 2022.08 (주) 이지놈 인턴</li>
-              <li>2018.02 - 2021.02 대림대학교 비서사무행정과 졸업</li>
-            </ul>
+          <div class="introduction_part">
+            <span>아 진짜 열심히 하겠습니다</span>
           </div>
         </div>
-        <div class="introduction_part">
-          <span>아 진짜 열심히 하겠습니다</span>
-        </div>
-      </div>
-    </article>
-    <section id="skills">
-      <h2>skills</h2>
+      </section>
+      <section class="section skills">
+        <h2>skills</h2>
         <ul class="skills_inner">
           <li>
             <h3>html</h3>
@@ -115,43 +115,48 @@
           </li>
         </ul>
       </section>
-    <section id="project">
-      <h2 class="project_title">project</h2>
-    </section>
-    <section id="contact">
-      <h2 class="contact_title">contact</h2>
-      <div class="contact_inner">
-        <div class="contact_text">
-          <ul>
-            <li>부족한 제 포트폴리오를 끝까지 봐주셔서 감사합니다.</li>
-            <li>궁금한 점이 있으시면 연락주시기 바랍니다.</li>
-            <li>연락주시면 3일이내 회신드리겠습니다. 감사합니다.</li>
-          </ul>
+      <section class="section project">
+        <h2 class="project_title">project</h2>
+      </section>
+      <section class="section contact fp-auto-height">
+        <h2 class="contact_title">contact</h2>
+        <div class="contact_inner">
+          <div class="contact_text">
+            <ul>
+              <li>부족한 제 포트폴리오를 끝까지 봐주셔서 감사합니다.</li>
+              <li>궁금한 점이 있으시면 연락주시기 바랍니다.</li>
+              <li>연락주시면 3일이내 회신드리겠습니다.</li>
+              <li>감사합니다 :)</li>
+            </ul>
+          </div>
+          <div class="contect_info">
+            <address>
+              <span>e-mail</span><br>
+              <a href="mailto:gusdk99323@gmail.com">gusdk99323@gmail.com</a>
+            </address>
+            <address>
+              <span>phone</span><br>
+              <a href="tel:010.6481.5231">010.6481.5231</a>
+            </address>
+            <address>
+              <span>git</span><br>
+              <a href="https://github.com/hyunao">https://github.com/hyunao</a>
+            </address>
+          </div>
         </div>
-        <div class="contect_info">
-          <dl>
-            <dt>e-mail</dt>
-            <dd>gusdk99323@gmail.com</dd>
-          </dl>
-          <dl>
-            <dt>phone</dt>
-            <dd>010.6481.5231</dd>
-          </dl>
-          <dl>
-            <dt>git</dt>
-            <dd>https://github.com/hyunao</dd>
-          </dl>
-        </div>
-      </div>
-    </section>
-    <footer id="footBox">
-      <div class="foot_inner">
-        <P>copyrightⓒ 2022 hyuna. all rights reserved.</p>
-      </div>
-    </footer>
+        <footer class="footBox">
+          <div class="foot_inner">
+            <P>copyrightⓒ 2022 hyuna. all rights reserved.</p>
+          </div>
+        </footer>
+      </section>
+    </main>
+  </div>
   </div>
 
   <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="../jquery.fullPage.js"></script>
   <script src="../js/src/portfolio_main.js"></script>
   
 </body>
