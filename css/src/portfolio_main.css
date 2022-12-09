@@ -290,8 +290,111 @@
   font-size: 23px;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.project_img {
+  width: 350px;
+  height: auto;
+  margin: auto;
+}
+.project_img img {
+  width: 350px;
+  height: auto;
+  margin: auto;
+}
+.project_contact {
+  width: 280px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.project_contact button {
+  width: 130px;
+  height: 55px;
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 7px;
+  background-color: rgba(0, 169, 157, 0.3);
+}
+.project_contact a {
+  width: 130px;
+  height: 55px;
+  line-height: 50px;
+  float: right;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 7px;
+  background-color: rgba(0, 169, 157, 0.3);
 }
 
+
+.modal {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal_content {
+  width: 98%;
+  height: auto;
+  float: right;
+  max-height: calc(125vh - 210px);
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 10px 5px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  line-height: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.modalHeader h2 {
+  float: right;
+  width: 100%;
+  height: 24px;
+  font-size: 15px;
+  top: 0;
+  margin: 0;
+  padding-left: 20px;
+  margin: 10px 0;
+  margin-bottom: 25px;
+}
+.modalHeader button {
+  top: 0;
+  float: right;
+  margin: -44px 10px;
+  padding-left: 10px;
+}
+.modalHeader button img {
+  top: 0;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.modal_content i {
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+}
+.on {
+  display: none;
+}
 .contact {
   width: 100%;
   height: 300px;
