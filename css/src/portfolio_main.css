@@ -285,24 +285,87 @@
   }
 }
 
-.project {}
-.project_title {
-  font-size: 23px;
+.project {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.project_inner ul {
+  width: 1050px;
+  margin: auto;
+  font-size: 0;
+}
+.project_inner ul li {
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+}
+.project_inner ul li a {
+  display: block;
+  width: auto;
+  height: 460px;
+  text-decoration: none;
+  margin: 5px;
+}
+.screen:hover .screen_top {
+  bottom: 52%;
+}
+.screen:hover .screen_bottom {
+  top: 52%;
+}
+.screen {
+  width: auto;
+  height: 460px;
+  position: relative;
+  overflow: hidden;
+}
+.screen_top {
+  width: 340px;
+  position: absolute;
   text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 50px;
+  bottom: 150%;
+  /* left: 30px; */
+  z-index: 2;
+  color: #000;
+  font-size: 26px;
+  font-weight: 900;
+  transition: all.35s;
 }
-.project_img {
-  width: 350px;
-  height: auto;
-  margin: auto;
+.screen_bottom {
+  width: 340px;
+  position: absolute;
+  text-align: center;
+  top: 150%;
+  /* left: 30px; */
+  z-index: 2;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all.35s;
 }
-.project_img img {
-  width: 350px;
-  height: auto;
-  margin: auto;
+.screen img {
+  width: 100%;
+  /* height: 470px; */
+}
+.screen:hover::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: rgba(0, 169, 157, 0.7);
+  z-index: 1;
+  opacity: 1;
+  transition: all.35s;
+}
+.project_inner ul li a:hover .screen::after {
+  opacity: 1;
 }
 .project_contact {
+  display: flex;
   width: 280px;
   text-align: center;
   margin: auto;
@@ -319,17 +382,14 @@
   border-radius: 7px;
   background-color: rgba(0, 169, 157, 0.3);
 }
-.project_contact a {
-  width: 130px;
-  height: 55px;
-  line-height: 50px;
-  float: right;
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
+.open {
+  margin-right: 20px;
+}
+.project_title {
+  font-size: 23px;
+  text-align: center;
   text-transform: uppercase;
-  border-radius: 7px;
-  background-color: rgba(0, 169, 157, 0.3);
+  margin-bottom: 50px;
 }
 
 
