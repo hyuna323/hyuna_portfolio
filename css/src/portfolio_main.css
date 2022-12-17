@@ -109,8 +109,8 @@
   .cover {
     display: flex;
     flex-direction: column;
-    height: auto;
-    /* padding-top: 60px; */
+    height: 404px;
+    padding-top: 60px;
   }
   .year {
     width: 50px;
@@ -143,7 +143,7 @@
     margin: 35px;
   }
   .about {
-    width: 1200px;
+    width: 300px;
     height: auto;
     margin: auto;
     margin-bottom: 50px;
@@ -157,60 +157,63 @@
   }
   .about_inner {
     display: flex;
-    width: 1180px;
+    flex-wrap: wrap;
+    width: 280px;
     height: auto;
     margin: auto;
   }
   .proflie_part {
-    width: auto;
+    width: 100%;
     margin: auto;
     /* padding-left: 80px; */
   }
   .about_logo {
-    width: 100%;
-    float: left;
-    margin-bottom: 50px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 30px;
   }
   .about_logo img {
-    width: 300px;
+    width: 100px;
     height: auto;
   }
   .about_text {
-    width: auto;
+    width: 100%;
     height: auto;
     margin: auto;
   }
   .about_text span {
     width: auto; height: auto;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     margin: auto;
   }
   .about_text p {
     width: auto; height: auto;
-    font-size: 18px;
+    font-size: 16px;
   }
   .sub_title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     text-align: left;
     margin-top: 20px;
     text-transform: uppercase;
   }
-  .about_text ul {}
+  .about_text ul {
+    width: 100%;
+    height: auto;
+  }
   .about_text ul li {
-    font-size: 16px;
+    font-size: 14px;
   }
   .introduction_part {
-    width: 50%;
-    padding-top: 100px;
-    padding-left: 50px;
+    width: 100%;
+    padding-top: 50px;
   }
   .introduction_part span {
-    font-size: 16px;
+    font-size: 14px;
   }
   .title_img {
-    width: 130px;
+    width: 100px;
     height: auto;
     margin: auto;
   }
@@ -222,20 +225,15 @@
     text-transform: uppercase;
     list-style: none;
   }
-  .skills h2 {
-    font-size: 23px;
-    text-align: center;
-    text-transform: uppercase;
-  }
   .skills_inner h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin: 5px;
   }
   .skills_inner {
-    width: 500px;
+    width: 300px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
     /* margin-bottom: 30px; */
     color: #000;
     padding: 10px 20px;
@@ -252,7 +250,7 @@
   .bar {
     background: #353b48;
     display: block;
-    height: 20px;
+    height: 16px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
@@ -263,7 +261,7 @@
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
   .bar span {
-    height: 20px;
+    height: 16px;
     float: left;
     background: linear-gradient(135deg, rgba(0, 169, 157, 1)0%, rgb(169, 214, 214)100%);
   }
@@ -329,29 +327,30 @@
   }
 
   .project {
-    max-width: 1200px;
+    max-width: 320px;
     width: 100%;
     margin: 0 auto;
   }
   .project_inner {
-    width: auto;
+    width: 220px;
     height: auto;
+    margin: auto;
     margin-top: 30px;
   }
   .project_inner ul {
-    width: 1050px;
+    width: 100%;
     margin: auto;
     font-size: 0;
   }
   .project_inner ul li {
     display: inline-block;
     vertical-align: top;
-    width: 350px;
+    width: 100%;
   }
   .project_inner ul li a {
     display: block;
     width: auto;
-    height: 460px;
+    height: 284px;
     text-decoration: none;
     margin: 5px;
   }
@@ -363,24 +362,26 @@
   }
   .screen {
     width: auto;
-    height: 460px;
+    height: 284px;
     position: relative;
     overflow: hidden;
   }
   .screen_top {
-    width: 340px;
+    display: none;
+    width: 220px;
     position: absolute;
     text-align: center;
     bottom: 150%;
     /* left: 30px; */
     z-index: 2;
     color: #000;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 900;
     transition: all.35s;
   }
   .screen_bottom {
-    width: 340px;
+    display: none;
+    width: 220px;
     position: absolute;
     text-align: center;
     top: 150%;
@@ -396,8 +397,9 @@
     /* height: 470px; */
   }
   .screen:hover::after {
+    display: none;
     content: '';
-    display: block;
+    /* display: block; */
     position: absolute;
     top: 0;
     left: 0;
@@ -414,16 +416,17 @@
   }
   .project_contact {
     display: flex;
-    width: 280px;
+    width: 220px;
     text-align: center;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .project_contact button {
-    width: 130px;
-    height: 55px;
+    width: 107px;
+    height: 35px;
     float: left;
-    font-size: 18px;
+    font-size: 13px;
+    color: #000;
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
@@ -431,7 +434,7 @@
     background-color: rgba(0, 169, 157, 0.3);
   }
   .open {
-    margin-right: 20px;
+    margin-right: 5px;
   }
 
 
@@ -510,35 +513,36 @@
     margin-top: 40px;
   }
   .contact_text ul {
-    margin-bottom: 50px;
-    line-height: 40px;
+    margin-bottom: 40px;
+    line-height: 30px;
   }
   .contact_text ul li {
-    font-size: 18px;
+    font-size: 14px;
   }
   .contect_info {
     display: flex;
-    width: 735px;
+    flex-wrap: wrap;
+    width: 300px;
     margin: auto;
   }
   .contect_info address {
     text-align: center;
-    width: 245px;
+    width: 300px;
   }
   .contect_info span {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
   }
   .contect_info a {
-    font-size: 18px;
+    font-size: 14px;
   }
   .footBox {
     width: 100%;
-    height: 100px;
-    line-height: 100px;
+    height: 60px;
+    line-height: 60px;
     /* background-color: rgba(0, 169, 157, 0.3); */
-    margin-top: 50px;
+    /* margin-top: 10px; */
   }
   .foot_inner {
     width: auto;
@@ -546,8 +550,9 @@
     position: relative;
   }
   .foot_inner p {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
+    color: #555;
     text-align: center;
     text-transform: uppercase;
   }
