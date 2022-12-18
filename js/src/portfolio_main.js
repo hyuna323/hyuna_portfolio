@@ -29,3 +29,4 @@ function home(){
   let url = "https://hyunao.github.io/ediya_project/html/01_ediya_main.html";
   window.location = url;
 }
+

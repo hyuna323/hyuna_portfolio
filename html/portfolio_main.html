@@ -18,8 +18,8 @@
   <script src="../js/common/modernizr-custom.js"></script>
   
   <title>hyuna portfolio</title>
-  <link rel="shortcut icon" href="" type="image/png">
-  <link rel="apple-touch-icon" href="">
+  <link rel="shortcut icon" href="../img/portfolio_logoV2_black.png" type="image/png">
+  <link rel="apple-touch-icon" href="../img/portfolio_logoV2_black.png">
   <link rel="stylesheet" href="../jquery.fullPage.css">
 </head>
 <body>
@@ -59,6 +59,41 @@
             </a>
           </div>
         </nav>
+        <div class="header_m">
+          <nav id="unbInner">
+            <h2 class="blind">user navigation</h2>
+            <input type="checkbox" id="check_box">
+            <label for="check_box">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            <div id="slide_menu">
+              <div class="slide_inner">
+                <input type="checkbox" id="slide_btn01">
+                <label for="slide_btn01">
+                  <a href="#portfolio">portfolio</a>
+                </label>
+                <input type="checkbox" id="slide_btn02">
+                <label for="slide_btn02">
+                  <a href="#about">about me</a>
+                </label>
+                <input type="checkbox" id="slide_btn03">
+                <label for="slide_btn02">
+                  <a href="#skills">skills</a>
+                </label>
+                <input type="checkbox" id="slide_btn04">
+                <label for="slide_btn02">
+                  <a href="#project">project</a>
+                </label>
+                <input type="checkbox" id="slide_btn05">
+                <label for="slide_btn02">
+                  <a href="#contact">contact</a>
+                </label>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
     <main id="fullpage">
@@ -132,48 +167,59 @@
         <div class="title_img">
           <img src="../img/project_title.png" alt="project">
         </div>
-        <div class="project_inner">
-          <ul>
-            <li>
-              <a href="https://hyunao.github.io/ediya_project/html/01_ediya_main.html">
-                <div class="screen">
-                  <div class="screen_top">ediya</div>
-                  <div class="screen_bottom">#반응형</div>
-                  <img src="../img/project_ediya.jpg" alt="">
-                </div>
-              </a>
+        <div class="project_list">
+          <input type="radio" name="slide" id="slide01" checked>
+          <input type="radio" name="slide" id="slide02">
+          <input type="radio" name="slide" id="slide03">
+          <div class="project_inner">
+            <ul class="project_item">
+              <li>
+                <label for="slide03" class="slide_left"></label>
+                <label for="slide02" class="slide_right"></label>
+                <a href="https://hyunao.github.io/ediya_project/html/01_ediya_main.html">
+                  <div class="screen">
+                    <img src="../img/project_ediya.jpg" alt="">
+                    <div class="screen_top">ediya</div>
+                    <div class="screen_bottom">#반응형</div>
+                  </div>
+                </a>
                 <div class="project_contact">
                   <button class="open">planning</button>
                   <button onclick="home()">web</button>
                 </div>
-            </li>
-            <li style="display: none;">
-              <a href="">
-                <div class="screen">
-                  <div class="screen_top">ediya</div>
-                  <div class="screen_bottom">#반응형</div>
-                  <img src="../img/project_ediya.jpg" alt="">
-                </div>
-              </a>
+              </li>
+              <li>
+                <label for="slide01" class="slide_left"></label>
+                <label for="slide03" class="slide_right"></label>
+                <a href="#">
+                  <div class="screen">
+                    <div class="screen_top">ediya</div>
+                    <div class="screen_bottom">#반응형</div>
+                    <img src="../img/about_img.png" alt="">
+                  </div>
+                </a>
                 <div class="project_contact">
                   <button class="open">planning</button>
                   <button onclick="home()">web</button>
                 </div>
-            </li>
-            <li style="display: none;">
-              <a href="">
-                <div class="screen">
-                  <div class="screen_top">ediya</div>
-                  <div class="screen_bottom">#반응형</div>
-                  <img src="../img/project_ediya.jpg" alt="">
-                </div>
-              </a>
+              </li>
+              <li>
+                <label for="slide02" class="slide_left"></label>
+                <label for="slide01" class="slide_right"></label>
+                <a href="#">
+                  <div class="screen">
+                    <div class="screen_top">ediya</div>
+                    <div class="screen_bottom">#반응형</div>
+                    <img src="../img/aboutme_ver2.png" alt="">
+                  </div>
+                </a>
                 <div class="project_contact">
                   <button class="open">planning</button>
                   <button onclick="home()">web</button>
                 </div>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="section contact fp-auto-height">

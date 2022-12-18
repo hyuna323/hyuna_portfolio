@@ -7,7 +7,7 @@
     width: 100%;
     height: 60px;
     box-sizing: border-box;
-    /* padding: 10px 12px 14px 12px; */
+    padding: 10px;
     position: fixed;
     z-index: 1000;
     background-color: #fff;
@@ -27,77 +27,104 @@
   .headinner h1 img {
     width: 100px;
     height: 100%;
-    margin-top: 12px;
   }
-  .unb {
-    display: flex;
-    display: none;
-    justify-content: center;
+  .unb { display: none; }
+  #headBox .header_m {padding-left: 34.375%;}
+  .header_m {
     float: right;
-    width: 500px; 
+    width: 46.875%; min-width: 150px; 
+    height: 26px;
+    margin: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+
+  #unbInner {width: 13.75%; min-width: 44px; padding: 0;}
+  
+  #check_box {display: none;}
+  #check_box + label {
+    position: relative;
+    display: block;
+    width: 11.875%; min-width: 38px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 100;
+    margin: auto;
+  }
+  #check_box + label > span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    transition: all 300ms;
+  }
+  #check_box:checked + label > span:nth-child(1) {
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: rotate(45deg);
+  }
+  #check_box + label > span:nth-child(2) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  #check_box:checked + label > span:nth-child(2) {
+    opacity: 0;
+  }
+  #check_box + label > span:nth-child(3) {
+    bottom: 0;
+  }
+  #check_box:checked + label > span:nth-child(3) {
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: rotate(-45deg);
+  }
+  #check_box:checked + label + #slide_menu {
+    left: 40px;
+  }
+  #slide_menu {
+    position: fixed;
+    width: 100%; min-width: 281px;
     height: 100%;
+    background-color: rgba(0, 169, 157, 0.9);
     text-transform: uppercase;
-    text-align: center;
+    left: 100%;
+    transition: all 300ms;
+    z-index: 1;
+    top: 0px;
+    padding: 60px 16px 20px 16px;
+    box-sizing: border-box;
+    overflow: auto;
   }
-  .portfolio_part {
-    width: 120px;
-    height: 100%;
-    font-size: 18px;
-    line-height: 56px;
-  }
-  .portfolio_part a {
-    display: block;
+  
+  input[id*="slide_btn"] {display: none;}
+  input[id*="slide_btn"] + label {
     width: auto;
-    height: 100%;
-    text-decoration: none;
-  }
-  .about_part {
-    width: 90px;
-    height: 100%;
-    font-size: 18px;
-    line-height: 56px;
-  }
-  .about_part a {
     display: block;
-    width: auto;
-    height: 100%;
-    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
   }
-  .skills_part {
-    width: 90px;
-    height: 100%;
-    font-size: 18px;
-    line-height: 56px;
+  input[id*="slide_btn"] + label + div {
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
   }
-  .skills_part a {
-    display: block;
-    width: auto;
-    height: 100%;
-    text-decoration: none;
+  input[id*="slide_btn"] + label + div a {
+    display: inline-block;
+    padding: 10px;
+    display: flex;
   }
-  .project_part {
-    width: 100px;
-    height: 100%;
-    font-size: 18px;
-    line-height: 56px;
-  }
-  .project_part a {
-    display: block;
-    width: auto;
-    height: 100%;
-    text-decoration: none;
-  }
-  .contact_part {
-    width: 100px;
-    height: 100%;
-    font-size: 18px;
-    line-height: 56px;
-  }
-  .contact_part a {
-    display: block;
-    width: auto;
-    height: 100%;
-    text-decoration: none;
+  input[id*="slide_btn"]:checked + label + div {
+    max-height: inherit;
   }
   .portfolio {
     display: flex;
@@ -332,28 +359,69 @@
     margin: 0 auto;
   }
   .project_inner {
-    width: 220px;
+    white-space: nowrap;
+    font-size: 0;
+    overflow: hidden;
+    width: 240px;
     height: auto;
     margin: auto;
     margin-top: 30px;
   }
-  .project_inner ul {
+  .project_item {
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
+    /* margin-left: 6px; */
     font-size: 0;
   }
-  .project_inner ul li {
+  .project_item li {
+    width: 100%;
     display: inline-block;
     vertical-align: top;
-    width: 100%;
   }
-  .project_inner ul li a {
+  .project_item li a {
     display: block;
-    width: auto;
-    height: 284px;
+    position: relative;
+    width: 100%;
+    height: auto;
     text-decoration: none;
-    margin: 5px;
+    /* margin: 5px; */
   }
+  .project_list input {display: none;}
+  .project_list input [id="slide"]{
+    display: none;
+  }
+  .project_item label {
+    position: absolute;
+    z-index: 1;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    padding: 20px;
+    /* margin-right: 10px; */
+    /* border-radius: 50%; */
+    cursor: pointer;
+  }
+  .slide_left {
+    left: -8px;
+    top: 130px;
+    /* background-color: #5f5f5f; */
+    background-image: url('../../img/arrow_left.png');
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  }
+  .slide_right {
+    right: -8px;
+    top: 130px;
+    /* background-color: #5f5f5f; */
+    background-image: url('../../img/arrow_right.png');
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  }
+  .project_list [id="slide01"]:checked ~ .project_inner .project_item li {transform: translateX(0);}
+  .project_list [id="slide02"]:checked ~ .project_inner .project_item li {transform: translateX(-100%);}
+  .project_list [id="slide03"]:checked ~ .project_inner .project_item li {transform: translateX(-200%);}
+  
   .screen:hover .screen_top {
     bottom: 52%;
   }
@@ -361,14 +429,15 @@
     top: 52%;
   }
   .screen {
-    width: auto;
-    height: 284px;
+    width: 170px;
+    height: auto;
+    margin: auto;
     position: relative;
     overflow: hidden;
   }
   .screen_top {
     display: none;
-    width: 220px;
+    width: 230px;
     position: absolute;
     text-align: center;
     bottom: 150%;
@@ -381,7 +450,7 @@
   }
   .screen_bottom {
     display: none;
-    width: 220px;
+    width: 230px;
     position: absolute;
     text-align: center;
     top: 150%;
