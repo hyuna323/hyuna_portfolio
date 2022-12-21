@@ -83,7 +83,7 @@
     width: 100%; min-width: 280px;
     height: 100%;
     position: fixed;
-    background-color: rgba(0, 169, 157, 0.9);
+    background-color: rgba(75, 117, 103, 90%);
     text-transform: uppercase;
     left: 100%;
     transition: all 300ms;
@@ -101,7 +101,7 @@
     padding: 10px;
     border-bottom: 1px solid #fff;
     font-size: 16px;
-    color: #000;
+    color: #fff;
     font-weight: 400;
     cursor: pointer;
     position: relative;
@@ -127,13 +127,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
   }
   .cover {
     height: auto;
     display: flex;
     flex-direction: column;
-    /* padding-top: 60px; */
   }
   .year {
     width: 50px;
@@ -181,7 +179,6 @@
   .proflie_part {
     width: 100%;
     margin: auto;
-    /* padding-left: 80px; */
   }
   .about_logo {
     width: 33.333%; min-width: 100px;
@@ -229,12 +226,12 @@
   .introduction_part span {
     font-size: 14px;
   }
-  .title_img {
-    width: 20%; min-width: 50px;
+  .skills_logo {
+    width: 26.25%; min-width: 84px;
     height: auto;
     margin: auto;
   }
-  .title_img img {
+  .skills_logo img {
     width: 100%;
     margin: auto;
   }
@@ -347,6 +344,15 @@
     width: 100%;
     margin: 0 auto;
   }
+  .project_logo {
+    width: 31.25%; min-width: 100px;
+    height: auto;
+    margin: auto;
+  }
+  .project_logo img {
+    width: 100%;
+    height: auto;
+  }
   .project_inner {
     width: 75%; min-width: 240px;
     white-space: nowrap;
@@ -441,7 +447,7 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 7px;
-    background-color: rgba(0, 169, 157, 0.3);
+    background-color: rgba(75, 117, 103, 60%);
   }
 
   /* modal ====================================== */
@@ -513,8 +519,18 @@
   .contact {
     width: 100%; min-width: 320px;
     height: auto;
-    background-color: rgba(0, 169, 157, 0.3);
+    background-color: rgba(75, 117, 103, 30%);
     padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .contact_logo {
+    width: 31.25%; min-width: 100px;
+    height: auto;
+    margin: auto;
+  }
+  .contact_logo img {
+    width: 100%;
+    height: auto;
   }
   .contact_inner {
     width: auto;
@@ -547,21 +563,135 @@
   .contect_info a {
     font-size: 14px;
   }
-  .footBox {
+  .copyBox {
     width: 100%; min-width: 320px;
     height: 60px;
     line-height: 60px;
   }
-  .foot_inner {
+  .copy_inner {
     width: auto;
     height: auto;
     position: relative;
   }
-  .foot_inner p {
+  .copy_inner p {
     font-size: 12px;
     font-weight: 400;
     color: #555;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  #footBox {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 91.2%;
+    position: fixed;
+    z-index: 1000;
+  }
+  .fnb {
+    width: 100%;
+    height: 70px;
+    line-height: 50px;
+    display: flex;
+    background-color: rgba(75, 117, 103, 96%);
+  }
+  .fnb_portfolio {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/portfolio.png) no-repeat center;
+    background-size: 30px 45px;
+  }
+  .fnb_portfolio a {
+    width: 20%; min-width: 64px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+  }
+  .fnb_portfolio:hover {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/portfolio_on.png) no-repeat center;
+    background-size: 30px 45px;
+  }
+  .fnb_about {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/about.svg) no-repeat center;
+    background-size: 40px;
+    margin-bottom: 5px;
+  }
+  .fnb_about a {
+    width: 20%; min-width: 64px;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+  }
+  .fnb_about:hover {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/about_on.svg) no-repeat center;
+    background-size: 40px;
+    margin-bottom: 5px;
+  }
+  .fnb_skills {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/skill.svg) no-repeat center;
+    background-size: 40px;
+    margin-bottom: 5px;
+  }
+  .fnb_skills a {
+    width: 20%; min-width: 64px;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+  }
+  .fnb_skills:hover {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/skill_on.svg) no-repeat center;
+    background-size: 40px;
+    margin-bottom: 5px;
+  }
+  .fnb_project {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/portfolio.svg) no-repeat center;
+    background-size: 40px;
+    margin-bottom: 5px;
+  }
+  .fnb_project a {
+    width: 20%; min-width: 64px;
+    height: 100%;
+    position: absolute;
+    left: 60%;
+  }
+  .fnb_project:hover {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/portfolio_on.svg) no-repeat center;
+    background-size: 40px;
+    margin-bottom: 5px;
+  }
+  .fnb_contact {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/contact.svg) no-repeat center;
+    background-size: 40px;
+    margin-bottom: 5px;
+  }
+  .fnb_contact a {
+    width: 20%; min-width: 64px;
+    height: 100%;
+    position: absolute;
+    left: 80%;
+  }
+  .fnb_contact:hover {
+    width: 20%; min-width: 64px;
+    text-align: center;
+    background: url(../../img/contact_on.svg) no-repeat center;
+    background-size: 40px;
+    margin-bottom: 5px;
   }
 }
