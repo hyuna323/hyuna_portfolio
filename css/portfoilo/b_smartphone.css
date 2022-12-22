@@ -98,7 +98,7 @@
   input[id*="slide_btn"] + label {
     width: auto;
     display: block;
-    padding: 10px;
+    padding: 30px;
     border-bottom: 1px solid #fff;
     font-size: 16px;
     color: #fff;
@@ -106,22 +106,7 @@
     cursor: pointer;
     position: relative;
   }
-  input[id*="slide_btn"] + label + div {
-    max-height: 0;
-    transition: all .35s;
-    overflow: hidden;
-    font-size: 16px;
-    font-weight: 300;
-    color: #fff;
-  }
-  input[id*="slide_btn"] + label + div a {
-    display: inline-block;
-    padding: 10px;
-    display: flex;
-  }
-  input[id*="slide_btn"]:checked + label + div {
-    max-height: inherit;
-  }
+
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -156,7 +141,6 @@
   .job {
     width: 100px;
     height: 90px;
-    /* margin-top: 220px; */
   }
   .job img {
     width: 100%;
@@ -171,9 +155,9 @@
   }
   .about_inner {
     width: 87.5%; min-width: 280px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    height: auto;
     margin: auto;
   }
   .proflie_part {
@@ -202,7 +186,8 @@
     margin: auto;
   }
   .about_text p {
-    width: auto; height: auto;
+    width: auto; 
+    height: auto;
     font-size: 16px;
   }
   .sub_title {
@@ -339,15 +324,15 @@
   }
 
   .project {
-    width: auto;
-    min-width: 320px; max-width: 767px;
     width: 100%;
+    min-width: 320px; max-width: 767px;
     margin: 0 auto;
   }
   .project_logo {
     width: 31.25%; min-width: 100px;
     height: auto;
     margin: auto;
+    margin-bottom: 30px;
   }
   .project_logo img {
     width: 100%;
@@ -360,7 +345,6 @@
     overflow: hidden;
     height: auto;
     margin: auto;
-    margin-top: 30px;
   }
   .project_item {
     width: 100%;
@@ -372,7 +356,7 @@
     vertical-align: top;
   }
   .project_item li a {
-    width: 100%;
+    width: 280px;
     height: auto;
     display: block;
     position: relative;
@@ -400,7 +384,6 @@
   .slide_right {
     right: -8px;
     top: 45%;
-    /* background-color: #5f5f5f; */
     background-image: url('../../img/arrow_right.png');
     background-position: center center;
     background-size: 70%;
@@ -527,6 +510,7 @@
     width: 31.25%; min-width: 100px;
     height: auto;
     margin: auto;
+    margin-bottom: 30px;
   }
   .contact_logo img {
     width: 100%;
@@ -535,7 +519,6 @@
   .contact_inner {
     width: auto;
     margin: auto;
-    margin-top: 40px;
     text-align: center;
   }
   .contact_text ul {
@@ -546,7 +529,7 @@
     font-size: 14px;
   }
   .contect_info {
-    width: 300px;
+    width: 93.75%; min-width: 300px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -582,10 +565,10 @@
   }
 
   #footBox {
-    width: 100%;
+    width: 100%; min-width: 320px;
     height: auto;
     left: 0;
-    top: 91.2%;
+    bottom: 0%;
     position: fixed;
     z-index: 1000;
   }
