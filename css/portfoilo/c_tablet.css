@@ -2,7 +2,7 @@
 @media all and (min-width:768px) and (max-width:1279px) {
   #wrap {width: 100%; min-height: 600px;}
   #headBox {
-    width: 100%;
+    width: 100%; min-width: 768px;
     height: 60px;
     box-sizing: border-box;
     padding: 10px;
@@ -349,13 +349,11 @@
     width: 83.3333%; min-width: 640px;
     height: auto;
     white-space: nowrap;
-    font-size: 0;
     overflow: hidden;
     margin: auto;
   }
   .project_item {
     width: 100%;
-    font-size: 0;
   }
   .project_item li {
     width: 100%;
