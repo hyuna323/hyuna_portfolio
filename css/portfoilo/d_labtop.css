@@ -32,7 +32,6 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    float: right;
     text-transform: uppercase;
     text-align: center;
   }
@@ -156,7 +155,6 @@
   }
   .about_logo {
     width: 100%;
-    float: left;
     margin-bottom: 50px;
   }
   .about_logo img {
@@ -171,9 +169,9 @@
   .about_text span {
     width: auto; 
     height: auto;
+    margin: auto;
     font-size: 22px;
     font-weight: 600;
-    margin: auto;
   }
   .about_text p {
     width: auto; 
@@ -205,11 +203,6 @@
     text-transform: uppercase;
     list-style: none;
   }
-  .skills h2 {
-    font-size: 23px;
-    text-align: center;
-    text-transform: uppercase;
-  }
   .skills_logo {
     width: 13.3333%; min-width: 160px;
     height: auto;
@@ -236,7 +229,7 @@
   .skills_inner ul {
     width: auto;
     height: auto;
-  } 
+  }
   .skills_inner li {
     margin: 20px 0;
   }
@@ -322,7 +315,6 @@
   .project {
     width: 100%;
     min-width: 1280px; max-width: 1200px;
-    width: 100%;
     margin: 0 auto;
   }
   .project_logo {
@@ -500,14 +492,12 @@
     height: 100%;
     font-size: 13px;
   }
-  .on {
-    display: none;
-  }
+  .on {display: none;}
 
   .contact {
     width: 100%; min-width: 1280px;
     height: 300px;
-    background-color: rgba(0, 169, 157, 0.3);
+    background-color: rgba(75, 117, 103, 0.5);
     padding-top: 30px;
   }
   .contact_logo {
@@ -522,9 +512,9 @@
   }
   .contact_inner {
     width: auto;
-    text-align: center;
     margin: auto;
     margin-top: 40px;
+    text-align: center;
   }
   .contact_text ul {
     margin-bottom: 50px;
