@@ -36,7 +36,7 @@
     text-align: center;
   }
   .portfolio_part {
-    width: 26%; min-width: 130px;
+    width: 24.0741%; min-width: 130px;
     height: 100%;
     font-size: 20px;
     line-height: 56px;
@@ -47,8 +47,13 @@
     display: block;
     text-decoration: none;
   }
+  .portfolio_part a:hover {
+    font-size: 23px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .about_part {
-    width: 20%; min-width: 100px;
+    width: 18.5185%; min-width: 100px;
     height: 100%;
     font-size: 20px;
     line-height: 56px;
@@ -59,8 +64,13 @@
     display: block;
     text-decoration: none;
   }
+  .about_part a:hover {
+    font-size: 23px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .skills_part {
-    width: 20%; min-width: 100px;
+    width: 18.5185%; min-width: 100px;
     height: 100%;
     font-size: 20px;
     line-height: 56px;
@@ -71,8 +81,13 @@
     display: block;
     text-decoration: none;
   }
+  .skills_part a:hover {
+    font-size: 23px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .project_part {
-    width: 20%; min-width: 100px;
+    width: 18.5185%; min-width: 100px;
     height: 100%;
     font-size: 20px;
     line-height: 56px;
@@ -83,8 +98,13 @@
     display: block;
     text-decoration: none;
   }
+  .project_part a:hover {
+    font-size: 23px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .contact_part {
-    width: 22%; min-width: 110px;
+    width: 20.3704%; min-width: 110px;
     height: 100%;
     font-size: 20px;
     line-height: 56px;
@@ -94,6 +114,11 @@
     height: 100%;
     display: block;
     text-decoration: none;
+  }
+  .contact_part a:hover {
+    font-size: 23px;
+    font-weight: 600;
+    color: #4b7567;
   }
   .header_m {display: none;}
   .portfolio {
@@ -316,7 +341,7 @@
 
   .project {
     width: 100%;
-    min-width: 1440px; max-width: 1330px;
+    min-width: 1440px; max-width: 1919px;
     margin: 0 auto;
   }
   .project_logo {

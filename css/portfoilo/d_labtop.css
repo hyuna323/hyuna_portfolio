@@ -47,6 +47,11 @@
     display: block;
     text-decoration: none;
   }
+  .portfolio_part a:hover {
+    font-size: 21px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .about_part {
     width: 18%; min-width: 90px;
     height: 100%;
@@ -58,6 +63,11 @@
     height: 100%;
     display: block;
     text-decoration: none;
+  }
+  .about_part a:hover {
+    font-size: 21px;
+    font-weight: 600;
+    color: #4b7567;
   }
   .skills_part {
     width: 18%; min-width: 90px;
@@ -71,6 +81,11 @@
     display: block;
     text-decoration: none;
   }
+  .skills_part a:hover {
+    font-size: 21px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .project_part {
     width: 20%; min-width: 100px;
     height: 100%;
@@ -83,6 +98,11 @@
     display: block;
     text-decoration: none;
   }
+  .project_part a:hover {
+    font-size: 21px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .contact_part {
     width: 20%; min-width: 100px;
     height: 100%;
@@ -94,6 +114,11 @@
     height: 100%;
     display: block;
     text-decoration: none;
+  }
+  .contact_part a:hover {
+    font-size: 21px;
+    font-weight: 600;
+    color: #4b7567;
   }
   .header_m {display: none;}
   .portfolio {
@@ -202,6 +227,8 @@
   .skills {
     text-transform: uppercase;
     list-style: none;
+    opacity: 1;
+    transition: all 0.5s;
   }
   .skills_logo {
     width: 13.3333%; min-width: 160px;

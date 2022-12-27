@@ -1,7 +1,7 @@
 @media all and (min-width: 1920px) {
   #wrap {width: 100%; min-height: 600px;}
   #headBox {
-    width: 100%;
+    width: 100%; min-width: 1920px;
     height: auto;
     box-sizing: border-box;
     padding: 10px 12px 14px 12px;
@@ -10,14 +10,14 @@
     background-color: #fff;
   }
   .headinner {
-    width: 100%; min-width: 1256px;
+    width: 100%; min-width: 1896px;
     height: 100%;
     display: flex;
     margin: auto; 
     box-sizing: border-box;
   }
   .headinner h1 {
-    width: 100%; 
+    width: 100%; min-width: 1166px;
     height: 100%;
     margin: auto;
   }
@@ -27,77 +27,103 @@
     margin-top: 12px;
   }
   .unb {
+    width: 37.9747%; min-width: 730px;
+    height: 100%;
     display: flex;
     justify-content: center;
-    width: 730px; 
-    height: 100%;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 400;
   }
   .portfolio_part {
-    width: 150px;
+    width: 20.5479%; min-width: 150px;
     height: 100%;
     font-size: 22px;
     line-height: 56px;
   }
   .portfolio_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     line-height: 79px;
     text-decoration: none;
   }
+  .portfolio_part a:hover {
+    font-size: 26px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .about_part {
-    width: 140px;
+    width: 19.1781%; min-width: 140px;
     height: 100%;
     font-size: 22px;
     line-height: 56px;
   }
   .about_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     line-height: 79px;
     text-decoration: none;
   }
+  .about_part a:hover {
+    font-size: 26px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .skills_part {
-    width: 140px;
+    width: 19.1781%; min-width: 140px;
     height: 100%;
     font-size: 22px;
     line-height: 56px;
   }
   .skills_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     line-height: 79px;
     text-decoration: none;
   }
+  .skills_part a:hover {
+    font-size: 26px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .project_part {
-    width: 150px;
+    width: 20.5479%; min-width: 150px;
     height: 100%;
     font-size: 22px;
     line-height: 56px;
   }
   .project_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     line-height: 79px;
     text-decoration: none;
   }
+  .project_part a:hover {
+    font-size: 26px;
+    font-weight: 600;
+    color: #4b7567;
+  }
   .contact_part {
-    width: 150px;
+    width: 20.5479%; min-width: 150px;
     height: 100%;
     font-size: 22px;
     line-height: 56px;
   }
   .contact_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     line-height: 79px;
     text-decoration: none;
+  }
+  .contact_part a:hover {
+    font-size: 26px;
+    font-weight: 600;
+    color: #4b7567;
   }
   .header_m {display: none;}
   .portfolio {
@@ -107,10 +133,10 @@
     align-items: center;
   }
   .cover {
-    display: flex;
-    flex-direction: column;
     height: 100%;
     padding-top: 103px;
+    display: flex;
+    flex-direction: column;
   }
   .year {
     width: auto;
@@ -126,7 +152,6 @@
     width: 200px;
     height: 350px;
     margin: auto;
-    /* margin-top: 190px; */
   }
   .title_logo img {
     width: 100%;
@@ -136,52 +161,34 @@
   .job {
     width: auto;
     height: 100px;
-    /* margin-top: 220px; */
   }
   .job img {
     width: 200px;
     height: auto;
     margin: 35px;
   }
-  .portfolio_title {
-    padding-top: 80px;
-  }
-  .portfolio_title img {
-    width: 100%;
-  }
-  .title_img {
-    width: 150px;
-    height: auto;
-    margin: auto;
-  }
-  .title_img img {
-    width: 100%;
-    margin: auto;
-  }
   .about {
-    width: 1330px;
+    width: 93.75%; min-width: 1800px;
     height: auto;
     margin: auto;
     margin-bottom: 50px;
   }
   .about_inner {
-    display: flex;
-    width: 1800px;
+    width: 93.75%; min-width: 1800px;
     height: auto;
     margin: auto;
+    display: flex;
   }
   .proflie_part {
     width: auto;
     margin: auto;
-    /* padding-left: 80px; */
   }
   .about_logo {
     width: 100%;
-    float: left;
     margin-bottom: 80px;
   }
   .about_logo img {
-    width: 400px;
+    width: 22.2222%; min-width: 400px;
     height: auto;
   }
   .about_text {
@@ -192,9 +199,9 @@
   .about_text span {
     width: auto; 
     height: auto;
+    margin: auto;
     font-size: 27px;
     font-weight: 600;
-    margin: auto;
   }
   .about_text p {
     width: auto; 
@@ -202,13 +209,16 @@
     font-size: 22px;
   }
   .sub_title {
+    margin-top: 25px;
     font-size: 24px;
     font-weight: 500;
     text-align: left;
-    margin-top: 25px;
     text-transform: uppercase;
   }
-  /* .about_text ul {} */
+  .about_text ul {
+    width: 100%;
+    height: auto;
+  }
   .about_text ul li {
     font-size: 22px;
   }
@@ -225,10 +235,15 @@
     text-transform: uppercase;
     list-style: none;
   }
-  .skills h2 {
-    font-size: 25px;
-    text-align: center;
-    text-transform: uppercase;
+  .skills_logo {
+    width: 9.4444%; min-width: 170px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .skills_logo img {
+    width: 100%;
+    margin: auto;
   }
   .skills_inner h3 {
     font-size: 24px;
@@ -236,22 +251,24 @@
     margin: 5px;
   }
   .skills_inner {
-    width: 900px;
+    width: 50%; min-width: 900px;
     margin: auto;
     margin-top: 60px;
-    /* margin-bottom: 30px; */
     color: #000;
     padding: 30px 40px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
+  .skills_inner ul {
+    width: auto;
+    height: auto;
+  }
   .skills_inner li {
     margin: 20px;
-    /* padding: 10px; */
   }
   .bar {
+    height: 30px;
     background: #353b48;
     display: block;
-    height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
@@ -328,32 +345,46 @@
   }
 
   .project {
-    max-width: 1800px;
+    width: 100%; min-width: 1920px;
     width: 100%;
     margin: 0 auto;
   }
-  .project_inner {
-    width: auto;
+  .project_logo {
+    width: 10.4167%; min-width: 200px;
     height: auto;
-    margin-top: 40px;
-  }
-  .project_inner ul {
-    width: 1511px;
     margin: auto;
   }
-  .project_inner ul li {
+  .project_logo img {
+    width: 100%;
+    height: auto;
+  }
+  .project_inner {
+    width: 93.75%; min-width: 1800px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .project_item {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .project_item li {
+    width: 23.4375%; min-width: 450px;
+    height: 100%;
+    margin: 0 73px;
     display: inline-block;
     vertical-align: top;
-    width: 450px;
-    margin: 0 25px;
   }
-  .project_inner ul li a {
-    display: block;
+  .project_item li a {
     width: auto;
     height: 460px;
+    display: block;
     text-decoration: none;
     margin: 5px;
   }
+  .project_list input {display: none;}
+  .project_list input [id="slide"]{display: none;}
   .screen:hover .screen_top {
     bottom: 52%;
   }
@@ -366,14 +397,18 @@
     position: relative;
     overflow: hidden;
   }
+  .screen img {
+    width: 100%;
+    height: 460px;
+  }
   .screen_top {
     width: 340px;
     position: absolute;
     text-align: center;
     bottom: 150%;
-    /* left: 30px; */
+    left: 50px;
     z-index: 2;
-    color: #000;
+    color: #fff;
     font-size: 26px;
     font-weight: 900;
     transition: all.35s;
@@ -383,16 +418,12 @@
     position: absolute;
     text-align: center;
     top: 150%;
-    /* left: 30px; */
+    left: 50px;
     z-index: 2;
-    color: #000;
+    color: #fff;
     font-size: 18px;
     font-weight: 700;
     transition: all.35s;
-  }
-  .screen img {
-    width: 100%;
-    /* height: 470px; */
   }
   .screen:hover::after {
     content: '';
@@ -403,7 +434,7 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background: rgba(0, 169, 157, 0.7);
+    background: rgba(75, 117, 103, 0.8);
     z-index: 1;
     opacity: 1;
     transition: all.35s;
@@ -412,14 +443,14 @@
     opacity: 1;
   }
   .project_contact {
-    display: flex;
-    width: 300px;
-    text-align: center;
+    width: 18.75%; min-width: 360px;
     margin: auto;
     margin-top: 20px;
+    display: flex;
+    text-align: center;
   }
   .project_contact button {
-    width: 140px;
+    width: 100%;
     height: 55px;
     float: left;
     font-size: 18px;
@@ -427,13 +458,13 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 7px;
-    background-color: rgba(0, 169, 157, 0.3);
+    background-color: rgba(75, 117, 103, 0.3);
   }
+
+  /* modal =================================== */
   .open {
     margin-right: 20px;
   }
-
-
   .modal {
     position: fixed;
     z-index: 1000;
@@ -497,15 +528,25 @@
     display: none;
   }
   .contact {
+    width: 100%; min-width: 1920px;
+    height: auto;
+    background-color: rgba(75, 117, 103, 0.5);
+    padding-top: 50px;
+  }
+  .contact_logo {
+    width: 10%; min-width: 180px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .contact_logo img {
     width: 100%;
     height: auto;
-    background-color: rgba(0, 169, 157, 0.3);
-    padding-top: 50px;
   }
   .contact_inner {
     width: auto;
-    text-align: center;
     margin: auto;
+    text-align: center;
     margin-top: 50px;
   }
   .contact_text ul {
@@ -516,13 +557,13 @@
     font-size: 20px;
   }
   .contect_info {
-    display: flex;
-    width: 735px;
+    width: 43.2292%; min-width: 830px;
     margin: auto;
+    display: flex;
   }
   .contect_info address {
+    width: 14.4271%; min-width: 277px;
     text-align: center;
-    width: 245px;
   }
   .contect_info span {
     font-size: 19px;
@@ -532,21 +573,22 @@
   .contect_info a {
     font-size: 20px;
   }
-  .footBox {
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
-    margin-top: 60px;
+  .copyBox {
+    width: 100%; min-width: 1920px;
+    height: 80px;
+    line-height: 80px;
   }
-  .foot_inner {
+  .copy_inner {
     width: auto;
     height: auto;
     position: relative;
   }
-  .foot_inner p {
-    font-size: 16px;
+  .copy_inner p {
+    font-size: 14px;
     font-weight: 400;
+    color: #444;
     text-align: center;
     text-transform: uppercase;
   }
+  #footBox {display: none;}
 }
