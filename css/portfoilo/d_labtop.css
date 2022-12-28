@@ -397,19 +397,20 @@
     position: absolute;
     text-align: center;
     bottom: 150%;
-    /* left: 30px; */
+    left: 1%;
     z-index: 2;
     color: #000;
     font-size: 26px;
     font-weight: 900;
     transition: all.35s;
+    text-transform: uppercase;
   }
   .screen_bottom {
     width: 91.8919%; min-width: 340px;
     position: absolute;
     text-align: center;
     top: 150%;
-    /* left: 30px; */
+    left: 1%;
     z-index: 2;
     color: #000;
     font-size: 18px;
@@ -429,7 +430,7 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background: rgba(0, 169, 157, 0.7);
+    background: rgba(75, 117, 103, 0.8);
     z-index: 1;
     opacity: 1;
     transition: all.35s;
@@ -453,7 +454,7 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 7px;
-    background-color: rgba(0, 169, 157, 0.3);
+    background-color: rgba(75, 117, 103, 0.3);
   }
 
   /* modal =================================== */
@@ -580,7 +581,7 @@
   .copy_inner p {
     font-size: 14px;
     font-weight: 400;
-    color: #555;
+    color: #444;
     text-align: center;
     text-transform: uppercase;
   }

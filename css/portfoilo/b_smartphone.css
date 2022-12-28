@@ -356,8 +356,9 @@
     vertical-align: top;
   }
   .project_item li a {
-    width: 280px;
+    width: 87.5%; min-width: 280px;
     height: auto;
+    margin: auto;
     display: block;
     position: relative;
     text-decoration: none;
@@ -400,7 +401,7 @@
     top: 52%;
   }
   .screen {
-    width: 53.125%; min-width: 170px;
+    width: 62.5%; min-width: 200px;
     height: auto;
     margin: auto;
     position: relative;
@@ -430,7 +431,7 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 7px;
-    background-color: rgba(75, 117, 103, 60%);
+    background-color: rgba(75, 117, 103, 0.3);
   }
 
   /* modal ====================================== */
@@ -559,7 +560,7 @@
   .copy_inner p {
     font-size: 12px;
     font-weight: 400;
-    color: #555;
+    color: #444;
     text-align: center;
     text-transform: uppercase;
   }
@@ -581,9 +582,10 @@
   }
   .fnb_portfolio {
     width: 20%; min-width: 64px;
+    padding-left: 15px;
     text-align: center;
     background: url(../../img/portfolio.png) no-repeat center;
-    background-size: 30px 45px;
+    background-size: 35px 50px;
   }
   .fnb_portfolio a {
     width: 20%; min-width: 64px;

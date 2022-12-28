@@ -440,7 +440,7 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 7px;
-    background-color: rgba(0, 169, 157, 0.3);
+    background-color: rgba(75, 117, 103, 0.3);
   }
   
   /* modal ====================================== */
@@ -514,9 +514,9 @@
   .contact {
     width: 100%; min-width: 768px;
     height: 300px;
-    background-color: rgba(0, 169, 157, 0.3);
     padding-top: 50px;
     padding-bottom: 70px;
+    background-color: rgba(75, 117, 103, 30%);
   }
   .contact_logo {
     width: 20%; min-width: 140px;
@@ -571,7 +571,7 @@
   .copy_inner p {
     font-size: 14px;
     font-weight: 400;
-    color: #555;
+    color: #444;
     text-align: center;
     text-transform: uppercase;
   }
