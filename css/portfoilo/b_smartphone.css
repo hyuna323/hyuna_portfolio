@@ -260,7 +260,7 @@
   .bar span {
     height: 16px;
     float: left;
-    background: linear-gradient(135deg, rgba(0, 169, 157, 1)0%, rgb(169, 214, 214)100%);
+    background: linear-gradient(135deg, rgba(75, 117, 103, 1)0%, rgb(172, 213, 199)100%);
   }
   .html {
     width: 90%;
@@ -339,12 +339,12 @@
     height: auto;
   }
   .project_inner {
-    width: 75%; min-width: 240px;
+    width: 100%; min-width: 300px;
+    height: auto;
+    margin: auto;
     white-space: nowrap;
     font-size: 0;
     overflow: hidden;
-    height: auto;
-    margin: auto;
   }
   .project_item {
     width: 100%;
@@ -375,7 +375,7 @@
     cursor: pointer;
   }
   .slide_left {
-    left: -8px;
+    left: 8px;
     top: 45%;
     background-image: url('../../img/arrow_left.png');
     background-position: center center;
@@ -383,13 +383,14 @@
     background-repeat: no-repeat;
   }
   .slide_right {
-    right: -8px;
+    right: 8px;
     top: 45%;
     background-image: url('../../img/arrow_right.png');
     background-position: center center;
     background-size: 70%;
     background-repeat: no-repeat;
   }
+  #fp-nav {display: none;}
   .project_list [id="slide01"]:checked ~ .project_inner .project_item li {transform: translateX(0);}
   .project_list [id="slide02"]:checked ~ .project_inner .project_item li {transform: translateX(-100%);}
   .project_list [id="slide03"]:checked ~ .project_inner .project_item li {transform: translateX(-200%);}
