@@ -585,8 +585,9 @@
     width: 20%; min-width: 64px;
     padding-left: 15px;
     text-align: center;
-    background: url(../../img/portfolio.png) no-repeat center;
-    background-size: 35px 50px;
+    background: url(../../img/portfolio.svg) no-repeat center;
+    background-size: 35px;
+    margin-bottom: 5px;
   }
   .fnb_portfolio a {
     width: 20%; min-width: 64px;
@@ -597,14 +598,15 @@
   .fnb_portfolio:hover {
     width: 20%; min-width: 64px;
     text-align: center;
-    background: url(../../img/portfolio_on.png) no-repeat center;
-    background-size: 30px 45px;
+    background: url(../../img/portfolio_on.svg) no-repeat center;
+    background-size: 35px;
+    margin-bottom: 5px;
   }
   .fnb_about {
     width: 20%; min-width: 64px;
     text-align: center;
     background: url(../../img/about.svg) no-repeat center;
-    background-size: 40px;
+    background-size: 35px;
     margin-bottom: 5px;
   }
   .fnb_about a {
@@ -617,14 +619,14 @@
     width: 20%; min-width: 64px;
     text-align: center;
     background: url(../../img/about_on.svg) no-repeat center;
-    background-size: 40px;
+    background-size: 35px;
     margin-bottom: 5px;
   }
   .fnb_skills {
     width: 20%; min-width: 64px;
     text-align: center;
     background: url(../../img/skill.svg) no-repeat center;
-    background-size: 40px;
+    background-size: 35px;
     margin-bottom: 5px;
   }
   .fnb_skills a {
@@ -637,14 +639,14 @@
     width: 20%; min-width: 64px;
     text-align: center;
     background: url(../../img/skill_on.svg) no-repeat center;
-    background-size: 40px;
+    background-size: 35px;
     margin-bottom: 5px;
   }
   .fnb_project {
     width: 20%; min-width: 64px;
     text-align: center;
-    background: url(../../img/portfolio.svg) no-repeat center;
-    background-size: 40px;
+    background: url(../../img/project.svg) no-repeat center;
+    background-size: 35px;
     margin-bottom: 5px;
   }
   .fnb_project a {
@@ -656,15 +658,15 @@
   .fnb_project:hover {
     width: 20%; min-width: 64px;
     text-align: center;
-    background: url(../../img/portfolio_on.svg) no-repeat center;
-    background-size: 40px;
+    background: url(../../img/project_on.svg) no-repeat center;
+    background-size: 35px;
     margin-bottom: 5px;
   }
   .fnb_contact {
     width: 20%; min-width: 64px;
     text-align: center;
     background: url(../../img/contact.svg) no-repeat center;
-    background-size: 40px;
+    background-size: 35px;
     margin-bottom: 5px;
   }
   .fnb_contact a {
@@ -677,7 +679,7 @@
     width: 20%; min-width: 64px;
     text-align: center;
     background: url(../../img/contact_on.svg) no-repeat center;
-    background-size: 40px;
+    background-size: 35px;
     margin-bottom: 5px;
   }
 }
