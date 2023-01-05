@@ -386,7 +386,10 @@
   .project_list input {display: none;}
   .project_list input [id="slide"]{display: none;}
   .screen:hover .screen_top {
-    bottom: 52%;
+    bottom: 62%;
+  }
+  .screen:hover .screen_middle {
+    top: 42%;
   }
   .screen:hover .screen_bottom {
     top: 52%;
@@ -413,6 +416,18 @@
     font-weight: 900;
     transition: all.35s;
     text-transform: uppercase;
+  }
+  .screen_middle {
+    width: 340px;
+    position: absolute;
+    text-align: center;
+    top: 150%;
+    left: 50px;
+    z-index: 2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all.35s;
   }
   .screen_bottom {
     width: 340px;

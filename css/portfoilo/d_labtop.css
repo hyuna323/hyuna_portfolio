@@ -379,9 +379,12 @@
     margin: 5px;
   }
   .project_list input {display: none;}
-  .project_list input [id="slide"]{display: none;}
+  .project_list input [id="slide"] {display: none;}
   .screen:hover .screen_top {
-    bottom: 52%;
+    bottom: 62%;
+  }
+  .screen:hover .screen_middle {
+    top: 42%;
   }
   .screen:hover .screen_bottom {
     top: 52%;
@@ -405,11 +408,23 @@
     transition: all.35s;
     text-transform: uppercase;
   }
-  .screen_bottom {
+  .screen_middle {
     width: 91.8919%; min-width: 340px;
     position: absolute;
     text-align: center;
     top: 150%;
+    left: 1%;
+    z-index: 2;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all.35s;
+  }
+  .screen_bottom {
+    width: 91.8919%; min-width: 340px;
+    position: absolute;
+    text-align: center;
+    top: 170%;
     left: 1%;
     z-index: 2;
     color: #000;
