@@ -384,7 +384,7 @@
     margin: 5px;
   }
   .project_list input {display: none;}
-  .project_list input [id="slide"]{display: none;}
+  .project_list input [id="slide"] {display: none;}
   .screen:hover .screen_top {
     bottom: 62%;
   }
@@ -540,9 +540,7 @@
     height: 100%;
     font-size: 13px;
   }
-  .on {
-    display: none;
-  }
+  .on {display: none;}
   .contact {
     width: 100%; min-width: 1920px;
     height: auto;

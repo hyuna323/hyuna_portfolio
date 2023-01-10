@@ -26,7 +26,7 @@
     width: 100px;
     height: 100%;
   }
-  .unb { display: none; }
+  .unb {display: none;}
   .header_m {
     width: 14.666%; min-width: 44px; 
     height: 26px;
@@ -35,8 +35,10 @@
     box-sizing: border-box;
   }
 
-  #unbInner {width: 13.75%; min-width: 44px; padding: 0;}
-  
+  #unbInner {
+    width: 13.75%; min-width: 44px;
+    padding: 0;
+  }  
   #check_box {display: none;}
   #check_box + label {
     width: 11.875%; min-width: 38px;
@@ -93,7 +95,6 @@
     box-sizing: border-box;
     overflow: auto;
   }
-  
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
@@ -106,7 +107,6 @@
     cursor: pointer;
     position: relative;
   }
-
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -364,9 +364,7 @@
     text-decoration: none;
   }
   .project_list input {display: none;}
-  .project_list input [id="slide"]{
-    display: none;
-  }
+  .project_list input [id="slide"] {display: none;}
   .project_item label {
     position: absolute;
     z-index: 1;
@@ -498,9 +496,7 @@
     height: 100%;
     font-size: 13px;
   }
-  .on {
-    display: none;
-  }
+  .on {display: none;}
   .contact {
     width: 100%; min-width: 320px;
     height: auto;
@@ -566,6 +562,7 @@
     text-transform: uppercase;
   }
 
+  /* #footBox ======================= */
   #footBox {
     width: 100%; min-width: 320px;
     height: auto;

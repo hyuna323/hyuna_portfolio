@@ -26,7 +26,7 @@
     width: 100px;
     height: 100%;
   }
-  .unb { display: none; }
+  .unb {display: none;}
   .header_m {
     width: auto; 
     height: 26px;
@@ -35,8 +35,10 @@
     box-sizing: border-box;
   }
 
-  #unbInner {width: 13.75%; min-width: 44px; padding: 0;}
-  
+  #unbInner {
+    width: 13.75%; min-width: 44px;
+    padding: 0;
+  }
   #check_box {display: none;}
   #check_box + label {
     width: 15%; min-width: 48px;
@@ -95,7 +97,6 @@
     box-sizing: border-box;
     overflow: auto;
   }
-  
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
@@ -113,7 +114,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-top: 60px; */
   }
   .cover {
     display: flex;
@@ -145,7 +145,6 @@
     width: 170px;
     height: 150px;
     line-height: 320px;
-    /* margin-top: 220px; */
   }
   .job img {
     width: 100%;
@@ -369,9 +368,7 @@
     margin: auto;
   }
   .project_list input {display: none;}
-  .project_list input [id="slide"]{
-    display: none;
-  }
+  .project_list input [id="slide"] {display: none;}
   .project_item label {
     position: absolute;
     z-index: 1;
@@ -412,12 +409,8 @@
     position: relative;
     overflow: hidden;
   }
-  .screen_top {
-    display: none;
-  }
-  .screen_bottom {
-    display: none;
-  }
+  .screen_top {display: none;}
+  .screen_bottom {display: none;}
   .screen img {
     width: 100%;
   }
@@ -447,7 +440,6 @@
   .open {
     margin-right: 5px;
   }
-
   .modal {
     position: fixed;
     z-index: 1000;
@@ -507,10 +499,7 @@
     height: 100%;
     font-size: 13px;
   }
-  .on {
-    display: none;
-  }
-
+  .on {display: none;}
   .contact {
     width: 100%; min-width: 768px;
     height: 300px;
@@ -576,6 +565,7 @@
     text-transform: uppercase;
   }
 
+  /* #footBox ==================== */
   #footBox {
     width: 100%; min-width: 768px;
     height: auto;
