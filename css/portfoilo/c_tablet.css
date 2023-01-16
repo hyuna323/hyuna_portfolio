@@ -1,6 +1,8 @@
 /* 768px =========================== */
 @media all and (min-width:768px) and (max-width:1279px) {
   #wrap {width: 100%; min-height: 600px;}
+
+  /* #headBox ========================== */
   #headBox {
     width: 100%; min-width: 768px;
     height: 60px;
@@ -17,6 +19,7 @@
     margin: auto; 
     box-sizing: border-box;
   }
+  /* logo part */
   .headinner h1 {
     width: 100%; min-width: 700px;
     height: 100%;
@@ -27,6 +30,8 @@
     height: 100%;
   }
   .unb {display: none;}
+  
+  /* moblie slide part --------------------- */
   .header_m {
     width: auto; 
     height: 26px;
@@ -34,11 +39,11 @@
     margin-top: 10px;
     box-sizing: border-box;
   }
-
   #unbInner {
     width: 13.75%; min-width: 44px;
     padding: 0;
   }
+  /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
     width: 15%; min-width: 48px;
@@ -83,6 +88,8 @@
   #check_box:checked + label + #slide_menu {
     left: 12.5%;
   }
+  
+  /* #slide_menu ------------------------------ */
   #slide_menu {
     width: 100%; min-width: 281px;
     height: 100%;
@@ -109,6 +116,8 @@
     cursor: pointer;
     position: relative;
   }
+  
+  /* portfolio cover --------------- */
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -151,6 +160,8 @@
     height: auto;
     margin: 35px;
   }
+  
+  /* about part ---------------------------- */
   .about {
     width: 91.1458%; min-width: 700px;
     height: auto;
@@ -168,6 +179,7 @@
     width: 100%;
     margin: auto;
   }
+  /* about title */
   .about_logo {
     width: 20%; min-width: 140px;
     height: auto;
@@ -178,6 +190,7 @@
     width: 100%;
     height: auto;
   }
+  /* profile */
   .about_text {
     width: 100%;
     height: auto;
@@ -209,6 +222,7 @@
   .about_text ul li {
     font-size: 16px;
   }
+  /* main introduce */
   .introduction_part {
     width: 100%;
     padding-top: 50px;
@@ -216,6 +230,13 @@
   .introduction_part span {
     font-size: 16px;
   }
+  
+  /* skills part --------------------- */
+  .skills {
+    text-transform: uppercase;
+    list-style: none;
+  }
+  /* skills title */
   .skills_logo {
     width: 20%; min-width: 140px;
     height: auto;
@@ -226,15 +247,12 @@
     width: 100%;
     margin: auto;
   }
-  .skills {
-    text-transform: uppercase;
-    list-style: none;
-  }
   .skills_inner h3 {
     font-size: 17px;
     font-weight: 400;
     margin: 5px;
   }
+  /* skills inner */
   .skills_inner {
     width: 65.1042%; min-width: 500px;
     margin: auto;
@@ -329,6 +347,7 @@
     }
   }
 
+  /* project part ------------------------ */
   .project {
     width: 100%;
     min-width: 768px; max-width: 1279px;
@@ -376,6 +395,7 @@
     padding: 20px;
     cursor: pointer;
   }
+  /* slide arrow */
   .slide_left {
     left: 0px;
     top: 45%;
@@ -415,6 +435,7 @@
     width: 100%;
   }
   .screen:hover::after {display: none;}
+  /* project 자세히 보기 */
   .project_contact {
     width: 46.875%; min-width: 360px;
     height: 100%;
@@ -500,6 +521,8 @@
     font-size: 13px;
   }
   .on {display: none;}
+  
+  /* contact part -------------------------------- */
   .contact {
     width: 100%; min-width: 768px;
     height: 300px;
@@ -507,6 +530,7 @@
     padding-bottom: 70px;
     background-color: rgba(75, 117, 103, 30%);
   }
+  /* contact title */
   .contact_logo {
     width: 20%; min-width: 140px;
     height: auto;
@@ -529,6 +553,7 @@
   .contact_text ul li {
     font-size: 16px;
   }
+  /* contact address */
   .contect_info {
     width: 73.1707%; min-width: 600px;
     display: flex;
@@ -547,6 +572,7 @@
   .contect_info a {
     font-size: 16px;
   }
+  /* copy right */
   .copyBox {
     width: 100%; min-width: 768px;
     height: 60px;
@@ -581,6 +607,7 @@
     display: flex;
     background-color: rgba(75, 117, 103, 96%);
   }
+  /* portfolio part fnb button */
   .fnb_portfolio {
     width: 20%; min-width: 64px;
     text-align: center;
@@ -599,6 +626,7 @@
     background: url(../../img/portfolio_on.png) no-repeat center;
     background-size: 30px 45px;
   }
+  /* about part fnb button */
   .fnb_about {
     width: 20%; min-width: 64px;
     text-align: center;
@@ -619,6 +647,7 @@
     background-size: 40px;
     margin-bottom: 5px;
   }
+  /* skills part fnb button */
   .fnb_skills {
     width: 20%; min-width: 64px;
     text-align: center;
@@ -639,6 +668,7 @@
     background-size: 40px;
     margin-bottom: 5px;
   }
+  /* project part fnb button */
   .fnb_project {
     width: 20%; min-width: 64px;
     text-align: center;
@@ -659,6 +689,7 @@
     background-size: 40px;
     margin-bottom: 5px;
   }
+  /* contact part fnb button */
   .fnb_contact {
     width: 20%; min-width: 64px;
     text-align: center;

@@ -1,5 +1,7 @@
 @media all and (min-width: 1920px) {
   #wrap {width: 100%; min-height: 600px;}
+  
+  /* #headBox ========================== */
   #headBox {
     width: 100%; min-width: 1920px;
     height: auto;
@@ -16,6 +18,7 @@
     margin: auto; 
     box-sizing: border-box;
   }
+  /* logo part */
   .headinner h1 {
     width: 100%; min-width: 1166px;
     height: 100%;
@@ -26,6 +29,8 @@
     height: 100%;
     margin-top: 12px;
   }
+  
+  /* user navigation */
   .unb {
     width: 37.9747%; min-width: 730px;
     height: 100%;
@@ -35,6 +40,8 @@
     text-align: center;
     font-weight: 400;
   }
+  /* page 이동 */
+  /* portfoilo button */
   .portfolio_part {
     width: 20.5479%; min-width: 150px;
     height: 100%;
@@ -53,6 +60,7 @@
     font-weight: 600;
     color: #4b7567;
   }
+  /* about button */
   .about_part {
     width: 19.1781%; min-width: 140px;
     height: 100%;
@@ -71,6 +79,7 @@
     font-weight: 600;
     color: #4b7567;
   }
+  /* skills button */
   .skills_part {
     width: 19.1781%; min-width: 140px;
     height: 100%;
@@ -89,6 +98,7 @@
     font-weight: 600;
     color: #4b7567;
   }
+  /* project button */
   .project_part {
     width: 20.5479%; min-width: 150px;
     height: 100%;
@@ -107,6 +117,7 @@
     font-weight: 600;
     color: #4b7567;
   }
+  /* contact button */
   .contact_part {
     width: 20.5479%; min-width: 150px;
     height: 100%;
@@ -126,6 +137,8 @@
     color: #4b7567;
   }
   .header_m {display: none;}
+  
+  /* portfolio cover --------------- */
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -167,6 +180,8 @@
     height: auto;
     margin: 35px;
   }
+  
+  /* about part ---------------------------- */
   .about {
     width: 93.75%; min-width: 1800px;
     height: auto;
@@ -183,6 +198,7 @@
     width: auto;
     margin: auto;
   }
+  /* about title */
   .about_logo {
     width: 100%;
     margin-bottom: 80px;
@@ -191,6 +207,7 @@
     width: 22.2222%; min-width: 400px;
     height: auto;
   }
+  /* profile */
   .about_text {
     width: auto;
     height: auto;
@@ -222,6 +239,7 @@
   .about_text ul li {
     font-size: 22px;
   }
+  /* main introduce */
   .introduction_part {
     width: 50%;
     padding-top: 100px;
@@ -231,10 +249,12 @@
     font-size: 22px;
   }
 
+  /* skills part --------------------- */
   .skills {
     text-transform: uppercase;
     list-style: none;
   }
+  /* skills title */
   .skills_logo {
     width: 9.4444%; min-width: 170px;
     height: auto;
@@ -245,6 +265,7 @@
     width: 100%;
     margin: auto;
   }
+  /* skills inner */
   .skills_inner h3 {
     font-size: 24px;
     font-weight: 400;
@@ -344,6 +365,7 @@
     }
   }
 
+  /* project part ------------------------ */
   .project {
     width: 100%; min-width: 1920px;
     width: 100%;
@@ -385,6 +407,8 @@
   }
   .project_list input {display: none;}
   .project_list input [id="slide"] {display: none;}
+  
+  /* project hover 시 효과 */
   .screen:hover .screen_top {
     bottom: 62%;
   }
@@ -458,6 +482,7 @@
   .project_inner ul li a:hover .screen::after {
     opacity: 1;
   }
+  /* project 자세히 보기 */
   .project_contact {
     width: 18.75%; min-width: 360px;
     margin: auto;
@@ -541,12 +566,15 @@
     font-size: 13px;
   }
   .on {display: none;}
+  
+  /* contact part -------------------------------- */
   .contact {
     width: 100%; min-width: 1920px;
     height: auto;
     background-color: rgba(75, 117, 103, 0.5);
     padding-top: 50px;
   }
+  /* contact title */
   .contact_logo {
     width: 10%; min-width: 180px;
     height: auto;
@@ -570,6 +598,7 @@
   .contact_text ul li {
     font-size: 20px;
   }
+  /* contact address */
   .contect_info {
     width: 43.2292%; min-width: 830px;
     margin: auto;
@@ -587,6 +616,7 @@
   .contect_info a {
     font-size: 20px;
   }
+  /* copy right */
   .copyBox {
     width: 100%; min-width: 1920px;
     height: 80px;
@@ -604,5 +634,7 @@
     text-align: center;
     text-transform: uppercase;
   }
+  
+  /* #footBox ==================== */
   #footBox {display: none;}
 }

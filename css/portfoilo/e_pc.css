@@ -1,6 +1,8 @@
 /* 1440px ========================= */
 @media all and (min-width: 1440px) and (max-width: 1919px) {
   #wrap {width: 100%; min-height: 600px;}
+  
+  /* #headBox ========================== */
   #headBox {
     width: 100%; min-width: 1440px;
     height: 90px;
@@ -17,6 +19,7 @@
     margin: auto; 
     box-sizing: border-box;
   }
+  /* logo part */
   .headinner h1 {
     width: 100%; min-width: 876px; 
     height: 100%;
@@ -27,6 +30,8 @@
     height: 100%;
     margin-top: 12px;
   }
+  
+  /* user navigation */
   .unb {
     width: 38.1356%; min-width: 540px;
     height: 100%;
@@ -35,6 +40,8 @@
     text-transform: uppercase;
     text-align: center;
   }
+  /* page 이동 */
+  /* portfoilo button */
   .portfolio_part {
     width: 24.0741%; min-width: 130px;
     height: 100%;
@@ -52,6 +59,7 @@
     font-weight: 600;
     color: #4b7567;
   }
+  /* about button */
   .about_part {
     width: 18.5185%; min-width: 100px;
     height: 100%;
@@ -69,6 +77,7 @@
     font-weight: 600;
     color: #4b7567;
   }
+  /* skills button */
   .skills_part {
     width: 18.5185%; min-width: 100px;
     height: 100%;
@@ -86,6 +95,7 @@
     font-weight: 600;
     color: #4b7567;
   }
+  /* project button */
   .project_part {
     width: 18.5185%; min-width: 100px;
     height: 100%;
@@ -103,6 +113,7 @@
     font-weight: 600;
     color: #4b7567;
   }
+  /* contact button */
   .contact_part {
     width: 20.3704%; min-width: 110px;
     height: 100%;
@@ -121,6 +132,8 @@
     color: #4b7567;
   }
   .header_m {display: none;}
+  
+  /* portfolio cover --------------- */
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -162,6 +175,8 @@
     height: auto;
     margin: 35px;
   }
+  
+  /* about part ---------------------------- */
   .about {
     width: 92.3611%; min-width: 1330px;
     height: auto;
@@ -179,6 +194,7 @@
     margin: auto;
     padding-left: 40px;
   }
+  /* about title */
   .about_logo {
     width: 100%;
     margin-bottom: 60px;
@@ -187,6 +203,7 @@
     width: 26.3158%; min-width: 350px;
     height: auto;
   }
+  /* profile */
   .about_text {
     width: auto;
     height: auto;
@@ -218,6 +235,7 @@
   .about_text ul li {
     font-size: 20px;
   }
+  /* main introduce */
   .introduction_part {
     width: 50%;
     padding-top: 100px;
@@ -226,10 +244,13 @@
   .introduction_part span {
     font-size: 18px;
   }
+  
+  /* skills part --------------------- */
   .skills {
     text-transform: uppercase;
     list-style: none;
   }
+  /* skills title */
   .skills_logo {
     width: 10.4167%; min-width: 150px;
     height: auto;
@@ -240,6 +261,7 @@
     width: 100%;
     margin: auto;
   }
+  /* skills inner */
   .skills_inner h3 {
     font-size: 20px;
     font-weight: 400;
@@ -339,6 +361,7 @@
     }
   }
 
+  /* project part ------------------------ */
   .project {
     width: 100%;
     min-width: 1440px; max-width: 1919px;
@@ -380,6 +403,8 @@
   }
   .project_list input {display: none;}
   .project_list input [id="slide"] {display: none;}
+  
+  /* project hover 시 효과 */
   .screen:hover .screen_top {
     bottom: 62%;
   }
@@ -454,6 +479,7 @@
   .project_inner ul li a:hover .screen::after {
     opacity: 1;
   }
+  /* project 자세히 보기 */
   .project_contact {
     width: 22.2222%; min-width: 320px;
     margin: auto;
@@ -537,12 +563,15 @@
     font-size: 13px;
   }
   .on {display: none;}
+  
+  /* contact part -------------------------------- */
   .contact {
     width: 100%; min-width: 1440px;
     height: auto;
     background-color: rgba(75, 117, 103, 0.5);
     padding-top: 30px;
   }
+  /* contact title */
   .contact_logo {
     width: 12.0301%; min-width: 160px;
     height: auto;
@@ -566,6 +595,7 @@
   .contact_text ul li {
     font-size: 18px;
   }
+  /* contact address */
   .contect_info {
     width: 55.5556%; min-width: 800px;
     margin: auto;
@@ -583,6 +613,7 @@
   .contect_info a {
     font-size: 18px;
   }
+  /* copy right */
   .copyBox {
     width: 100%; min-width: 1440px;
     height: 60px;
@@ -600,5 +631,7 @@
     text-align: center;
     text-transform: uppercase;
   }
+  
+  /* #footBox ==================== */
   #footBox {display: none;}
 }
