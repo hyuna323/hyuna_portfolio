@@ -6,17 +6,17 @@
   #headBox {
     width: 100%; min-width: 320px;
     height: 60px;
-    box-sizing: border-box;
     padding: 10px;
     position: fixed;
+    box-sizing: border-box;
     z-index: 1000;
     background-color: #fff;
   }
   .headinner {
     width: 100%; min-width: 300px;
     height: 100%;
-    display: flex;
     margin: auto; 
+    display: flex;
     box-sizing: border-box;
   }
   /* logo part */
@@ -48,20 +48,20 @@
   #check_box + label {
     width: 11.875%; min-width: 38px;
     height: 20px;
-    position: relative;
-    display: block;
-    cursor: pointer;
-    z-index: 100;
     margin: auto;
+    display: block;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
   }
   #check_box + label > span {
     width: 100%;
     height: 3px;
-    position: absolute;
     display: block;
-    background: black;
-    border-radius: 5px;
+    position: absolute;
     transition: all 300ms;
+    border-radius: 5px;
+    background: black;
   }
   #check_box:checked + label > span:nth-child(1) {
     top: 50%;
@@ -91,28 +91,28 @@
   #slide_menu {
     width: 100%; min-width: 280px;
     height: 100%;
-    position: fixed;
-    background-color: rgba(75, 117, 103, 90%);
-    text-transform: uppercase;
-    left: 100%;
-    transition: all 300ms;
-    z-index: 1;
-    top: 0px;
     padding: 60px 16px 20px 16px;
+    position: fixed;
+    top: 0px;
+    left: 100%;
     box-sizing: border-box;
     overflow: auto;
+    transition: all 300ms;
+    text-transform: uppercase;
+    z-index: 1;
+    background-color: rgba(75, 117, 103, 90%);
   }
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
     display: block;
     padding: 30px;
+    position: relative;
     border-bottom: 1px solid #fff;
     font-size: 16px;
-    color: #fff;
     font-weight: 400;
+    color: #fff;
     cursor: pointer;
-    position: relative;
   }
 
   /* portfolio cover --------------- */
@@ -167,9 +167,9 @@
   .about_inner {
     width: 87.5%; min-width: 280px;
     height: auto;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
   }
   .proflie_part {
     width: 100%;
@@ -194,9 +194,9 @@
   .about_text span {
     width: auto; 
     height: auto;
+    margin: auto;
     font-size: 20px;
     font-weight: 600;
-    margin: auto;
   }
   .about_text p {
     width: auto; 
@@ -204,10 +204,10 @@
     font-size: 16px;
   }
   .sub_title {
+    margin-top: 20px;
     font-size: 16px;
     font-weight: 500;
     text-align: left;
-    margin-top: 20px;
     text-transform: uppercase;
   }
   .about_text ul {
@@ -227,6 +227,11 @@
   }
   
   /* skills part --------------------- */
+  .skills {
+    list-style: none;
+    text-transform: uppercase;
+  }
+  /* skills title */
   .skills_logo {
     width: 26.25%; min-width: 84px;
     height: auto;
@@ -236,23 +241,19 @@
     width: 100%;
     margin: auto;
   }
-  .skills {
-    text-transform: uppercase;
-    list-style: none;
-  }
   .skills_inner h3 {
+    margin: 5px;
     font-size: 16px;
     font-weight: 400;
-    margin: 5px;
   }
   /* skills inner */
   .skills_inner {
     width: 81.25%; min-width: 260px;
     margin: auto;
     margin-top: 30px;
-    color: #000;
     padding: 10px 20px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: #000;
   }
   .skills_inner ul {
     width: auto;
@@ -263,13 +264,13 @@
   }
   .bar {
     height: 16px;
-    background: #353b48;
     display: block;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    background: #353b48;
   }
   .bar:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -342,10 +343,10 @@
 
   /* project part ------------------------ */
   .project {
-    width: 100%;
-    min-width: 320px; max-width: 767px;
+    width: 100%; min-width: 320px; max-width: 767px;
     margin: 0 auto;
   }
+  /* project title */
   .project_logo {
     width: 31.25%; min-width: 100px;
     height: auto;
@@ -360,13 +361,11 @@
     width: 100%; min-width: 300px;
     height: auto;
     margin: auto;
-    white-space: nowrap;
-    font-size: 0;
     overflow: hidden;
+    white-space: nowrap;
   }
   .project_item {
     width: 100%;
-    font-size: 0;
   }
   .project_item li {
     width: 100%;
@@ -384,24 +383,24 @@
   .project_list input {display: none;}
   .project_list input [id="slide"] {display: none;}
   .project_item label {
-    position: absolute;
-    z-index: 1;
-    transform: translateY(-50%);
     padding: 20px;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 1;
     cursor: pointer;
   }
   /* slide arrow */
   .slide_left {
-    left: 8px;
     top: 45%;
+    left: 8px;
     background-image: url('../../img/arrow_left.png');
     background-position: center center;
     background-size: 70%;
     background-repeat: no-repeat;
   }
   .slide_right {
-    right: 8px;
     top: 45%;
+    right: 8px;
     background-image: url('../../img/arrow_right.png');
     background-position: center center;
     background-size: 70%;
@@ -426,28 +425,30 @@
     overflow: hidden;
   }
   .screen_top {display: none;}
+  .screen_middle {display: none;}
   .screen_bottom {display: none;}
   .screen img {
     width: 100%;
   }
   .screen:hover::after {display: none;}
+  /* project 자세히 보기 */
   .project_contact {
     width: 56.25%; min-width: 180px;
     height: 100%;
-    display: flex;
-    text-align: center;
     margin: auto;
     margin-top: 10px;
+    display: flex;
+    text-align: center;
   }
   .project_contact button {
     width: 48.3333%; min-width: 87px;
     height: 35px;
     float: left;
     font-size: 13px;
-    color: #000;
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
+    color: #000;
     border-radius: 7px;
     background-color: rgba(75, 117, 103, 0.3);
   }
@@ -461,11 +462,11 @@
     height: 100%;
     top: 0;
     left: 0;
-    position: fixed;
-    z-index: 1000;
     display: flex;
+    position: fixed;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
   }
   .modal_overlay {
     width: 100%;
@@ -476,38 +477,37 @@
   .modal_content {
     width: 98%;
     height: auto;
-    float: right;
     max-height: calc(125vh - 210px);
-    overflow-y: auto;
-    background-color: #fff;
     padding: 10px 5px;
-    text-align: center;
     position: relative;
-    border-radius: 10px;
     line-height: 30px;
+    float: right;
+    overflow-y: auto;
+    text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    background-color: #fff;
   }
   .modalHeader h2 {
-    float: right;
     width: 100%;
     height: 24px;
-    font-size: 15px;
-    top: 0;
-    margin: 0;
-    padding-left: 20px;
     margin: 10px 0;
     margin-bottom: 25px;
-  }
-  .modalHeader button {
+    padding-left: 20px;
     top: 0;
     float: right;
+    font-size: 15px;
+  }
+  .modalHeader button {
     margin: -44px 10px;
     padding-left: 10px;
+    top: 0;
+    float: right;
   }
   .modalHeader button img {
-    top: 0;
     width: 24px;
     height: 24px;
+    top: 0;
     cursor: pointer;
   }
   .modal_content i {
@@ -517,14 +517,72 @@
   }
   .on {display: none;}
 
+  /* clone coding part --------------------------- */
+  .clone {
+    width: 100%; min-width: 320px; max-width: 767px;
+    margin: 0 auto;
+  }
+  /* clone coding title */
+  .clone_logo {
+    width: 31.25%; min-width: 100px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .clone_logo img {
+    width: 100%;
+    height: auto;
+  }
+  .clone_inner {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* clone coding top */
+  .clone_top {
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+  }
+  .clone_coupang {
+    width: 48%;
+    height: 100px;
+    margin: auto;
+    background: url(../../img/project_ediya.png) no-repeat;
+    background-size: 100%;
+  }
+  .clone_naver {
+    width: 48%;
+    height: 100px;
+    margin: auto;
+    background: url(../../img/project_ohou.jpg) no-repeat;
+    background-size: 100%;
+  }
+  /* clone coding bottom */
+  .clone_bottom {
+    width: 100%;
+    height: 50%;
+  }
+  .clone_google {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 5px;
+    background: url(../../img/project_ediya.png) no-repeat;
+    background-size: 100%;
+  }
+
   /* contact part -------------------------------- */
   .contact {
     width: 100%; min-width: 320px;
     height: auto;
-    background-color: rgba(75, 117, 103, 30%);
     padding-top: 30px;
     padding-bottom: 70px;
+    background-color: rgba(75, 117, 103, 30%);
   }
+  /* contact title */
   .contact_logo {
     width: 31.25%; min-width: 100px;
     height: auto;
@@ -550,9 +608,9 @@
   /* contact address */
   .contect_info {
     width: 93.75%; min-width: 300px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
   }
   .contect_info address {
     width: 93.75%; min-width: 300px;
@@ -580,18 +638,18 @@
   .copy_inner p {
     font-size: 12px;
     font-weight: 400;
-    color: #444;
     text-align: center;
     text-transform: uppercase;
+    color: #444;
   }
 
   /* #footBox ======================= */
   #footBox {
     width: 100%; min-width: 320px;
     height: auto;
+    position: fixed;
     left: 0;
     bottom: 0%;
-    position: fixed;
     z-index: 1000;
   }
   .fnb {
@@ -604,11 +662,11 @@
   /* portfolio part fnb button */
   .fnb_portfolio {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     padding-left: 15px;
     text-align: center;
     background: url(../../img/portfolio.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
   .fnb_portfolio a {
     width: 20%; min-width: 64px;
@@ -618,18 +676,18 @@
   }
   .fnb_portfolio:hover {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     text-align: center;
     background: url(../../img/portfolio_on.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
   /* about part fnb button */
   .fnb_about {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     text-align: center;
     background: url(../../img/about.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
   .fnb_about a {
     width: 20%; min-width: 64px;
@@ -639,18 +697,18 @@
   }
   .fnb_about:hover {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     text-align: center;
     background: url(../../img/about_on.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
   /* skills part fnb button */
   .fnb_skills {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     text-align: center;
     background: url(../../img/skill.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
   .fnb_skills a {
     width: 20%; min-width: 64px;
@@ -660,18 +718,18 @@
   }
   .fnb_skills:hover {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     text-align: center;
     background: url(../../img/skill_on.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
   /* project part fnb button */
   .fnb_project {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     text-align: center;
     background: url(../../img/project.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
   .fnb_project a {
     width: 20%; min-width: 64px;
@@ -681,18 +739,18 @@
   }
   .fnb_project:hover {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     text-align: center;
     background: url(../../img/project_on.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
   /* contact part fnb button */
   .fnb_contact {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     text-align: center;
     background: url(../../img/contact.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
   .fnb_contact a {
     width: 20%; min-width: 64px;
@@ -702,9 +760,9 @@
   }
   .fnb_contact:hover {
     width: 20%; min-width: 64px;
+    margin-bottom: 5px;
     text-align: center;
     background: url(../../img/contact_on.svg) no-repeat center;
     background-size: 35px;
-    margin-bottom: 5px;
   }
 }

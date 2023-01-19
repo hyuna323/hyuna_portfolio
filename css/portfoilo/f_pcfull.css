@@ -5,17 +5,17 @@
   #headBox {
     width: 100%; min-width: 1920px;
     height: auto;
-    box-sizing: border-box;
     padding: 10px 12px 14px 12px;
     position: fixed;
+    box-sizing: border-box;
     z-index: 1000;
     background-color: #fff;
   }
   .headinner {
     width: 100%; min-width: 1896px;
     height: 100%;
-    display: flex;
     margin: auto; 
+    display: flex;
     box-sizing: border-box;
   }
   /* logo part */
@@ -35,18 +35,18 @@
     width: 37.9747%; min-width: 730px;
     height: 100%;
     display: flex;
-    justify-content: center;
+    font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 400;
+    justify-content: center;
   }
   /* page 이동 */
   /* portfoilo button */
   .portfolio_part {
     width: 20.5479%; min-width: 150px;
     height: 100%;
-    font-size: 22px;
     line-height: 56px;
+    font-size: 22px;
   }
   .portfolio_part a {
     width: auto;
@@ -64,8 +64,8 @@
   .about_part {
     width: 19.1781%; min-width: 140px;
     height: 100%;
-    font-size: 22px;
     line-height: 56px;
+    font-size: 22px;
   }
   .about_part a {
     width: auto;
@@ -83,8 +83,8 @@
   .skills_part {
     width: 19.1781%; min-width: 140px;
     height: 100%;
-    font-size: 22px;
     line-height: 56px;
+    font-size: 22px;
   }
   .skills_part a {
     width: auto;
@@ -102,8 +102,8 @@
   .project_part {
     width: 20.5479%; min-width: 150px;
     height: 100%;
-    font-size: 22px;
     line-height: 56px;
+    font-size: 22px;
   }
   .project_part a {
     width: auto;
@@ -121,8 +121,8 @@
   .contact_part {
     width: 20.5479%; min-width: 150px;
     height: 100%;
-    font-size: 22px;
     line-height: 56px;
+    font-size: 22px;
   }
   .contact_part a {
     width: auto;
@@ -142,8 +142,8 @@
   .portfolio {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   .cover {
     height: 100%;
@@ -251,8 +251,8 @@
 
   /* skills part --------------------- */
   .skills {
-    text-transform: uppercase;
     list-style: none;
+    text-transform: uppercase;
   }
   /* skills title */
   .skills_logo {
@@ -267,17 +267,17 @@
   }
   /* skills inner */
   .skills_inner h3 {
+    margin: 5px;
     font-size: 24px;
     font-weight: 400;
-    margin: 5px;
   }
   .skills_inner {
     width: 50%; min-width: 900px;
     margin: auto;
     margin-top: 60px;
-    color: #000;
     padding: 30px 40px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: #000;
   }
   .skills_inner ul {
     width: auto;
@@ -288,13 +288,13 @@
   }
   .bar {
     height: 30px;
-    background: #353b48;
     display: block;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    background: #353b48;
   }
   .bar:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -401,9 +401,9 @@
   .project_item li a {
     width: auto;
     height: 460px;
+    margin: 5px;
     display: block;
     text-decoration: none;
-    margin: 5px;
   }
   .project_list input {display: none;}
   .project_list input [id="slide"] {display: none;}
@@ -431,53 +431,53 @@
   .screen_top {
     width: 340px;
     position: absolute;
-    text-align: center;
-    bottom: 150%;
     left: 50%;
-    z-index: 2;
-    color: #fff;
+    bottom: 150%;
+    transition: all.35s;
     font-size: 26px;
     font-weight: 900;
-    transition: all.35s;
+    text-align: center;
     text-transform: uppercase;
+    color: #fff;
+    z-index: 2;
   }
   .screen_middle {
     width: 340px;
     position: absolute;
-    text-align: center;
     top: 150%;
     left: 50px;
-    z-index: 2;
-    color: #fff;
+    transition: all.35s;
     font-size: 18px;
     font-weight: 700;
-    transition: all.35s;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
   }
   .screen_bottom {
     width: 340px;
     position: absolute;
-    text-align: center;
     top: 150%;
     left: 50px;
-    z-index: 2;
-    color: #fff;
+    transition: all.35s;
     font-size: 18px;
     font-weight: 700;
-    transition: all.35s;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
   }
   .screen:hover::after {
     content: '';
+    width: 100%;
+    height: 100%;
     display: block;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background: rgba(75, 117, 103, 0.8);
-    z-index: 1;
     opacity: 1;
     transition: all.35s;
+    border-radius: 10px;
+    z-index: 1;
+    background: rgba(75, 117, 103, 0.8);
   }
   .project_inner ul li a:hover .screen::after {
     opacity: 1;
@@ -507,15 +507,15 @@
     margin-right: 20px;
   }
   .modal {
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    z-index: 1000;
   }
   .modal_overlay {
     width: 100%;
@@ -526,38 +526,37 @@
   .modal_content {
     width: 98%;
     height: auto;
-    float: right;
-    max-height: calc(125vh - 210px);
-    overflow-y: auto;
-    background-color: #fff;
     padding: 10px 5px;
-    text-align: center;
     position: relative;
-    border-radius: 10px;
+    max-height: calc(125vh - 210px);
     line-height: 30px;
+    float: right;
+    overflow-y: auto;
+    text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    background-color: #fff;
   }
   .modalHeader h2 {
-    float: right;
     width: 100%;
     height: 24px;
-    font-size: 15px;
-    top: 0;
-    margin: 0;
-    padding-left: 20px;
     margin: 10px 0;
     margin-bottom: 25px;
+    padding-left: 20px;
+    float: right;
+    top: 0;
+    font-size: 15px;
   }
   .modalHeader button {
-    top: 0;
-    float: right;
     margin: -44px 10px;
     padding-left: 10px;
+    top: 0;
+    float: right;
   }
   .modalHeader button img {
-    top: 0;
     width: 24px;
     height: 24px;
+    top: 0;
     cursor: pointer;
   }
   .modal_content i {
@@ -567,12 +566,68 @@
   }
   .on {display: none;}
   
+  /* clone coding part --------------------------- */
+  .clone {
+    width: 100%; min-width: 1920px;
+    margin: 0 auto;
+  }
+  /* clone coding title */
+  .clone_logo {
+    width: 10.4167%; min-width: 200px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .clone_logo img {
+    width: 100%;
+    height: auto;
+  }
+  .clone_inner {
+    width: 1800px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* clone coding top */
+  .clone_top {
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+  }
+  .clone_coupang {
+    width: 48%;
+    height: 100px;
+    margin: auto;
+    background: url(../../img/project_ediya.png) no-repeat;
+    background-size: 100%;
+  }
+  .clone_naver {
+    width: 48%;
+    height: 100px;
+    margin: auto;
+    background: url(../../img/project_ohou.jpg) no-repeat;
+    background-size: 100%;
+  }
+  /* clone coding bottom */
+  .clone_bottom {
+    width: 100%;
+    height: 50%;
+  }
+  .clone_google {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 5px;
+    background: url(../../img/project_ediya.png) no-repeat;
+    background-size: 100%;
+  }
   /* contact part -------------------------------- */
   .contact {
     width: 100%; min-width: 1920px;
     height: auto;
-    background-color: rgba(75, 117, 103, 0.5);
     padding-top: 50px;
+    background-color: rgba(75, 117, 103, 0.5);
   }
   /* contact title */
   .contact_logo {
@@ -588,8 +643,8 @@
   .contact_inner {
     width: auto;
     margin: auto;
-    text-align: center;
     margin-top: 50px;
+    text-align: center;
   }
   .contact_text ul {
     margin-bottom: 50px;
@@ -630,9 +685,9 @@
   .copy_inner p {
     font-size: 14px;
     font-weight: 400;
-    color: #444;
     text-align: center;
     text-transform: uppercase;
+    color: #444;
   }
   
   /* #footBox ==================== */
