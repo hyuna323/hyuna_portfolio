@@ -583,41 +583,51 @@
     height: auto;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
   }
   /* clone coding top */
   .clone_top {
     width: 100%;
-    /* height: 50%; */
-    display: flex;
+    height: 300px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
   }
   .clone_coupang {
-    width: 48%;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     margin: auto;
-    background: url(../../img/project_ediya.png) no-repeat;
+    border: 1px solid #000;
+    background: url(../../img/clone_couoang.png) no-repeat;
     background-size: 100%;
   }
+  .clone_coupang:hover {}
   .clone_naver {
-    width: 48%;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     margin: auto;
-    background: url(../../img/project_ohou.jpg) no-repeat;
+    border: 1px solid #000;
+    background: url(../../img/clone_naver.png) no-repeat;
     background-size: 100%;
   }
+  .clone_naver:hover {}
   /* clone coding bottom */
   .clone_bottom {
     width: 100%;
-    height: 50%;
+    height: 300px;
+    margin-left: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
   }
   .clone_google {
     width: 100%;
-    height: 100px;
+    height: 100%;
     margin: auto;
-    margin-top: 5px;
-    background: url(../../img/project_ediya.png) no-repeat;
+    border: 1px solid #000;
+    background: url(../../img/clone_google.png) no-repeat;
     background-size: 100%;
   }
+  .clone_google:hover {}
   
   /* contact part -------------------------------- */
   .contact {
