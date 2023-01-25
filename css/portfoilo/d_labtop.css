@@ -25,10 +25,12 @@
     height: 100%;
     margin: auto;
   }
-  .headinner h1 img {
-    width: 130px;
-    height: 100%;
-    margin-top: 12px;
+  .headinner h1 button {
+    width: 100px;
+    height: 70px;
+    background-image: url(../../img/logo_greenfull.svg);
+    background-size: 100px 70px;
+    background-repeat: no-repeat;
   }
   
   /* user navigation */
