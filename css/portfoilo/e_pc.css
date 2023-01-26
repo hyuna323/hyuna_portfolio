@@ -21,7 +21,7 @@
   }
   /* logo part */
   .headinner h1 {
-    width: 100%; min-width: 876px; 
+    width: 100%;
     height: 100%;
     margin: auto;
   }
@@ -31,11 +31,16 @@
     background-image: url(../../img/logo_greenfull.svg);
     background-size: 100px 80px;
     background-repeat: no-repeat;
+    -webkit-animation: rotation 5s infinite linear;
+  }
+  @-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
   }
   
   /* user navigation */
   .unb {
-    width: 38.1356%; min-width: 540px;
+    width: 44.4444%; min-width: 640px;
     height: 100%;
     display: flex;
     text-transform: uppercase;
@@ -111,6 +116,24 @@
     text-decoration: none;
   }
   .project_part a:hover {
+    font-size: 23px;
+    font-weight: 600;
+    color: #4b7567;
+  }
+  /* clone button */
+  .clone_part {
+    width: 18.5185%; min-width: 100px;
+    height: 100%;
+    line-height: 56px;
+    font-size: 20px;
+  }
+  .clone_part a {
+    width: auto;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+  }
+  .clone_part a:hover {
     font-size: 23px;
     font-weight: 600;
     color: #4b7567;

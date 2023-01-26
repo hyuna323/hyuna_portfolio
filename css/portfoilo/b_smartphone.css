@@ -31,6 +31,11 @@
     background-image: url(../../img/logo_greenfull.svg);
     background-size: 50px 50px;
     background-repeat: no-repeat;
+    -webkit-animation: rotation 5s infinite linear;
+  }
+  @-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
   }
   .unb {display: none;}
 
@@ -68,7 +73,7 @@
   }
   #check_box:checked + label > span:nth-child(1) {
     top: 50%;
-    transform: translate(0, -50%);
+    /* transform: translate(0, -50%); */
     transform: rotate(45deg);
   }
   #check_box + label > span:nth-child(2) {
@@ -83,7 +88,7 @@
   }
   #check_box:checked + label > span:nth-child(3) {
     top: 50%;
-    transform: translate(0, -50%);
+    /* transform: translate(0, -50%); */
     transform: rotate(-45deg);
   }
   #check_box:checked + label + #slide_menu {
@@ -684,42 +689,41 @@
   }
   /* portfolio part fnb button */
   .fnb_portfolio {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
-    padding-left: 15px;
     text-align: center;
     background: url(../../img/logo_whitefull.svg) no-repeat center;
     background-size: 35px;
   }
   .fnb_portfolio a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
     left: 0;
   }
   .fnb_portfolio:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
-    background: url(../../img/portfolio_on.svg) no-repeat center;
+    background: url(../../img/logo_blackfull.svg) no-repeat center;
     background-size: 35px;
   }
   /* about part fnb button */
   .fnb_about {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/about.svg) no-repeat center;
     background-size: 35px;
   }
   .fnb_about a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
-    left: 20%;
+    left: 16.667%;
   }
   .fnb_about:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/about_on.svg) no-repeat center;
@@ -727,20 +731,20 @@
   }
   /* skills part fnb button */
   .fnb_skills {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/skill.svg) no-repeat center;
     background-size: 35px;
   }
   .fnb_skills a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
-    left: 40%;
+    left: 33.334%;
   }
   .fnb_skills:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/skill_on.svg) no-repeat center;
@@ -748,20 +752,41 @@
   }
   /* project part fnb button */
   .fnb_project {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/project.svg) no-repeat center;
     background-size: 35px;
   }
   .fnb_project a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
-    left: 60%;
+    left: 50.001%;
   }
   .fnb_project:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
+    margin-bottom: 5px;
+    text-align: center;
+    background: url(../../img/project_on.svg) no-repeat center;
+    background-size: 35px;
+  }
+  /* clone part fnb button */
+  .fnb_clone {
+    width: 16.667%; min-width: 53px;
+    margin-bottom: 5px;
+    text-align: center;
+    background: url(../../img/project.svg) no-repeat center;
+    background-size: 35px;
+  }
+  .fnb_clone a {
+    width: 16.667%; min-width: 53px;
+    height: 100%;
+    position: absolute;
+    left: 66.668%;
+  }
+  .fnb_clone:hover {
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/project_on.svg) no-repeat center;
@@ -769,20 +794,20 @@
   }
   /* contact part fnb button */
   .fnb_contact {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/contact.svg) no-repeat center;
     background-size: 35px;
   }
   .fnb_contact a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
-    left: 80%;
+    left: 83.335%;
   }
   .fnb_contact:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/contact_on.svg) no-repeat center;
