@@ -755,7 +755,7 @@
     width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
-    background: url(../../img/project.svg) no-repeat center;
+    background: url(../../img/portfolio.svg) no-repeat center;
     background-size: 35px;
   }
   .fnb_project a {
@@ -768,7 +768,7 @@
     width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
-    background: url(../../img/project_on.svg) no-repeat center;
+    background: url(../../img/portfoilo_on.svg) no-repeat center;
     background-size: 35px;
   }
   /* clone part fnb button */
@@ -776,7 +776,7 @@
     width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
-    background: url(../../img/project.svg) no-repeat center;
+    background: url(../../img/clone.svg) no-repeat center;
     background-size: 35px;
   }
   .fnb_clone a {
@@ -789,7 +789,7 @@
     width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
-    background: url(../../img/project_on.svg) no-repeat center;
+    background: url(../../img/clone_on.svg) no-repeat center;
     background-size: 35px;
   }
   /* contact part fnb button */

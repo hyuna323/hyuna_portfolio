@@ -547,7 +547,7 @@
     height: auto;
   }
   .clone_inner {
-    width: 700px;
+    width: 680px;
     height: auto;
     margin: auto;
     display: flex;
@@ -694,60 +694,60 @@
   }
   /* portfolio part fnb button */
   .fnb_portfolio {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     text-align: center;
     background: url(../../img/logo_whitefull.svg) no-repeat center;
     background-size: 40px;
   }
   .fnb_portfolio a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
     left: 0;
   }
   .fnb_portfolio:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     text-align: center;
     background: url(../../img/logo_blackfull.svg) no-repeat center;
     background-size: 40px;
   }
   /* about part fnb button */
   .fnb_about {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/about.svg) no-repeat center;
-    background-size: 45px;
+    background-size: 40px;
   }
   .fnb_about a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
-    left: 20%;
+    left: 16.667%;
   }
   .fnb_about:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/about_on.svg) no-repeat center;
-    background-size: 45px;
+    background-size: 40px;
   }
   /* skills part fnb button */
   .fnb_skills {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/skill.svg) no-repeat center;
     background-size: 40px;
   }
   .fnb_skills a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
-    left: 40%;
+    left: 33.334%;
   }
   .fnb_skills:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/skill_on.svg) no-repeat center;
@@ -755,41 +755,62 @@
   }
   /* project part fnb button */
   .fnb_project {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/portfolio.svg) no-repeat center;
     background-size: 40px;
   }
   .fnb_project a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
-    left: 60%;
+    left: 50.001%;
   }
   .fnb_project:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/portfolio_on.svg) no-repeat center;
     background-size: 40px;
   }
+  /* clone part fnb button */
+  .fnb_clone {
+    width: 16.667%; min-width: 53px;
+    margin-bottom: 5px;
+    text-align: center;
+    background: url(../../img/clone.svg) no-repeat center;
+    background-size: 45px;
+  }
+  .fnb_clone a {
+    width: 16.667%; min-width: 53px;
+    height: 100%;
+    position: absolute;
+    left: 66.668%;
+  }
+  .fnb_clone:hover {
+    width: 16.667%; min-width: 53px;
+    margin-bottom: 5px;
+    text-align: center;
+    background: url(../../img/clone_on.svg) no-repeat center;
+    background-size: 45px;
+  }
   /* contact part fnb button */
   .fnb_contact {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/contact.svg) no-repeat center;
     background-size: 40px;
   }
   .fnb_contact a {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     height: 100%;
     position: absolute;
-    left: 80%;
+    left: 83.335%;
   }
   .fnb_contact:hover {
-    width: 20%; min-width: 64px;
+    width: 16.667%; min-width: 53px;
     margin-bottom: 5px;
     text-align: center;
     background: url(../../img/contact_on.svg) no-repeat center;
