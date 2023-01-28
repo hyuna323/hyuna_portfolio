@@ -664,7 +664,7 @@
     margin: auto;
     border: 1px solid #000;
     background: url(../../img/clone_spotify.png) no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
   }
   .clone_sfotify:hover {}
 
