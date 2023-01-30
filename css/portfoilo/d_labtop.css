@@ -445,9 +445,8 @@
     overflow: hidden;
   }
   .screen_top {
-    width: 91.8919%; min-width: 340px;
+    width: 100%; min-width: 340px;
     position: absolute;
-    left: 1%;
     bottom: 150%;
     transition: all.35s;
     font-size: 26px;
@@ -458,10 +457,9 @@
     z-index: 2;
   }
   .screen_middle {
-    width: 91.8919%; min-width: 340px;
+    width: 100%; min-width: 340px;
     position: absolute;
     top: 150%;
-    left: 1%;
     transition: all.35s;
     font-size: 18px;
     font-weight: 700;
@@ -470,10 +468,9 @@
     z-index: 2;
   }
   .screen_bottom {
-    width: 91.8919%; min-width: 340px;
+    width: 100%; min-width: 340px;
     position: absolute;
     top: 170%;
-    left: 1%;
     transition: all.35s;
     font-size: 18px;
     font-weight: 700;
@@ -611,7 +608,18 @@
     background: url(../../img/clone_couoang.png) no-repeat;
     background-size: 100%;
   }
-  .clone_coupang:hover {}
+  .clone_coupang:hover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all.35s;
+    z-index: 1;
+    background: rgba(75, 117, 103, 0.8);
+  }
   .clone_naver {
     width: 100%;
     height: 100%;
@@ -620,7 +628,18 @@
     background: url(../../img/clone_naver.png) no-repeat;
     background-size: 100%;
   }
-  .clone_naver:hover {}
+  .clone_naver:hover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all.35s;
+    z-index: 1;
+    background: rgba(75, 117, 103, 0.8);
+  }
   /* clone coding bottom */
   .clone_bottom {
     width: 100%;
@@ -638,7 +657,18 @@
     background: url(../../img/clone_google.png) no-repeat;
     background-size: 100%;
   }
-  .clone_google:hover {}
+  .clone_google:hover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all.35s;
+    z-index: 1;
+    background: rgba(75, 117, 103, 0.8);
+  }
   .clone_sfotify {
     width: 100%;
     height: 100%;
@@ -647,7 +677,18 @@
     background: url(../../img/clone_spotify.png) no-repeat;
     background-size: 100% 100%;
   }
-  .clone_sfotify:hover {}
+  .clone_sfotify:hover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all.35s;
+    z-index: 1;
+    background: rgba(75, 117, 103, 0.9);
+  }
 
   
   /* contact part -------------------------------- */
