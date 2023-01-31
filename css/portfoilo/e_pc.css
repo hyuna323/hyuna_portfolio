@@ -221,11 +221,11 @@
   }
   /* about title */
   .about_logo {
-    width: 100%;
+    width: 53.4351%; min-width: 350px;
     margin-bottom: 60px;
   }
   .about_logo img {
-    width: 26.3158%; min-width: 350px;
+    width: 100%;
     height: auto;
   }
   /* profile */
@@ -277,7 +277,7 @@
   }
   /* skills title */
   .skills_logo {
-    width: 10.4167%; min-width: 150px;
+    width: 13.2813%; min-width: 170px;
     height: auto;
     margin: auto;
     margin-bottom: 30px;
@@ -393,7 +393,7 @@
     margin: 0 auto;
   }
   .project_logo {
-    width: 12.5%; min-width: 180px;
+    width: 13.2813%; min-width: 170px;
     height: auto;
     margin: auto;
   }
@@ -580,7 +580,7 @@
   }
   /* clone coding title */
   .clone_logo {
-    width: 12.5%; min-width: 180px;
+    width: 13.2813%; min-width: 170px;
     height: auto;
     margin: auto;
     margin-bottom: 30px;
@@ -660,7 +660,7 @@
   }
   /* contact title */
   .contact_logo {
-    width: 12.0301%; min-width: 160px;
+    width: 13.2813%; min-width: 170px;
     height: auto;
     margin: auto;
     margin-bottom: 30px;

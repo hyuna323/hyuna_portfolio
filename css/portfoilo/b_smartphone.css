@@ -186,7 +186,7 @@
   }
   /* about title */
   .about_logo {
-    width: 33.333%; min-width: 100px;
+    width: 31.25%; min-width: 100px;
     margin: auto;
     margin-bottom: 30px;
   }
@@ -242,7 +242,7 @@
   }
   /* skills title */
   .skills_logo {
-    width: 26.25%; min-width: 84px;
+    width: 31.25%; min-width: 100px;
     height: auto;
     margin: auto;
   }
