@@ -554,6 +554,7 @@
     grid-auto-flow: column;
     grid-gap: 10px;
   }
+  /* coupang */
   .clone_coupang {
     width: 100%;
     height: 100%;
@@ -562,7 +563,13 @@
     background: url(../../img/clone_couoang.png) no-repeat;
     background-size: 100%;
   }
-  .clone_coupang:hover {}
+  .clone_coupang a {
+    width: auto;
+    height: 200px;
+    display: block;
+    text-decoration: none;
+  }
+  /* naver */
   .clone_naver {
     width: 100%;
     height: 100%;
@@ -571,7 +578,12 @@
     background: url(../../img/clone_naver.png) no-repeat;
     background-size: 100%;
   }
-  .clone_naver:hover {}
+  .clone_naver a {
+    width: auto;
+    height: 200px;
+    display: block;
+    text-decoration: none;
+  }
   /* clone coding bottom */
   .clone_bottom {
     width: 100%;
@@ -581,6 +593,7 @@
     grid-auto-flow: column;
     grid-gap: 10px;
   }
+  /* google */
   .clone_google {
     width: 100%;
     height: 100%;
@@ -589,7 +602,13 @@
     background: url(../../img/clone_google.png) no-repeat;
     background-size: 100%;
   }
-  .clone_google:hover {}
+  .clone_google a {
+    width: auto;
+    height: 200px;
+    display: block;
+    text-decoration: none;
+  }
+  /* sfotify */
   .clone_sfotify {
     width: 100%;
     height: 100%;
@@ -598,7 +617,51 @@
     background: url(../../img/clone_spotify.png) no-repeat;
     background-size: 100%;
   }
-  .clone_sfotify:hover {}
+  .clone_sfotify a {
+    width: auto;
+    height: 200px;
+    display: block;
+    text-decoration: none;
+  }
+
+  /* clone coding screen */
+  .clone_screen:hover .screen_inner {
+    bottom: 40%;
+  }
+  .clone_screen {
+    width: auto;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  .screen_inner {
+    width: 100%;
+    position: absolute;
+    bottom: 150%;
+    transition: all.35s;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    z-index: 2;
+  }
+  .clone_screen:hover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all.35s;
+    z-index: 1;
+    background: rgba(75, 117, 103, 0.8);
+  }
+  .clone_inner ul li a:hover .screen::after {
+    opacity: 1;
+  }
   
   /* contact part -------------------------------- */
   .contact {
