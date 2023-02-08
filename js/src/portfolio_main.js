@@ -53,7 +53,7 @@ window.onclick = function(event) {
 
 // page move -----------------------------
 function home(){
-  let url = "https://hyunao.github.io/ediya_project/html/01_ediya_main.html";
+  let url = "https://hyuna323.github.io/hyuna_portfolio/html/portfolio_main.html";
   window.location = url;
 }
 
