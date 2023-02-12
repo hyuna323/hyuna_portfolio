@@ -337,13 +337,13 @@
     width: 60%;
     animation: javascript 10s;
   }
-  .figma {
-    width: 90%;
-    animation: figma 10s;
-  }
   .git {
     width: 70%;
     animation: git 10s;
+  }
+  .react {
+    width: 30%;
+    animation: react 10s;
   }
   @keyframes html {
     0%{
@@ -369,14 +369,6 @@
       width: 60%;
     }
   }
-  @keyframes figma {
-    0%{
-      width: 0%;
-    }
-    100%{
-      width: 90%;
-    }
-  }
   @keyframes git {
     0%{
       width: 0%;
@@ -385,7 +377,14 @@
       width: 70%;
     }
   }
-
+  @keyframes react {
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 30%;
+    }
+  }
   /* project part ------------------------ */
   .project {
     width: 100%; min-width: 1280px; max-width: 1200px;
