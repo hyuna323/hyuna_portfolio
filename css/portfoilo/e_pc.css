@@ -342,7 +342,7 @@
     animation: git 10s;
   }
   .react {
-    width: 30%;
+    width: 50%;
     animation: react 10s;
   }
   @keyframes html {
@@ -382,7 +382,7 @@
       width: 0%;
     }
     100%{
-      width: 30%;
+      width: 50%;
     }
   }
   /* project part ------------------------ */

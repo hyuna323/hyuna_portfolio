@@ -51,6 +51,8 @@ window.onclick = function(event) {
   }
 };
 
+
+
 // page move -----------------------------
 function home(){
   let url = "https://hyuna323.github.io/hyuna_portfolio/html/portfolio_main.html";
@@ -72,4 +74,3 @@ function home(){
 
 // const trigger = new ScrollTrigger.default();
 // trigger.add('[data-trigger]');
-

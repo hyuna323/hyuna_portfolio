@@ -330,7 +330,7 @@
     float: left;
     background: linear-gradient(135deg, rgba(75, 117, 103, 1)0%, rgb(172, 213, 199)100%);
   }
-  .html {
+  .html:hover {
     width: 90%;
     animation: html 10s;
   }
@@ -347,7 +347,7 @@
     animation: git 10s;
   }
   .react {
-    width: 30%;
+    width: 50%;
     animation: react 10s;
   }
   @keyframes html {
@@ -387,7 +387,7 @@
       width: 0%;
     }
     100%{
-      width: 30%;
+      width: 50%;
     }
   }
 
