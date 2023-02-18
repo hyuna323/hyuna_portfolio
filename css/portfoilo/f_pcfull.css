@@ -213,6 +213,8 @@
     height: auto;
     margin: auto;
     margin-bottom: 50px;
+    opacity: 0;
+    transition: all 3s;
   }
   .about_inner {
     width: 93.75%; min-width: 1800px;
@@ -277,6 +279,8 @@
 
   /* skills part --------------------- */
   .skills {
+    opacity: 0;
+    transition: all 3s;
     list-style: none;
     text-transform: uppercase;
   }
@@ -396,6 +400,8 @@
     width: 100%; min-width: 1920px;
     width: 100%;
     margin: 0 auto;
+    opacity: 0;
+    transition: all 3s;
   }
   .project_logo {
     width: 10.4167%; min-width: 200px;
@@ -582,6 +588,8 @@
   .clone {
     width: 100%; min-width: 1920px;
     margin: 0 auto;
+    opacity: 0;
+    transition: all 3s;
   }
   /* clone coding title */
   .clone_logo {
@@ -722,6 +730,8 @@
     width: 100%; min-width: 1920px;
     height: auto;
     padding-top: 50px;
+    opacity: 0;
+    transition: all 3s;
     background-color: rgba(75, 117, 103, 0.5);
   }
   /* contact title */

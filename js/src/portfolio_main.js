@@ -74,3 +74,23 @@ function home(){
 
 // const trigger = new ScrollTrigger.default();
 // trigger.add('[data-trigger]');
+
+// 페이지 넘김 animation
+const observer = new IntersectionObserver((e)=>{
+  e.forEach((skill)=>{
+    if (skill.isIntersecting){
+      skill.target.style.opacity = 1;
+    } else {
+      skill.target.style.opacity = 0;
+    }
+  })
+})
+
+const Section = document.querySelectorAll("section")
+
+
+observer.observe(Section[1])
+observer.observe(Section[2])
+observer.observe(Section[3])
+observer.observe(Section[4])
+observer.observe(Section[5])
