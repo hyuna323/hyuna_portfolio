@@ -578,7 +578,7 @@
     width: 100%; min-width: 1280px; max-width: 1439px;
     margin: 0 auto;
     opacity: 0;
-    transition: all 3s;
+    transition: all 2s;
   }
   /* clone coding title */
   .clone_logo {
