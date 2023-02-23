@@ -707,7 +707,7 @@
     flex-wrap: wrap;
   }
   .contect_info address {
-    width: 93.75%; min-width: 300px;
+    width: 100%; min-width: 300px;
     text-align: center;
   }
   .contect_info span {
