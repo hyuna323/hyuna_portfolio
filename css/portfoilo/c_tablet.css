@@ -397,7 +397,7 @@
     vertical-align: top;
   }
   .project_item li a {
-    width: 48.1771%; min-width: 370px;
+    width: 47.1771%; min-width: 302px;
     height: auto;
     margin: auto;
     display: block;
@@ -430,9 +430,10 @@
     background-size: 80%;
     background-repeat: no-repeat;
   }
+  #fp-nav {display: none;}
   .project_list [id="slide01"]:checked ~ .project_inner .project_item li {transform: translateX(0);}
-  .project_list [id="slide02"]:checked ~ .project_inner .project_item li {transform: translateX(-100%);}
-  .project_list [id="slide03"]:checked ~ .project_inner .project_item li {transform: translateX(-200%);}
+  .project_list [id="slide02"]:checked ~ .project_inner .project_item li {transform: translateX(-100.9%);}
+  .project_list [id="slide03"]:checked ~ .project_inner .project_item li {transform: translateX(-203.2%);}
   
   .screen:hover .screen_top {
     bottom: 52%;
@@ -463,11 +464,10 @@
     display: flex;
     text-align: center;
   }
-  .btn, .web_btn {
+  .btn {
     width: 100%;
     height: 45px;
     margin-right: 10px;
-    float: left;
     font-size: 13px;
     font-weight: 400;
     text-decoration: none;
@@ -476,7 +476,17 @@
     border-radius: 7px;
     background-color: rgba(75, 117, 103, 0.3);
   }
-  
+  .web_btn {
+    width: 100%;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 7px;
+    background-color: rgba(75, 117, 103, 0.3);
+  }
   /* modal ====================================== */
   .modal {
     width: 100%; /* Full width */
