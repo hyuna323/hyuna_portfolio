@@ -221,7 +221,7 @@
     display: flex;
   }
   .proflie_part {
-    width: 50%; min-width: 655px;
+    width: 42%; min-width: 550px;
     margin: auto;
     padding-left: 40px;
   }
@@ -268,14 +268,18 @@
   }
   /* main introduce */
   .introduction_part {
-    width: 50%;
+    width: 58%;
     padding-top: 100px;
-    padding-left: 50px;
+  }
+  .introduction_part p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
   }
   .introduction_part span {
     font-size: 18px;
+    font-weight: 300;
   }
-  
   /* skills part --------------------- */
   .skills {
     opacity: 0;

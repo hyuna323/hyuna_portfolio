@@ -213,7 +213,7 @@
   
   /* about part ---------------------------- */
   .about {
-    width: 93.75%; min-width: 1800px;
+    width: 88.75%; min-width: 1704px;
     height: auto;
     margin: auto;
     margin-bottom: 50px;
@@ -221,13 +221,13 @@
     transition: all 3s;
   }
   .about_inner {
-    width: 93.75%; min-width: 1800px;
+    width: 88.75%; min-width: 1704px;
     height: auto;
     margin: auto;
     display: flex;
   }
   .proflie_part {
-    width: auto;
+    width: 42%;
     margin: auto;
   }
   /* about title */
@@ -273,12 +273,18 @@
   }
   /* main introduce */
   .introduction_part {
-    width: 50%;
+    width: 58%;
     padding-top: 100px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+  }
+  .introduction_part p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
   }
   .introduction_part span {
     font-size: 22px;
+    font-weight: 300;
   }
 
   /* skills part --------------------- */

@@ -210,7 +210,7 @@
     width: auto; 
     height: auto;
     margin: auto;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
   }
   .about_text p {
@@ -219,8 +219,8 @@
     font-size: 16px;
   }
   .sub_title {
-    margin-top: 20px;
-    font-size: 16px;
+    margin-top: 10px;
+    font-size: 15px;
     font-weight: 500;
     text-align: left;
     text-transform: uppercase;
@@ -235,10 +235,16 @@
   /* main introduce */
   .introduction_part {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 10px;
+    line-height: 18px;
+  }
+  .introduction_part p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
   }
   .introduction_part span {
-    font-size: 14px;
+    font-size: 13px;
   }
   
   /* skills part --------------------- */
@@ -752,6 +758,7 @@
 
   /* #footBox ======================= */
   #footBox {
+    display: none;
     width: 100%; min-width: 320px;
     height: auto;
     position: fixed;
