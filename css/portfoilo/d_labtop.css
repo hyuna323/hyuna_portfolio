@@ -279,7 +279,8 @@
     font-size: 16px;
     font-weight: 300;
   }
-  
+  .introduction_m {display: none;}
+
   /* skills part --------------------- */
   .skills {
     opacity: 0;

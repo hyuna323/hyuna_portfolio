@@ -192,9 +192,9 @@
   }
   /* about title */
   .about_logo {
-    width: 31.25%; min-width: 100px;
+    width: 31.25%; min-width: 87px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
   .about_logo img {
     width: 100%;
@@ -210,13 +210,13 @@
     width: auto; 
     height: auto;
     margin: auto;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 700;
   }
   .about_text p {
     width: auto; 
     height: auto;
-    font-size: 16px;
+    font-size: 14px;
   }
   .sub_title {
     margin-top: 10px;
@@ -233,17 +233,18 @@
     font-size: 14px;
   }
   /* main introduce */
-  .introduction_part {
+  .introduction_part {display: none;}
+  .introduction_m {
     width: 100%;
     padding-top: 10px;
     line-height: 18px;
   }
-  .introduction_part p {
+  .introduction_m p {
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 10px;
   }
-  .introduction_part span {
+  .introduction_m span {
     font-size: 13px;
   }
   
@@ -758,7 +759,7 @@
 
   /* #footBox ======================= */
   #footBox {
-    display: none;
+    /* display: none; */
     width: 100%; min-width: 320px;
     height: auto;
     position: fixed;
