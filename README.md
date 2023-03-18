@@ -5,6 +5,13 @@
 - 간단한 소개, skill, 그 동안 만들은 project, clone coding, contact part로 나눠서 제작
 - 320px, 768px, 1280px, 1440px, 1920px을 반응형으로 제작
 
+## 로고 소개
+<img src = "./img/logo_greenfull.svg" width="100px" hight="100px">
+
+- 이름을 활용하여 한눈에 알아보기 쉽고 유니크하게 로고를 만들고자 함
+- 오현아라는 이름을 한글과 영어를 이용하여 로고 제작
+- '오' + 'hyuna'를 사용하여 이와 같은 로고 생성
+
 ## 사용기술
 - HTML
 - CSS
@@ -21,4 +28,5 @@
 <summary>click me🖱️</summary>
 <details>
 <summary>💙 main page</summary>
+  <img src="./img/main_page.png" width="300" height="700">
 </details>
