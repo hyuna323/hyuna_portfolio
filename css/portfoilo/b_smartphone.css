@@ -211,17 +211,18 @@
     height: auto;
     margin: auto;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 900;
   }
   .about_text p {
     width: auto; 
     height: auto;
     font-size: 14px;
+    font-weight: 400;
   }
   .sub_title {
     margin-top: 10px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: left;
     text-transform: uppercase;
   }
@@ -231,6 +232,7 @@
   }
   .about_text ul li {
     font-size: 14px;
+    font-weight: 400;
   }
   /* main introduce */
   .introduction_part {display: none;}
@@ -241,11 +243,12 @@
   }
   .introduction_m p {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 10px;
   }
   .introduction_m span {
     font-size: 13px;
+    font-weight: 500;
   }
   
   /* skills part --------------------- */
@@ -268,7 +271,7 @@
   .skills_inner h3 {
     margin: 5px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
   }
   /* skills inner */
   .skills_inner {
@@ -470,8 +473,8 @@
     width: 48.3333%; min-width: 87px;
     height: 35px;
     margin-right: 10px;
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
@@ -481,8 +484,8 @@
   .web_btn {
     width: 48.3333%; min-width: 87px;
     height: 35px;
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
@@ -666,7 +669,7 @@
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     z-index: 2;
   }
   .clone_screen:hover::after {
@@ -718,6 +721,7 @@
   }
   .contact_text ul li {
     font-size: 14px;
+    font-weight: 500;
   }
   /* contact address */
   .contect_info {
@@ -732,11 +736,12 @@
   }
   .contect_info span {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
   }
   .contect_info a {
     font-size: 14px;
+    font-weight: 500;
   }
   /* copy right */
   .copyBox {
@@ -751,15 +756,15 @@
   }
   .copy_inner p {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     text-transform: uppercase;
-    color: #444;
+    color: #555;
   }
 
   /* #footBox ======================= */
   #footBox {
-    /* display: none; */
+    display: none;
     width: 100%; min-width: 320px;
     height: auto;
     position: fixed;
