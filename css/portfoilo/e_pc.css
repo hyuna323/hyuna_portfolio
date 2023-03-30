@@ -6,7 +6,7 @@
   #headBox {
     width: 100%; min-width: 1440px;
     height: 90px;
-    padding: 10px 12px 14px 12px;
+    padding: 0 20px;
     position: fixed;
     box-sizing: border-box;
     z-index: 1000;
@@ -24,6 +24,7 @@
     width: 100%;
     height: 100%;
     margin: auto;
+    padding-top: 10px;
   }
   .headinner h1 a {
     width: 100px;
@@ -32,7 +33,7 @@
   .headinner h1 button {
     width: 100px;
     height: 80px;
-    background-image: url(../../img/logo_greenfull.svg);
+    background-image: url(../../img/new_logo.svg);
     background-size: 100px 80px;
     background-repeat: no-repeat;
     -webkit-animation: rotation 5s infinite linear;
@@ -56,183 +57,187 @@
   .portfolio_part {
     width: 24.0741%; min-width: 130px;
     height: 100%;
-    line-height: 56px;
-    font-size: 20px;
+    line-height: 90px;
   }
   .portfolio_part a {
     width: auto;
     height: 100%;
     display: block;
+    font-size: 20px;
+    font-weight: 500;
     text-decoration: none;
   }
   .portfolio_part a:hover {
     font-size: 23px;
-    font-weight: 600;
-    color: #4b7567;
+    font-weight: 900;
+    color: #566270;
   }
   /* about button */
   .about_part {
     width: 18.5185%; min-width: 100px;
     height: 100%;
-    line-height: 56px;
-    font-size: 20px;
+    line-height: 90px;
   }
   .about_part a {
     width: auto;
     height: 100%;
     display: block;
+    font-size: 20px;
+    font-weight: 500;
     text-decoration: none;
   }
   .about_part a:hover {
     font-size: 23px;
-    font-weight: 600;
-    color: #4b7567;
+    font-weight: 900;
+    color: #566270;
   }
   /* skills button */
   .skills_part {
     width: 18.5185%; min-width: 100px;
     height: 100%;
-    line-height: 56px;
-    font-size: 20px;
+    line-height: 90px;
   }
   .skills_part a {
     width: auto;
     height: 100%;
     display: block;
+    font-size: 20px;
+    font-weight: 500;
     text-decoration: none;
   }
   .skills_part a:hover {
     font-size: 23px;
-    font-weight: 600;
-    color: #4b7567;
+    font-weight: 900;
+    color: #566270;
   }
   /* project button */
   .project_part {
     width: 18.5185%; min-width: 100px;
     height: 100%;
-    line-height: 56px;
-    font-size: 20px;
+    line-height: 90px;
   }
   .project_part a {
     width: auto;
     height: 100%;
     display: block;
+    font-size: 20px;
+    font-weight: 500;
     text-decoration: none;
   }
   .project_part a:hover {
     font-size: 23px;
-    font-weight: 600;
-    color: #4b7567;
+    font-weight: 900;
+    color: #566270;
   }
   /* clone button */
   .clone_part {
     width: 18.5185%; min-width: 100px;
     height: 100%;
-    line-height: 56px;
-    font-size: 20px;
+    line-height: 90px;
   }
   .clone_part a {
     width: auto;
     height: 100%;
     display: block;
+    font-size: 20px;
+    font-weight: 500;
     text-decoration: none;
   }
   .clone_part a:hover {
     font-size: 23px;
-    font-weight: 600;
-    color: #4b7567;
+    font-weight: 900;
+    color: #566270;
   }
   /* contact button */
   .contact_part {
     width: 20.3704%; min-width: 110px;
     height: 100%;
-    line-height: 56px;
-    font-size: 20px;
+    line-height: 90px;
   }
   .contact_part a {
     width: auto;
     height: 100%;
     display: block;
+    font-size: 20px;
+    font-weight: 500;
     text-decoration: none;
   }
   .contact_part a:hover {
     font-size: 23px;
-    font-weight: 600;
-    color: #4b7567;
+    font-weight: 900;
+    color: #566270;
   }
   .header_m {display: none;}
   
+  #main_contant {
+    padding-top: 90px;
+  }
+
   /* portfolio cover --------------- */
-  .portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .cover {
-    height: 100%;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-  }
-  .year {
-    width: auto;
-    height: 100px;
-    margin-bottom: 20px;
-  }
-  .year img {
-    width: 70px;
-    height: auto;
-    margin: 35px;
-  }
-  .title_logo {
-    width: 200px;
-    height: 150px;
-    margin: auto;
-  }
-  .title_logo img {
+  #portfolio {
     width: 100%;
-    margin: auto;
-    vertical-align: middle;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
   }
-  .job {
+  #portfolio img {
+    width: 100%; height: 100%;
+  }
+  .cover_text {
     width: auto;
-    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: #222;
   }
-  .job img {
-    width: 200px;
-    height: auto;
-    margin: 35px;
+  .cover_text p {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .cover_text span {
+    font-size: 65px;
+    font-weight: 700;
+  }
+  
+  .content_wrap {
+    padding-top: 100%;
   }
   
   /* about part ---------------------------- */
-  .about {
-    width: 92.3611%; min-width: 1330px;
+  #about {
+    width: 100%;
     height: auto;
     margin: auto;
-    margin-bottom: 50px;
-    opacity: 0;
-    transition: all 3s;
+    background-color: #fafafa;
+    z-index: 10;
   }
   .about_inner {
     width: 90.9722%; min-width: 1310px;
     height: auto;
     margin: auto;
+    padding: 110px 60px;
     display: flex;
   }
   .proflie_part {
-    width: 42%; min-width: 550px;
+    width: 42%;
     margin: auto;
-    padding-left: 40px;
   }
   /* about title */
   .about_logo {
-    width: 53.4351%; min-width: 350px;
     margin-bottom: 60px;
   }
-  .about_logo img {
+  .about_logo h3 {
     width: 100%;
     height: auto;
+    font-size: 90px;
+    font-weight: 300;
+    text-shadow: 10px 5px 10px #353b48;
+    text-transform: uppercase;
+    color: #566270;
   }
   /* profile */
   .about_text {
@@ -251,6 +256,7 @@
     width: auto; 
     height: auto;
     font-size: 20px;
+    font-weight: 400;
   }
   .sub_title {
     margin-top: 25px;
@@ -265,43 +271,50 @@
   }
   .about_text ul li {
     font-size: 20px;
+    font-weight: 500;
   }
   /* main introduce */
   .introduction_part {
     width: 58%;
-    padding-top: 100px;
   }
   .introduction_part p {
     margin-bottom: 10px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
   }
   .introduction_part span {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
   }
   .introduction_m {display: none;}
 
   /* skills part --------------------- */
-  .skills {
-    opacity: 0;
-    transition: all 3s;
+  #skills {
+    width: auto;
+    height: 650px;
     list-style: none;
     text-transform: uppercase;
+    background-color: #fafafa;
   }
   /* skills title */
   .skills_logo {
-    width: 13.2813%; min-width: 170px;
+    width: 100%;
     height: auto;
     margin: auto;
-    margin-bottom: 30px;
+    padding: 40px 0;
   }
-  .skills_logo img {
+  .skills_logo h3 {
     width: 100%;
     margin: auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    text-shadow: 10px 5px 10px #353b48;
+    text-transform: uppercase;
+    color: #566270;
   }
   /* skills inner */
-  .skills_inner h3 {
+  .skills_inner h4 {
     margin: 5px;
     font-size: 20px;
     font-weight: 400;
@@ -329,7 +342,7 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    background: #353b48;
+    background: #fff;
   }
   .bar:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -337,7 +350,7 @@
   .bar span {
     height: 25px;
     float: left;
-    background: linear-gradient(135deg, rgba(75, 117, 103, 1)0%, rgb(172, 213, 199)100%);
+    background: linear-gradient(135deg, rgba(86, 98, 112, 100), rgb(171, 173, 176)100%);
   }
   .html {
     width: 90%;
@@ -400,213 +413,57 @@
     }
   }
   /* project part ------------------------ */
-  .project {
-    width: 100%;
-    min-width: 1440px; max-width: 1919px;
+  #project {
+    width: 100%; min-width: 1440px;
     margin: 0 auto;
-    opacity: 0;
-    transition: all 3s;
+    background-color: #fafafa;
   }
   .project_logo {
-    width: 13.2813%; min-width: 170px;
-    height: auto;
-    margin: auto;
-  }
-  .project_logo img {
-    width: 100%;
-    height: auto;
-  }
-  .project_inner {
-    width: 90.2778%; min-width: 1300px;
-    height: auto;
-    margin: auto;
-    margin-top: 30px;
-  }
-  .project_item {
     width: 100%;
     height: auto;
     margin: auto;
+    padding: 40px 0;
   }
-  .project_item li {
-    width: 25.6944%; min-width: 370px;
-    height: 100%;
-    margin: 0 25px;
-    display: inline-block;
-    vertical-align: top;
-  }
-  .project_item li a {
-    width: auto;
-    height: 420px;
-    margin: 5px;
-    display: block;
-    text-decoration: none;
-  }
-  .project_list input {display: none;}
-  .project_list input [id="slide"] {display: none;}
-  
-  /* project hover 시 효과 */
-  .screen:hover .screen_top {
-    bottom: 62%;
-  }
-  .screen:hover .screen_middle {
-    top: 42%;
-  }
-  .screen:hover .screen_bottom {
-    top: 52%;
-  }
-  .screen {
-    width: auto;
-    height: 420px;
-    position: relative;
-    overflow: hidden;
-  }
-  .screen img {
+  .project_logo h3 {
     width: 100%;
-    height: 420px;
-  }
-  .screen_top {
-    width: 340px;
-    position: absolute;
-    left: 2%;
-    bottom: 150%;
-    transition: all.35s;
-    font-size: 26px;
-    font-weight: 900;
+    height: auto;
     text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    text-shadow: 10px 5px 10px #353b48;
     text-transform: uppercase;
-    color: #fff;
-    z-index: 2;
-  }
-  .screen_middle {
-    width: 340px;
-    position: absolute;
-    left: 2%;
-    bottom: 150%;
-    transition: all.35s;
-    font-size: 18px;
-    font-weight: 900;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    z-index: 2;
-  }
-  .screen_bottom {
-    width: 340px;
-    position: absolute;
-    top: 150%;
-    left: 2%;
-    transition: all.35s;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
-    z-index: 2;
-  }
-  .screen:hover::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    transition: all.35s;
-    border-radius: 10px;
-    z-index: 1;
-    background: rgba(75, 117, 103, 0.8);
-  }
-  .project_inner ul li a:hover .screen::after {
-    opacity: 1;
-  }
-  /* project 자세히 보기 */
-  .project_contact {
-    width: 22.2222%; min-width: 320px;
-    margin: auto;
-    margin-top: 20px;
-    display: flex;
-    text-align: center;
-  }
-  .btn, .web_btn {
-    width: 100%;
-    height: 55px;
-    margin-right: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 7px;
-    background-color: rgba(75, 117, 103, 0.3);
-  }
-
-  /* modal =================================== */
-  .modal {
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    position: fixed;
-    left: 0;
-    top: 55.9%;
-    background: rgba(0,0,0,0.8);
-    display: none;
-    z-index: 1000;
-  }
-  .modal > div {
-    color: #fff;
-    height: auto;
-  }
-  /* Modal Content/Box */
-  .modal_content {
-    width: 80%; /* Could be more or less, depending on screen size */
-    margin: auto; /* 15% from the top and centered */
-    top: 0px;
-    position: relative;
-  }
-  .modal_content > iframe {
-    width: 97%;
-    height: auto;
-    min-height: 702px;
-    background: #fff;
-    transform: translate(0);
-  }
-  /* The Close Button */
-  .close {
-    position: absolute;
-    /* padding-left: 10px; */
-    top: 10px;
-    right: 40px;
-    z-index: 1001;
-  }
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+    color: #566270;
   }
 
   /* clone coding part --------------------------- */
-  .clone {
-    width: 100%; min-width: 1440px; max-width: 1919px;
+  #clone {
+    width: 100%; min-width: 1440px;
+    height: 600px;
     margin: 0 auto;
-    opacity: 0;
-    transition: all 3s;
+    background-color: #fafafa;
   }
   /* clone coding title */
   .clone_logo {
-    width: 13.2813%; min-width: 170px;
-    height: auto;
-    margin: auto;
-    margin-bottom: 30px;
-  }
-  .clone_logo img {
     width: 100%;
     height: auto;
+    margin: auto;
+    padding: 40px 0;
+  }
+  .clone_logo h3 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    text-shadow: 10px 5px 10px #353b48;
+    text-transform: uppercase;
+    color: #566270;
   }
   .clone_inner {
     width: 1300px;
     height: auto;
     margin: auto;
     display: flex;
-    /* flex-wrap: wrap; */
   }
   /* clone coding top */
   .clone_top {
@@ -720,36 +577,39 @@
     opacity: 1;
     transition: all.35s;
     z-index: 1;
-    background: rgba(75, 117, 103, 0.8);
+    background-color: #566270;
   }
   .clone_inner ul li a:hover .screen::after {
     opacity: 1;
   }
   
   /* contact part -------------------------------- */
-  .contact {
+  #contact {
     width: 100%; min-width: 1440px;
     height: auto;
     padding-top: 30px;
-    opacity: 0;
-    transition: all 3s;
-    background-color: rgba(75, 117, 103, 0.5);
+    background-color: #fff;
   }
   /* contact title */
   .contact_logo {
-    width: 13.2813%; min-width: 170px;
+    width: 100%;
     height: auto;
     margin: auto;
     margin-bottom: 30px;
   }
-  .contact_logo img {
+  .contact_logo h3 {
     width: 100%;
     height: auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    text-shadow: 10px 5px 10px #353b48;
+    text-transform: uppercase;
+    color: #566270;
   }
   .contact_inner {
     width: auto;
     margin: auto;
-    margin-top: 40px;
     text-align: center;
   }
   .contact_text ul {
@@ -758,6 +618,7 @@
   }
   .contact_text ul li {
     font-size: 18px;
+    font-weight: 500;
   }
   /* contact address */
   .contect_info {
@@ -771,11 +632,13 @@
   }
   .contect_info span {
     font-size: 19px;
-    font-weight: 500;
+    font-weight: 800;
     text-transform: uppercase;
+    color: #566270;
   }
   .contect_info a {
     font-size: 18px;
+    font-weight: 500;
   }
   /* copy right */
   .copyBox {
@@ -790,7 +653,7 @@
   }
   .copy_inner p {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     text-transform: uppercase;
     color: #444;
