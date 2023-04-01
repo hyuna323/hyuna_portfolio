@@ -544,7 +544,7 @@
     opacity: 1;
     transition: all.35s;
     z-index: 1;
-    background: rgba(75, 117, 103, 0.8);
+    background-color: #566270;
   }
   .clone_inner ul li a:hover .screen::after {
     opacity: 1;
