@@ -1,6 +1,6 @@
 $(function(){
 
-  $('#fullpage').fullpage({
+  $('#headBox').headinner({
 		//options here
     anchors: ['portfolio', 'about', 'skills', 'project', 'clone', 'contact'],
 		autoScrolling:true,
