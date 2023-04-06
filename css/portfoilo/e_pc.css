@@ -7,8 +7,9 @@
     width: 100%; min-width: 1440px;
     height: 90px;
     padding: 0 20px;
-    position: fixed;
+    position: sticky;
     box-sizing: border-box;
+    top: 0;
     z-index: 1000;
     background-color: #fff;
   }
@@ -169,11 +170,11 @@
   }
   .header_m {display: none;}
   
-  #main_contant {
+  /* #main_contant {
     width: auto;
     height: auto;
     padding-top: 90px;
-  }
+  } */
 
   /* portfolio cover --------------- */
   #portfolio {
@@ -220,7 +221,7 @@
     width: 90.9722%; min-width: 1310px;
     height: auto;
     margin: auto;
-    padding: 110px 60px;
+    padding: 200px 0 110px 60px;
     display: flex;
   }
   .proflie_part {
@@ -292,7 +293,7 @@
   /* skills part --------------------- */
   #skills {
     width: auto;
-    height: 650px;
+    height: 740px;
     list-style: none;
     text-transform: uppercase;
     background-color: #fafafa;
@@ -302,7 +303,7 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 40px 0;
+    padding: 130px 0 40px 0;
   }
   .skills_logo h3 {
     width: 100%;
@@ -423,7 +424,7 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 40px 0;
+    padding: 130px 0 40px 0;
   }
   .project_logo h3 {
     width: 100%;
@@ -435,11 +436,250 @@
     text-transform: uppercase;
     color: #566270;
   }
+  .project_inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* project_01 */
+  .project_01 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_img01 {
+    width: 50%;
+  }
+  .image_inner01 {
+    width: 360px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5%;
+    background-color: #fff;
+  }
+  .image_inner01 p {
+    width: 52%;
+    height: 66px;
+    margin: auto;
+    margin-top: 32%;
+    background-repeat: no-repeat;
+    background-image: url(../../img/ohoulogo.png);
+  }
+  .right_txt01 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+  /* .txt_inner01 {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  } */
+  .txt_inner01 p {
+    width: 100%;
+  }
+
+  /* project_02 */
+  .project_02 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_txt02 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+  .txt_inner02 p {
+    width: 100%;
+  }
+  .right_img02 {
+    width: 50%;
+  }
+  .image_inner02 {
+    width: 360px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5%;
+    background-color: #fff;
+  }
+  .image_inner02 p {
+    width: 55%;
+    height: 10%;
+    margin: auto;
+    margin-top: 38%;
+    background-image: url(../../img/ediyalogo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  /* project_03 */
+  .project_03 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_img03 {
+    width: 50%;
+  }
+  .image_inner03 {
+    width: 360px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5%;
+    background-color: #fff;
+  }
+  .image_inner03 p {
+    width: 60%;
+    height: 76px;
+    margin: auto;
+    margin-top: 32%;
+    background-image: url(../../img/logoplus.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .right_txt03 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+  .txt_inner03 {
+    /* height: 100%;
+    display: flex;
+    flex-wrap: wrap; */
+  }
+  .txt_inner03 p {
+    width: 100%;
+  }
+
+  /* project_04 */
+  .project_04 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_txt04 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+  .txt_inner04 p {
+    width: 100%;
+  }
+  .right_img04 {
+    width: 50%;
+  }
+  .image_inner04 {
+    width: 360px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5%;
+    background-color: #fff;
+  }
+  .image_inner04 p {
+    width: 55%;
+    height: 10%;
+    margin: auto;
+    margin-top: 38%;
+    background-image: url(../../img/ediyalogo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  /* project 자세히 보기 */
+  .project_contact {
+    width: 46.875%; min-width: 360px;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+    height: 45px;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #566270;
+  }
+  .web_btn {
+    width: 100%;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #566270;
+  }
+  /* modal ====================================== */
+  .modal {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    z-index: 1000;
+  }
+  .modal > div {
+    color: #fff;
+    height: auto;
+  }
+  .modal_content > iframe {
+    width: 100%;
+    height: auto;
+    min-height: 465px;
+    background: #fff;
+    transform: translate(0);
+  }
+  /* Modal Content/Box */
+  .modal_content {
+    width: 90%; /* Could be more or less, depending on screen size */
+    margin: auto; /* 15% from the top and centered */
+    top: 0px;
+    position: relative;
+  }
+  .modal_img {
+    width: 100%;
+  } 
+  /* The Close Button */
+  .close {
+    float: left;
+    top: 10px;
+    right: 8px;
+    position: absolute;
+    z-index: 2;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
 
   /* clone coding part --------------------------- */
   #clone {
     width: 100%; min-width: 1440px;
-    height: 600px;
+    height: auto;
     margin: 0 auto;
     background-color: #fafafa;
   }
@@ -448,7 +688,7 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 40px 0;
+    padding: 130px 0 40px 0;
   }
   .clone_logo h3 {
     width: 100%;
@@ -464,6 +704,7 @@
     width: 1300px;
     height: auto;
     margin: auto;
+    padding-bottom: 140px;
     display: flex;
   }
   /* clone coding top */
@@ -564,7 +805,7 @@
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     z-index: 2;
   }
   .clone_screen:hover::after {
@@ -588,7 +829,7 @@
   #contact {
     width: 100%; min-width: 1440px;
     height: auto;
-    padding-top: 30px;
+    padding-bottom: 70px;
     background-color: #fff;
   }
   /* contact title */
@@ -597,6 +838,7 @@
     height: auto;
     margin: auto;
     margin-bottom: 30px;
+    padding-top: 90px;
   }
   .contact_logo h3 {
     width: 100%;
@@ -653,6 +895,7 @@
     position: relative;
   }
   .copy_inner p {
+    padding-top: 30px;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
