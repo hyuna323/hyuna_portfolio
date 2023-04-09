@@ -7,7 +7,8 @@
     width: 100%; min-width: 320px;
     height: 60px;
     padding: 5px 10px;
-    position: fixed;
+    position: sticky;
+    top: 0;
     box-sizing: border-box;
     z-index: 1000;
     background-color: #fff;
@@ -43,9 +44,6 @@
   }
   .unb {display: none;}
 
-  #main_contant {
-    padding-top: 60px;
-  }
   /* moblie slide part --------------------- */
   .header_m {
     width: auto;
@@ -161,22 +159,20 @@
   }
 
   .content_wrap {
-    padding-top: 160%;
+    padding-top: 206%;
   }
 
   /* about part ---------------------------- */
   #about {
-    width: auto;
+    width: 100%;
     height: auto;
     margin: auto;
     background-color: #fafafa;
-    z-index: 10;
   }
   .about_inner {
     width: 87.5%; min-width: 280px;
     height: auto;
     margin: auto;
-    padding: 30px 10px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -189,8 +185,8 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 20px 0;
-    margin-bottom: 25px;
+    padding: 70px 0 20px 0;
+    margin-bottom: 20px;
   }
   .about_logo h3 {
     width: 100%;
@@ -209,21 +205,19 @@
     margin: auto;
   }
   .about_text span {
-    width: auto; 
-    height: auto;
     margin: auto;
-    font-size: 15px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 800;
   }
   .about_text p {
     width: auto; 
     height: auto;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
   }
   .sub_title {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
@@ -234,7 +228,8 @@
   }
   .about_text ul li {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 24px;
   }
   /* main introduce */
   .introduction_part {display: none;}
@@ -244,19 +239,22 @@
     line-height: 18px;
   }
   .introduction_m p {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 26px;
     font-weight: 700;
     margin-bottom: 5px;
   }
   .introduction_m span {
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
   }
   
   /* skills part --------------------- */
   #skills {
     width: auto;
-    height: 500px;
+    height: auto;
+    padding-bottom: 60px;
     list-style: none;
     background-color: #fafafa;
   }
@@ -265,13 +263,13 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 20px 0;
+    padding: 70px 0 20px 0;
   }
   .skills_logo h3 {
     width: 100%;
     margin: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 400;
     text-shadow: 10px 5px 8px #353b48;
     text-transform: uppercase;
@@ -279,8 +277,8 @@
   }
   .skills_inner h4 {
     margin: 5px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
   }
   /* skills inner */
   .skills_inner {
@@ -388,23 +386,269 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 20px 0;
+    padding: 70px 0 20px 0;
   }
   .project_logo h3 {
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 400;
     text-shadow: 10px 5px 8px #353b48;
     text-transform: uppercase;
     color: #566270;
   }
+  .project_inner {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* project_01 */
+  .project_01 {
+    width: 93.75%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_img01 {
+    width: 40%;
+  }
+  .image_inner01 {
+    width: auto;
+    height: auto;
+    margin: 26px auto;
+    border-radius: 5%;
+  }
+  .image_inner01 p {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /* margin-top: 32%; */
+    background-repeat: no-repeat;
+    background-image: url(../../img/ohou_minilogo.svg);
+    background-size: 100% 100%;
+  }
+  .right_txt01 {
+    width: 60%;
+    height: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .txt_inner01 p {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  /* project_02 */
+  .project_02 {
+    width: 93.75%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_txt02 {
+    width: 60%;
+    height: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .txt_inner02 p {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+  }
+  .right_img02 {
+    width: 40%;
+  }
+  .image_inner02 {
+    width: auto;
+    height: auto;
+    margin: 26px auto;
+    border-radius: 5%;
+  }
+  .image_inner02 p {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /* margin-top: 32%; */
+    background-repeat: no-repeat;
+    background-image: url(../../img/ediyamark.png);
+    background-size: 100% 100%;
+  }
+
+  /* project_03 */
+  .project_03 {
+    width: 93.75%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_img03 {
+    width: 40%;
+  }
+  .image_inner03 {
+    width: auto;
+    height: auto;
+    margin: 26px auto;
+    border-radius: 5%;
+  }
+  .image_inner03 p {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /* margin-top: 32%; */
+    background-repeat: no-repeat;
+    background-image: url(../../img/new_logo.svg);
+    background-size: 100% 100%;
+  }
+  .right_txt03 {
+    width: 60%;
+    height: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .txt_inner03 p {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  /* project_04 */
+  .project_04 {
+    width: 93.75%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_txt04 {
+    width: 53%;
+    height: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .txt_inner04 p {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+  }
+  .right_img04 {
+    width: 47%;
+  }
+  .image_inner04 {
+    width: auto;
+    height: auto;
+    margin: 26px auto;
+    border-radius: 5%;
+  }
+  .image_inner04 p {
+    width: 90.781%;
+    height: 70px;
+    margin: auto;
+    /* margin-top: 32%; */
+    background-repeat: no-repeat;
+    background-image: url(../../img/oflogo.png);
+    background-size: 100% 100%;
+  }
+
+  /* project 자세히 보기 */
+  .project_contact {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #566270;
+    cursor: pointer;
+  }
+  .web_btn {
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #566270;
+    cursor: pointer;
+  }
+
+  /* modal ====================================== */
+  .modal {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    z-index: 1000;
+  }
+  .modal > div {
+    color: #fff;
+    height: auto;
+  }
+  .modal_content > iframe {
+    width: 100%;
+    height: auto;
+    min-height: 318px;
+    background: #fff;
+    transform: translate(0);
+  }
+  /* Modal Content/Box */
+  .modal_content {
+    width: 90%; /* Could be more or less, depending on screen size */
+    margin: auto; /* 15% from the top and centered */
+    top: 0px;
+    position: relative;
+  }
+  .modal_img {
+    width: 100%;
+  } 
+  /* The Close Button */
+  .close {
+    width: 25px;
+    height: 25px;
+    float: left;
+    top: 10px;
+    right: 8px;
+    position: absolute;
+    z-index: 2;
+  }
+  .close img {
+    width: 100%;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
   /* clone coding part --------------------------- */
   #clone {
     width: 100%; min-width: 320px;
-    height: 330px;
+    height: auto;
     margin: 0 auto;
     background-color: #fafafa;
   }
@@ -413,13 +657,13 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 20px 0;
+    padding: 70px 0 20px 0;
   }
   .clone_logo h3 {
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 400;
     text-shadow: 10px 5px 8px #353b48;
     text-transform: uppercase;
@@ -428,7 +672,8 @@
   .clone_inner {
     width: 300px;
     height: auto;
-    margin: auto;
+    margin: 30px auto 0;
+    padding-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -512,7 +757,7 @@
 
   /* clone coding screen */
   .clone_screen:hover .screen_inner {
-    bottom: 23%;
+    bottom: 32%;
   }
   .clone_screen {
     width: auto;
@@ -525,7 +770,7 @@
     position: absolute;
     bottom: 150%;
     transition: all.35s;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
@@ -561,13 +806,13 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 20px 0;
+    padding: 70px 0 20px 0;
   }
   .contact_logo h3 {
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 400;
     text-shadow: 10px 5px 8px #353b48;
     text-transform: uppercase;
@@ -583,8 +828,8 @@
     line-height: 30px;
   }
   .contact_text ul li {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
   }
   /* contact address */
   .contect_info {
@@ -594,179 +839,36 @@
     flex-wrap: wrap;
   }
   .contect_info address {
-    width: 100%; min-width: 300px;
+    width: 100%;
     text-align: center;
   }
   .contect_info span {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
     color: #566270;
   }
   .contect_info a {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
   }
   /* copy right */
   .copyBox {
-    width: 100%; min-width: 320px;
+    width: 100%;
     height: 60px;
+    margin: auto;
+    margin-top: 20px;
     line-height: 60px;
   }
   .copy_inner {
     width: auto;
     height: auto;
-    position: relative;
   }
   .copy_inner p {
     font-size: 12px;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
-    color: #444;
-  }
-
-  /* #footBox ======================= */
-  #footBox {
-    display: none;
-    width: 100%; min-width: 320px;
-    height: auto;
-    position: fixed;
-    left: 0;
-    bottom: 0%;
-    z-index: 1000;
-  }
-  .fnb {
-    width: 100%;
-    height: 70px;
-    line-height: 50px;
-    display: flex;
-    background-color: rgba(75, 117, 103, 96%);
-  }
-  /* portfolio part fnb button */
-  .fnb_portfolio {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/logo_whitefull.svg) no-repeat center;
-    background-size: 35px;
-  }
-  .fnb_portfolio a {
-    width: 16.667%; min-width: 53px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-  }
-  .fnb_portfolio:hover {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/logo_blackfull.svg) no-repeat center;
-    background-size: 35px;
-  }
-  /* about part fnb button */
-  .fnb_about {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/about.svg) no-repeat center;
-    background-size: 35px;
-  }
-  .fnb_about a {
-    width: 16.667%; min-width: 53px;
-    height: 100%;
-    position: absolute;
-    left: 16.667%;
-  }
-  .fnb_about:hover {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/about_on.svg) no-repeat center;
-    background-size: 35px;
-  }
-  /* skills part fnb button */
-  .fnb_skills {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/skill.svg) no-repeat center;
-    background-size: 35px;
-  }
-  .fnb_skills a {
-    width: 16.667%; min-width: 53px;
-    height: 100%;
-    position: absolute;
-    left: 33.334%;
-  }
-  .fnb_skills:hover {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/skill_on.svg) no-repeat center;
-    background-size: 35px;
-  }
-  /* project part fnb button */
-  .fnb_project {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/portfolio.svg) no-repeat center;
-    background-size: 35px;
-  }
-  .fnb_project a {
-    width: 16.667%; min-width: 53px;
-    height: 100%;
-    position: absolute;
-    left: 50.001%;
-  }
-  .fnb_project:hover {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/portfoilo_on.svg) no-repeat center;
-    background-size: 35px;
-  }
-  /* clone part fnb button */
-  .fnb_clone {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/clone.svg) no-repeat center;
-    background-size: 35px;
-  }
-  .fnb_clone a {
-    width: 16.667%; min-width: 53px;
-    height: 100%;
-    position: absolute;
-    left: 66.668%;
-  }
-  .fnb_clone:hover {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/clone_on.svg) no-repeat center;
-    background-size: 35px;
-  }
-  /* contact part fnb button */
-  .fnb_contact {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/contact.svg) no-repeat center;
-    background-size: 35px;
-  }
-  .fnb_contact a {
-    width: 16.667%; min-width: 53px;
-    height: 100%;
-    position: absolute;
-    left: 83.335%;
-  }
-  .fnb_contact:hover {
-    width: 16.667%; min-width: 53px;
-    margin-bottom: 5px;
-    text-align: center;
-    background: url(../../img/contact_on.svg) no-repeat center;
-    background-size: 35px;
+    color: #666;
   }
 }

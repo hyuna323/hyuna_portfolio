@@ -5,7 +5,7 @@
   #headBox {
     width: 100%; min-width: 1920px;
     height: 90px;
-    padding: 0 20px;
+    padding: 0 25px 0 20px;
     position: fixed;
     box-sizing: border-box;
     z-index: 1000;
@@ -62,12 +62,12 @@
     width: auto;
     height: 100%;
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
   }
   .portfolio_part a:hover {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 900;
     color: #566270;
   }
@@ -81,12 +81,12 @@
     width: auto;
     height: 100%;
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
   }
   .about_part a:hover {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 900;
     color: #566270;
   }
@@ -100,12 +100,12 @@
     width: auto;
     height: 100%;
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
   }
   .skills_part a:hover {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 900;
     color: #566270;
   }
@@ -119,12 +119,12 @@
     width: auto;
     height: 100%;
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
   }
   .project_part a:hover {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 900;
     color: #566270;
   }
@@ -138,12 +138,12 @@
     width: auto;
     height: 100%;
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
   }
   .clone_part a:hover {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 900;
     color: #566270;
   }
@@ -157,12 +157,12 @@
     width: auto;
     height: 100%;
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     text-decoration: none;
   }
   .contact_part a:hover {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 900;
     color: #566270;
   }
@@ -194,11 +194,11 @@
   }
   .cover_text p {
     text-align: left;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
   }
   .cover_text span {
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 700;
   }
   
@@ -212,13 +212,12 @@
     height: auto;
     margin: auto;
     background-color: #fafafa;
-    z-index: 10;
   }
   .about_inner {
     width: 88.75%; min-width: 1704px;
     height: auto;
     margin: auto;
-    padding: 120px 70px;
+    padding: 210px 70px 120px 70px;
     display: flex;
   }
   .proflie_part {
@@ -227,13 +226,13 @@
   }
   /* about title */
   .about_logo {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
   .about_logo h3 {
     width: 100%;
     height: auto;
     font-size: 100px;
-    font-weight: 400;
+    font-weight: 300;
     text-shadow: 10px 5px 10px #353b48;
     text-transform: uppercase;
     color: #566270;
@@ -248,8 +247,8 @@
     width: auto; 
     height: auto;
     margin: auto;
-    font-size: 27px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
   }
   .about_text p {
     width: auto; 
@@ -271,26 +270,31 @@
   .about_text ul li {
     font-size: 22px;
     font-weight: 600;
+    line-height: 30px;
   }
   /* main introduce */
   .introduction_part {
     width: 58%;
+    margin-top: 20px;
+    line-height: 28px;
   }
   .introduction_part p {
-    margin-bottom: 15px;
-    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 22px;
     font-weight: 800;
   }
   .introduction_part span {
     font-size: 22px;
     font-weight: 600;
+    line-height: 35px;
   }
   .introduction_m {display: none;}
 
   /* skills part --------------------- */
   #skills {
     width: auto;
-    height: 820px;
+    height: auto;
+    padding-bottom: 80px;
     list-style: none;
     text-transform: uppercase;
     background-color: #fafafa;
@@ -300,21 +304,21 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 50px 0;
+    padding: 140px 0 50px 0;
   }
   .skills_logo h3 {
     width: 100%;
     margin: auto;
     text-align: center;
     font-size: 70px;
-    font-weight: 400;
+    font-weight: 300;
     text-shadow: 10px 5px 10px #353b48;
     text-transform: uppercase;
     color: #566270;
   }
   /* skills inner */
   .skills_inner h4 {
-    margin: 5px;
+    margin: 10px 5px;
     font-size: 24px;
     font-weight: 400;
   }
@@ -422,7 +426,7 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 50px 0;
+    padding: 140px 0 50px 0;
   }
   .project_logo h3 {
     width: 100%;
@@ -434,11 +438,256 @@
     text-transform: uppercase;
     color: #566270;
   }
+  .project_inner {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* project_01 */
+  .project_01 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_img01 {
+    width: 50%;
+  }
+  .image_inner01 {
+    width: 360px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5%;
+    background-color: #fff;
+  }
+  .image_inner01 p {
+    width: 52%;
+    height: 66px;
+    margin: auto;
+    margin-top: 112px;
+    background-image: url(../../img/ohoulogo.png);
+    background-repeat: no-repeat;
+  }
+  .right_txt01 {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .txt_inner01 p {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  /* project_02 */
+  .project_02 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_txt02 {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .txt_inner02 p {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+  }
+  .right_img02 {
+    width: 50%;
+  }
+  .image_inner02 {
+    width: 360px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5%;
+    background-color: #fff;
+  }
+  .image_inner02 p {
+    width: 55%;
+    height: 10%;
+    margin: auto;
+    margin-top: 140px;
+    background-image: url(../../img/ediyalogo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  /* project_03 */
+  .project_03 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_img03 {
+    width: 50%;
+  }
+  .image_inner03 {
+    width: 360px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5%;
+    background-color: #fff;
+  }
+  .image_inner03 p {
+    width: 60%;
+    height: 76px;
+    margin: auto;
+    margin-top: 120px;
+    background-image: url(../../img/logoplus.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .right_txt03 {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .txt_inner03 p {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  /* project_04 */
+  .project_04 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
+  .left_txt04 {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .txt_inner04 p {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+  }
+  .right_img04 {
+    width: 50%;
+  }
+  .image_inner04 {
+    width: 360px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5%;
+    background-color: #fff;
+  }
+  .image_inner04 p {
+    width: 65%;
+    height: 30%;
+    margin: auto;
+    margin-top: 110px;
+    background-image: url(../../img/oflogo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  /* project 자세히 보기 */
+  .project_contact {
+    width: 46.875%; min-width: 360px;
+    height: 100%;
+    margin: auto;
+    margin-top: 12%;
+    display: flex;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+    height: 45px;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #566270;
+  }
+  .web_btn {
+    width: 100%;
+    height: 45px;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 7px;
+    background-color: #566270;
+  }
+  /* modal ====================================== */
+  .modal {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    z-index: 1000;
+  }
+  .modal > div {
+    color: #fff;
+    height: auto;
+  }
+  .modal_content > iframe {
+    width: 100%;
+    height: auto;
+    min-height: 465px;
+    background: #fff;
+    transform: translate(0);
+  }
+  /* Modal Content/Box */
+  .modal_content {
+    width: 90%; /* Could be more or less, depending on screen size */
+    margin: auto; /* 15% from the top and centered */
+    top: 0px;
+    position: relative;
+  }
+  .modal_img {
+    width: 100%;
+  } 
+  /* The Close Button */
+  .close {
+    float: left;
+    top: 10px;
+    right: 8px;
+    position: absolute;
+    z-index: 2;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
   
   /* clone coding part --------------------------- */
   #clone {
     width: 100%; min-width: 1920px;
-    height: 700px;
+    height: auto;
     margin: 0 auto;
     background-color: #fafafa;
   }
@@ -447,7 +696,7 @@
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 50px 0;
+    padding: 140px 0 50px 0;
   }
   .clone_logo h3 {
     width: 100%;
@@ -463,6 +712,8 @@
     width: 1800px;
     height: auto;
     margin: auto;
+    margin-top: 70px;
+    padding-bottom: 80px;
     display: flex;
   }
   /* clone coding top */
@@ -558,11 +809,11 @@
     position: absolute;
     bottom: 150%;
     transition: all.35s;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     z-index: 2;
   }
   .clone_screen:hover::after {
@@ -586,7 +837,7 @@
   #contact {
     width: 100%; min-width: 1920px;
     height: auto;
-    padding-top: 50px;
+    padding-bottom: 30px;
     background-color: #fff;
   }
   /* contact title */
@@ -594,14 +845,14 @@
     width: 100%;
     height: auto;
     margin: auto;
-    margin-bottom: 40px;
+    padding: 140px 0 50px 0;
   }
   .contact_logo h3 {
     width: 100%;
     height: auto;
     text-align: center;
     font-size: 70px;
-    font-weight: 400;
+    font-weight: 300;
     text-shadow: 10px 5px 10px #353b48;
     text-transform: uppercase;
     color: #566270;
@@ -617,7 +868,7 @@
   }
   .contact_text ul li {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
   }
   /* contact address */
   .contect_info {
@@ -630,31 +881,31 @@
     text-align: center;
   }
   .contect_info span {
-    font-size: 19px;
+    font-size: 22px;
     font-weight: 800;
     text-transform: uppercase;
   }
   .contect_info a {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
   }
   /* copy right */
   .copyBox {
     width: 100%; min-width: 1920px;
-    height: 80px;
-    line-height: 80px;
+    height: 100px;
+    line-height: 100px;
   }
   .copy_inner {
     width: auto;
     height: auto;
-    position: relative;
   }
   .copy_inner p {
-    font-size: 14px;
-    font-weight: 600;
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
     text-align: center;
     text-transform: uppercase;
-    color: #444;
+    color: #666;
   }
   
   /* #footBox ==================== */
