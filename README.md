@@ -1,4 +1,4 @@
-# <img src="./img/logo_greenfull.svg" width="50"> HYUNA portfolio
+# <img src="./img/new_logo.svg" width="50"> HYUNA portfolio
 ## 포트폴리오 소개
 - JQuery를 이용하여 포트폴리오 제작
 - 필요한 정보만 전달하기 위해 깔끔한 디자인이 목적
@@ -6,7 +6,7 @@
 - 320px, 768px, 1280px, 1440px, 1920px을 반응형으로 제작
 
 ## 로고 소개
-<img src = "./img/logo_greenfull.svg" width="100px" hight="100px">
+<img src = "./img/new_logo.svg" width="100px" hight="100px">
 
 - 이름을 활용하여 한눈에 알아보기 쉽고 유니크하게 로고를 만들고자 함
 - 오현아라는 이름을 한글과 영어를 이용하여 로고 제작
@@ -16,7 +16,6 @@
 - HTML
 - CSS
 - JavaScript
-- JQuery
 
 ## 보완사항
 - 리액트를 공부하기 시작했을때 제작하여 아직 "react" 적용 포트폴리오를 만들지 못했음 </br>
@@ -28,5 +27,5 @@
 <summary>click me🖱️</summary>
 <details>
 <summary>💙 main page</summary>
-  <img src="./img/main_page.png" width="300" height="700">
+  <img src="./img/readme/main_page.png" width="300" height="700">
 </details>

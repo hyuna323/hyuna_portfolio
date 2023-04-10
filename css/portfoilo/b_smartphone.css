@@ -227,6 +227,7 @@
     height: auto;
   }
   .about_text ul li {
+    text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
@@ -547,7 +548,7 @@
     border-radius: 5%;
   }
   .image_inner04 p {
-    width: 90.781%;
+    width: 128px;
     height: 70px;
     margin: auto;
     /* margin-top: 32%; */
@@ -798,7 +799,6 @@
   #contact {
     width: 100%; min-width: 320px;
     height: auto;
-    padding-top: 30px;
     background-color: #fff;
   }
   /* contact title */
