@@ -674,7 +674,7 @@
     color: #566270;
   }
   .clone_inner {
-    width: 680px;
+    width: 88.541%; min-width: 680px;
     height: auto;
     margin: 30px auto 0;
     padding-bottom: 70px;
