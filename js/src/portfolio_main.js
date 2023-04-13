@@ -1,6 +1,6 @@
-$(function(){
+(function(){
 
-  $('#headBox').headinner({
+  ('#main_contant').headinner({
 		//options here
     anchors: ['portfolio', 'about', 'skills', 'project', 'clone', 'contact'],
 		autoScrolling:true,
@@ -76,21 +76,43 @@ function home(){
 // trigger.add('[data-trigger]');
 
 // 페이지 넘김 animation
-const observer = new IntersectionObserver((e)=>{
-  e.forEach((skill)=>{
-    if (skill.isIntersecting){
-      skill.target.style.opacity = 1;
-    } else {
-      skill.target.style.opacity = 0;
-    }
-  })
-})
+  const observer = new IntersectionObserver((e)=>{
+    e.forEach((Scrolling)=>{
+      if (Scrolling.isIntersecting){
+        Scrolling.target.style.opacity = 1;
+      } else {
+        Scrolling.target.style.opacity = 0;
+      }
+      Scrolling.intersectionRatio
+    })
+  }) // 감시 중 박스가 화면 등장 시 해당코드 실행
 
-const Section = document.querySelectorAll("section")
+  const scrolling = document.querySelectorAll('.scrolling')
+
+  observer.observe(scrolling[0]) // html 요소 감시
+  observer.observe(scrolling[1]) // html 요소 감시
+  observer.observe(scrolling[2]) // html 요소 감시
+  observer.observe(scrolling[3]) // html 요소 감시
+  observer.observe(scrolling[4]) // html 요소 감시
+  observer.observe(scrolling[5]) // html 요소 감시
+  observer.observe(scrolling[6]) // html 요소 감시
+  observer.observe(scrolling[7]) // html 요소 감시
+  observer.observe(scrolling[8]) // html 요소 감시
+// const observer = new IntersectionObserver((e)=>{
+//   e.forEach((skill)=>{
+//     if (skill.isIntersecting){
+//       skill.target.style.opacity = 1;
+//     } else {
+//       skill.target.style.opacity = 0;
+//     }
+//   })
+// })
+
+// const Section = document.querySelectorAll("section")
 
 
-observer.observe(Section[1])
-observer.observe(Section[2])
-observer.observe(Section[3])
-observer.observe(Section[4])
-observer.observe(Section[5])
+// observer.observe(Section[1])
+// observer.observe(Section[2])
+// observer.observe(Section[3])
+// observer.observe(Section[4])
+// observer.observe(Section[5])

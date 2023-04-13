@@ -26,15 +26,15 @@
     height: 100%;
     margin: auto;
   }
-  .headinner h1 a {
-    width: 50px;
-    height: 50px;
-  }
+  /* .headinner h1 a {
+    width: 100%;
+    height: 100%;
+  } */
   .headinner h1 button {
     width: 50px;
     height: 50px;
     background-image: url(../../img/new_logo.svg);
-    background-size: 50px 50px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     -webkit-animation: rotation 5s infinite linear;
   }
@@ -101,7 +101,7 @@
   
   /* #slide_menu ------------------------------ */
   #slide_menu {
-    width: 100%; min-width: 280px;
+    width: 280px;
     height: 100%;
     padding: 50px 16px 70px 16px;
     margin-bottom: 50px;
@@ -126,6 +126,12 @@
     font-weight: 400;
     color: #fff;
     cursor: pointer;
+  }
+
+  /* all scroll animation */
+  .scrolling {
+    opacity: 0;
+    transition: all .8s steps(10);
   }
 
   /* portfolio cover --------------- */
@@ -404,6 +410,13 @@
     display: flex;
     flex-wrap: wrap;
   }
+  /* scroll animaition */
+  .project_inner > .scrolling {
+    width: 100%;
+    transition: ease-in-out 0.8s;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   /* project_01 */
   .project_01 {
@@ -612,7 +625,7 @@
   .modal_content > iframe {
     width: 100%;
     height: auto;
-    min-height: 318px;
+    min-height: 700px;
     background: #fff;
     transform: translate(0);
   }
@@ -672,7 +685,7 @@
   }
   .clone_inner {
     width: 93.75%; min-width: 300px;
-    height: auto;
+    height: 390px;
     margin: 30px auto 0;
     padding-bottom: 60px;
     display: flex;
@@ -681,7 +694,7 @@
   /* clone coding top */
   .clone_top {
     width: 100%;
-    height: 100px;
+    height: 50%;
     display: grid;
     grid-auto-flow: column;
     grid-gap: 10px;
@@ -693,7 +706,11 @@
     margin: auto;
     border: 1px solid #000;
     background: url(../../img/clone_couoang.png) no-repeat;
-    background-size: 100%;
+    background-size: 100% auto;
+    transition: all 0.2s linear;
+  }
+  .clone_coupang:hover {
+    transform: scale(0.9);
   }
   .clone_coupang a {
     width: auto;
@@ -708,7 +725,11 @@
     margin: auto;
     border: 1px solid #000;
     background: url(../../img/clone_naver.png) no-repeat;
-    background-size: 100%;
+    background-size: 100% auto;
+    transition: all 0.2s linear;
+  }
+  .clone_naver:hover {
+    transform: scale(0.9);
   }
   .clone_naver a {
     width: auto;
@@ -719,7 +740,7 @@
   /* clone coding bottom */
   .clone_bottom {
     width: 100%;
-    height: 100px;
+    height: 50%;
     margin-top: 10px;
     display: grid;
     grid-auto-flow: column;
@@ -732,7 +753,11 @@
     margin: auto;
     border: 1px solid #000;
     background: url(../../img/clone_google.png) no-repeat;
-    background-size: 100%;
+    background-size: 100% auto;
+    transition: all 0.2s linear;
+  }
+  .clone_google:hover {
+    transform: scale(0.9);
   }
   .clone_google a {
     width: auto;
@@ -748,6 +773,10 @@
     border: 1px solid #000;
     background: url(../../img/clone_spotify.png) no-repeat;
     background-size: 100%;
+    transition: all 0.2s linear;
+  }
+  .clone_sfotify:hover {
+    transform: scale(0.9);
   }
   .clone_sfotify a {
     width: auto;

@@ -26,10 +26,10 @@
     height: 100%;
     margin: auto;
   }
-  .headinner h1 a {
+  /* .headinner h1 a {
     width: 100px;
     height: 50px;
-  }
+  } */
   .headinner h1 button {
     width: 100px;
     height: 50px;
@@ -128,6 +128,12 @@
     font-weight: 400;
     color: #fff;
     cursor: pointer;
+  }
+
+  /* all scroll animation */
+  .scrolling {
+    opacity: 0;
+    transition: all .8s steps(10);
   }
   
   /* portfolio cover --------------- */
@@ -407,7 +413,14 @@
     display: flex;
     flex-wrap: wrap;
   }
-
+  /* scroll animaition */
+  .project_inner > .scrolling {
+    width: 100%;
+    transition: ease-in-out 0.8s;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
   /* project_01 */
   .project_01 {
     width: 93.75%;
@@ -615,7 +628,7 @@
   .modal_content > iframe {
     width: 100%;
     height: auto;
-    min-height: 318px;
+    min-height: 900px;
     background: #fff;
     transform: translate(0);
   }
@@ -697,6 +710,10 @@
     border: 1px solid #000;
     background: url(../../img/clone_couoang.png) no-repeat;
     background-size: 100%;
+    transition: all 0.2s linear;
+  }
+  .clone_coupang:hover {
+    transform: scale(0.9);
   }
   .clone_coupang a {
     width: auto;
@@ -712,6 +729,10 @@
     border: 1px solid #000;
     background: url(../../img/clone_naver.png) no-repeat;
     background-size: 100%;
+    transition: all 0.2s linear;
+  }
+  .clone_naver:hover {
+    transform: scale(0.9);
   }
   .clone_naver a {
     width: auto;
@@ -736,6 +757,10 @@
     border: 1px solid #000;
     background: url(../../img/clone_google.png) no-repeat;
     background-size: 100%;
+    transition: all 0.2s linear;
+  }
+  .clone_google:hover {
+    transform: scale(0.9);
   }
   .clone_google a {
     width: auto;
@@ -751,6 +776,10 @@
     border: 1px solid #000;
     background: url(../../img/clone_spotify.png) no-repeat;
     background-size: 100%;
+    transition: all 0.2s linear;
+  }
+  .clone_sfotify:hover {
+    transform: scale(0.9);
   }
   .clone_sfotify a {
     width: auto;
