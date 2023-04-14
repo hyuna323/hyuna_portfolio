@@ -26,10 +26,6 @@
     height: 100%;
     margin: auto;
   }
-  /* .headinner h1 a {
-    width: 100%;
-    height: 100%;
-  } */
   .headinner h1 button {
     width: 50px;
     height: 50px;
@@ -47,19 +43,20 @@
   /* moblie slide part --------------------- */
   .header_m {
     width: auto;
-    height: 26px;
+    height: auto;
     margin: auto;
     box-sizing: border-box;
   }
   #unbInner {
-    width: 13.75%; min-width: 44px;
+    width: 44px;
+    height: auto;
     padding: 0;
   }  
   /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
-    width: 11.875%; min-width: 38px;
-    height: 20px;
+    width: 24px;
+    height: 15px;
     margin: auto;
     display: block;
     position: relative;
@@ -68,7 +65,7 @@
   }
   #check_box + label > span {
     width: 100%;
-    height: 3px;
+    height: 1px;
     display: block;
     position: absolute;
     transition: all 300ms;
@@ -101,7 +98,7 @@
   
   /* #slide_menu ------------------------------ */
   #slide_menu {
-    width: 280px;
+    width: 100%;
     height: 100%;
     padding: 50px 16px 70px 16px;
     margin-bottom: 50px;
@@ -772,7 +769,7 @@
     margin: auto;
     border: 1px solid #000;
     background: url(../../img/clone_spotify.png) no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     transition: all 0.2s linear;
   }
   .clone_sfotify:hover {
@@ -787,11 +784,11 @@
 
   /* clone coding screen */
   .clone_screen:hover .screen_inner {
-    bottom: 32%;
+    bottom: 38%;
   }
   .clone_screen {
     width: auto;
-    height: 100px;
+    height: 100%;
     position: relative;
     overflow: hidden;
   }

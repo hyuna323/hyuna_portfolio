@@ -27,15 +27,11 @@
     margin: auto;
     padding-top: 10px;
   }
-  /* .headinner h1 a {
-    width: 100px;
-    height: 80px;
-  } */
   .headinner h1 button {
     width: 100px;
     height: 80px;
     background-image: url(../../img/new_logo.svg);
-    background-size: 100px 80px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     -webkit-animation: rotation 5s infinite linear;
   }

@@ -59,22 +59,6 @@ function home(){
   window.location = url;
 }
 
-// let observer = new IntersectionObserver((e)=>{
-//   e.forEach((박스)=>{
-//     if (박스.isIntersecting){
-//       박스.target.style.opacity = 1;
-//     } else {
-//       박스.target.style.opacity = 0;
-//     }
-//   })
-// })
-
-// let section = document.querySelectorAll('section')
-// observer.observe(section[2])
-
-// const trigger = new ScrollTrigger.default();
-// trigger.add('[data-trigger]');
-
 // 페이지 넘김 animation
   const observer = new IntersectionObserver((e)=>{
     e.forEach((Scrolling)=>{
@@ -98,21 +82,4 @@ function home(){
   observer.observe(scrolling[6]) // html 요소 감시
   observer.observe(scrolling[7]) // html 요소 감시
   observer.observe(scrolling[8]) // html 요소 감시
-// const observer = new IntersectionObserver((e)=>{
-//   e.forEach((skill)=>{
-//     if (skill.isIntersecting){
-//       skill.target.style.opacity = 1;
-//     } else {
-//       skill.target.style.opacity = 0;
-//     }
-//   })
-// })
 
-// const Section = document.querySelectorAll("section")
-
-
-// observer.observe(Section[1])
-// observer.observe(Section[2])
-// observer.observe(Section[3])
-// observer.observe(Section[4])
-// observer.observe(Section[5])
