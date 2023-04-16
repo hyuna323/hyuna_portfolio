@@ -5,7 +5,7 @@
   /* #headBox ========================== */
   #headBox {
     width: 100%; min-width: 1440px;
-    height: 90px;
+    height: 80px;
     padding: 0 25px 0 20px;
     position: sticky;
     top: 0;
@@ -22,14 +22,14 @@
   }
   /* logo part */
   .headinner h1 {
-    width: 50%;
+    width: 40%;
     height: 100%;
     margin: auto;
     padding-top: 10px;
   }
   .headinner h1 button {
-    width: 100px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
     background-image: url(../../img/new_logo.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -42,126 +42,127 @@
   
   /* user navigation */
   .unb {
-    width: 51.4444%;
+    width: 60%;
     height: 100%;
     display: flex;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 0.15rem;
     justify-content: space-between;
   }
   /* page 이동 */
   /* portfoilo button */
   .portfolio_part {
-    width: 29.995%; min-width: 130px;
+    width: 33%;
     height: 100%;
-    line-height: 90px;
+    line-height: 80px;
   }
   .portfolio_part a {
     width: auto;
     height: 100%;
     display: block;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
     text-decoration: none;
   }
   .portfolio_part a:hover {
-    font-size: 23px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     color: #566270;
   }
   /* about button */
   .about_part {
-    width: 27.0741%; min-width: 117px;
+    width: 26%;
     height: 100%;
-    line-height: 90px;
+    line-height: 80px;
   }
   .about_part a {
     width: auto;
     height: 100%;
     display: block;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
     text-decoration: none;
   }
   .about_part a:hover {
-    font-size: 23px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     color: #566270;
   }
   /* skills button */
   .skills_part {
-    width: 27.0741%; min-width: 117px;
+    width: 26%;
     height: 100%;
-    line-height: 90px;
+    line-height: 80px;
   }
   .skills_part a {
     width: auto;
     height: 100%;
     display: block;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
     text-decoration: none;
   }
   .skills_part a:hover {
-    font-size: 23px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     color: #566270;
   }
   /* project button */
   .project_part {
-    width: 27.0741%; min-width: 117px;
+    width: 28%;
     height: 100%;
-    line-height: 90px;
+    line-height: 80px;
   }
   .project_part a {
     width: auto;
     height: 100%;
     display: block;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
     text-decoration: none;
   }
   .project_part a:hover {
-    font-size: 23px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     color: #566270;
   }
   /* clone button */
   .clone_part {
-    width: 27.0741%; min-width: 117px;
+    width: 26%;
     height: 100%;
-    line-height: 90px;
+    line-height: 80px;
   }
   .clone_part a {
     width: auto;
     height: 100%;
     display: block;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
     text-decoration: none;
   }
   .clone_part a:hover {
-    font-size: 23px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     color: #566270;
   }
   /* contact button */
   .contact_part {
-    width: 27.0741%; min-width: 117px;
+    width: 28%;
     height: 100%;
-    line-height: 90px;
+    line-height: 80px;
   }
   .contact_part a {
     width: auto;
     height: 100%;
     display: block;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
     text-decoration: none;
   }
   .contact_part a:hover {
-    font-size: 23px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     color: #566270;
   }
   .header_m {display: none;}
@@ -191,15 +192,16 @@
     transform: translate(-50%, -50%);
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 0.35rem;
     color: #222;
   }
   .cover_text p {
     text-align: left;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
   }
   .cover_text span {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
   }
   
@@ -215,7 +217,7 @@
     background-color: #fafafa;
   }
   .about_inner {
-    width: 90.9722%; min-width: 1310px;
+    width: 90.9724%; min-width: 1310px;
     height: auto;
     margin: auto;
     padding: 200px 0 110px 60px;
@@ -232,8 +234,9 @@
   .about_logo h3 {
     width: 100%;
     height: auto;
-    font-size: 90px;
+    font-size: 75px;
     font-weight: 300;
+    letter-spacing: 0.25rem;
     text-shadow: 10px 5px 10px #353b48;
     text-transform: uppercase;
     color: #566270;
@@ -254,7 +257,7 @@
   .about_text p {
     width: auto; 
     height: auto;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 400;
   }
   .sub_title {
@@ -270,9 +273,9 @@
   }
   .about_text ul li {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 28px;
   }
   /* main introduce */
   .introduction_part {
@@ -282,13 +285,13 @@
   }
   .introduction_part p {
     margin-bottom: 15px;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 600;
   }
   .introduction_part span {
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 28px;
   }
   .introduction_m {display: none;}
 
@@ -298,7 +301,6 @@
     height: auto;
     padding-bottom: 80px;
     list-style: none;
-    text-transform: uppercase;
     background-color: #fafafa;
   }
   /* skills title */
@@ -312,8 +314,9 @@
     width: 100%;
     margin: auto;
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 300;
+    letter-spacing: 0.25rem;
     text-shadow: 10px 5px 10px #353b48;
     text-transform: uppercase;
     color: #566270;
@@ -321,13 +324,14 @@
   /* skills inner */
   .skills_inner h4 {
     margin: 10px 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
+    text-transform: capitalize;
   }
   .skills_inner {
     width: 48.6111%; min-width: 700px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 10px 20px;
     color: #000;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -433,13 +437,16 @@
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 60px;
+    font-size: 47px;
     font-weight: 300;
+    letter-spacing: 0.15rem;
     text-shadow: 10px 5px 10px #353b48;
     text-transform: uppercase;
     color: #566270;
   }
   .project_inner {
+    width: 90.9724%; min-width: 1310px;
+    margin: auto;
     padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
@@ -463,16 +470,16 @@
     width: 50%;
   }
   .image_inner01 {
-    width: 55.5556%; min-width: 400px;
-    height: 340px;
+    width: 48.067%;
+    height: 274px;
     margin: 20px auto;
     border: 1px solid #000;
     border-radius: 5%;
     background-color: #fff;
   }
   .image_inner01 p {
-    width: 50%; min-width: 200px;
-    height: 24.854%;
+    width: 49.408%;
+    height: 21.478%;
     margin: auto;
     margin-top: 34%;
     background-image: url(../../img/ohoulogo.png);
@@ -487,7 +494,7 @@
   }
   .txt_inner01 p {
     width: 100%;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 500;
     color: #000;
   }
@@ -507,7 +514,7 @@
   }
   .txt_inner02 p {
     width: 100%;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 500;
     color: #000;
   }
@@ -515,16 +522,16 @@
     width: 50%;
   }
   .image_inner02 {
-    width: 55.5556%; min-width: 400px;
-    height: 340px;
+    width: 48.067%;
+    height: 274px;
     margin: 20px auto;
     border: 1px solid #000;
     border-radius: 5%;
     background-color: #fff;
   }
   .image_inner02 p {
-    width: 69.85%; min-width: 278px;
-    height: 14.202%;
+    width: 56.26%;
+    height: 15.442%;
     margin: auto;
     margin-top: 38%;
     background-image: url(../../img/ediyalogo.png);
@@ -544,18 +551,18 @@
     height: 100%;
   }
   .image_inner03 {
-    width: 55.5556%; min-width: 400px;
-    height: 340px;
+    width: 48.067%;
+    height: 274px;
     margin: 20px auto;
     border: 1px solid #000;
     border-radius: 5%;
     background-color: #fff;
   }
   .image_inner03 p {
-    width: 75%; min-width: 300px;
-    height: 32.545%;
+    width: 72.882%;
+    height: 28.677%;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 102px;
     background-image: url(../../img/logoplus.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -596,18 +603,18 @@
     width: 50%;
   }
   .image_inner04 {
-    width: 55.5556%; min-width: 400px;
-    height: 340px;
+    width: 48.067%;
+    height: 274px;
     margin: 20px auto;
     border: 1px solid #000;
     border-radius: 5%;
     background-color: #fff;
   }
   .image_inner04 p {
-    width: 72.5%; min-width: 290px;
-    height: 38.463%;
+    width: 69.686%;
+    height: 36.767%;
     margin: auto;
-    margin-top: 110px;
+    margin-top: 90px;
     background-image: url(../../img/oflogo.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -623,7 +630,7 @@
     text-align: center;
   }
   .btn {
-    width: 100%;
+    width: 50%;
     height: 47px;
     margin-right: 10px;
     font-size: 16px;
@@ -635,7 +642,7 @@
     background-color: #566270;
   }
   .web_btn {
-    width: 100%;
+    width: 50%;
     height: 47px;
     font-size: 16px;
     font-weight: 400;
@@ -681,11 +688,16 @@
   } 
   /* The Close Button */
   .close {
+    width: 35px;
+    height: 35px;
     float: left;
-    top: 10px;
-    right: 8px;
+    top: 15px;
+    right: 15px;
     position: absolute;
     z-index: 2;
+  }
+  .close img {
+    width: 100%;
   }
   .close:hover,
   .close:focus {
@@ -712,17 +724,18 @@
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 60px;
+    font-size: 47px;
     font-weight: 300;
+    letter-spacing: 0.15rem;
     text-shadow: 10px 5px 10px #353b48;
     text-transform: uppercase;
     color: #566270;
   }
   .clone_inner {
-    width: 90.2778%; min-width: 1300px;
+    width: 90.9724%; min-width: 1310px;
     height: auto;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     padding-bottom: 80px;
     display: flex;
   }
@@ -864,7 +877,6 @@
   #contact {
     width: 100%; min-width: 1440px;
     height: auto;
-    padding-bottom: 30px;
     background-color: #fff;
   }
   /* contact title */
@@ -878,24 +890,25 @@
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 60px;
+    font-size: 47px;
     font-weight: 300;
+    letter-spacing: 0.15rem;
     text-shadow: 10px 5px 10px #353b48;
     text-transform: uppercase;
     color: #566270;
   }
   .contact_inner {
-    width: auto;
+    width: 90.9724%; min-width: 1310px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
   }
   .contact_text ul {
     margin-bottom: 50px;
-    line-height: 40px;
+    line-height: 38px;
   }
   .contact_text ul li {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
   }
   /* contact address */
@@ -909,13 +922,13 @@
     text-align: center;
   }
   .contect_info span {
-    font-size: 22px;
-    font-weight: 800;
+    font-size: 21px;
+    font-weight: 600;
     text-transform: uppercase;
     color: #566270;
   }
   .contect_info a {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
   }
   /* copy right */
@@ -929,8 +942,7 @@
     height: auto;
   }
   .copy_inner p {
-    padding-top: 30px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase;
