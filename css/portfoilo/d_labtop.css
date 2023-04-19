@@ -46,7 +46,7 @@
     display: flex;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.15rem;
     justify-content: center;
   }
   /* page 이동 */
@@ -172,6 +172,11 @@
     opacity: 0;
     transition: all .8s steps(10);
   }
+  
+  html #wrap {
+    overflow: auto;
+    height: 100%;
+  }
 
   /* portfolio cover --------------- */
   #portfolio {
@@ -206,7 +211,7 @@
   }
 
   .content_wrap {
-    padding-top: 100%;
+    padding-top: 100vh;
   }
 
   /* about part ---------------------------- */
@@ -631,7 +636,7 @@
     text-align: center;
   }
   .btn {
-    width: 100%;
+    width: 50%;
     height: 47px;
     margin-right: 10px;
     font-size: 16px;
@@ -644,7 +649,7 @@
     cursor: pointer;
   }
   .web_btn {
-    width: 100%;
+    width: 50%;
     height: 47px;
     font-size: 16px;
     font-weight: 400;
@@ -657,25 +662,28 @@
   }
   /* modal ====================================== */
   .modal {
+    position: fixed;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.8);
+    margin: auto;
     display: none;
+    overflow: hidden;
     z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
   }
   .modal > div {
+    height: 100%;
+    margin: auto;
+    left: 5%;
+    top: 0;
+    position: fixed;
     color: #fff;
-    height: auto;
   }
   .modal_content > iframe {
     width: 100%;
-    height: auto;
-    min-height: 1000px;
+    height: 100%;
     background: #fff;
     transform: translate(0);
   }
@@ -871,7 +879,7 @@
     z-index: 1;
     background-color: #566270;
   }
-  .clone_inner ul li a:hover .screen::after {
+  .clone_inner a:hover .screen::after {
     opacity: 1;
   }
 

@@ -53,6 +53,15 @@ window.onclick = function(event) {
 
 
 
+document.querySelectorAll(".btn").forEach(element => element.addEventListener("click", () => {
+  document.querySelector(".modal").style.display = "block";
+}));
+document.querySelectorAll(".close").forEach(element => element.addEventListener("click", () => {
+  document.querySelector(".modal").style.display = "none";
+}));
+
+
+
 // page move -----------------------------
 function home(){
   let url = "https://hyuna323.github.io/hyuna_portfolio/html/portfolio_main.html";

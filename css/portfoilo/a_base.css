@@ -1,3 +1,8 @@
+html,body {
+  /* overflow: hidden; */
+  margin: 0;
+  height: 100%;
+}
 #wrap {width: 960px; height: auto; min-height: 600px;
   font-family: 'Pretendard';
 }
