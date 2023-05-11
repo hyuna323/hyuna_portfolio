@@ -68,6 +68,27 @@ function home(){
   window.location = url;
 }
 
+function ohou(){
+  let url = "https://hyuna323.github.io/ohou_project/html/01_prototype_1280_main.html";
+  window.location = url;
+}
+function ediya(){
+  let url = "https://hyuna323.github.io/ediya_project/html/01_ediya_main.html";
+  window.location = url;
+}
+
+function portfolio(){
+  let url = "https://hyuna323.github.io/hyuna_portfolio/html/portfolio_main.html";
+  window.location = url;
+}
+
+function ofproject(){
+  let url = "https://hyuna323.github.io/OF_project/html/ofproject.html";
+  window.location = url;
+}
+
+
+
 // 페이지 넘김 animation
   const observer = new IntersectionObserver((e)=>{
     e.forEach((Scrolling)=>{
