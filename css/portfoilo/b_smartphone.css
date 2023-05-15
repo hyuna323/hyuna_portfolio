@@ -390,7 +390,7 @@
   }
 
   /* project part ------------------------ */
-  #project {
+  #project_m {
     width: 100%; min-width: 320px;
     margin: 0 auto;
     background-color: #fafafa;
@@ -612,6 +612,8 @@
     background-color: #566270;
     cursor: pointer;
   }
+
+  #project {display: none;}
 
   /* modal ====================================== */
   .modal {

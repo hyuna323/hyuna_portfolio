@@ -2,7 +2,7 @@
 
   ('#main_contant').headinner({
 		//options here
-    anchors: ['portfolio', 'about', 'skills', 'project', 'clone', 'contact'],
+    anchors: ['portfolio', 'about', 'skills', 'project_m', 'clone', 'contact'],
 		autoScrolling:true,
     navigation:true,
     navigationPosition:'right'
@@ -112,4 +112,33 @@ function ofproject(){
   observer.observe(scrolling[6]) // html 요소 감시
   observer.observe(scrolling[7]) // html 요소 감시
   observer.observe(scrolling[8]) // html 요소 감시
+  observer.observe(scrolling[9]) // html 요소 감시
+  observer.observe(scrolling[10]) // html 요소 감시
+  observer.observe(scrolling[11]) // html 요소 감시
+  observer.observe(scrolling[12]) // html 요소 감시
+  observer.observe(scrolling[13]) // html 요소 감시
+
+
+  (function() {
+  
+    var controller = new ScrollMagic.Controller();
+    var scene1 = new ScrollMagic.Scene({
+        triggerElement: ".project_list", //트리거 설정
+        triggerHook: 0.8
+      })
+    
+  var revealElements = document.getElementsByClassName("project_list_item");
+  for (var i=0; i<revealElements.length; i++) {
+    
+    var scene2 = new ScrollMagic.Scene({
+      triggerElement: revealElements[i],
+      offset: 50,
+      triggerHook: 0.9
+    })
+    .setClassToggle(revealElements[i], "visible") // add class toggle
+    .addTo(controller)
+    // .addIndicators({name: "(box) " + (i+1), colorStart:"#F6B352", colorTrigger:"#F6B352"});
+  }
+  
+  }())
 
