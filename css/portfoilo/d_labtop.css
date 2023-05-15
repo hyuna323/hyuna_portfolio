@@ -430,6 +430,7 @@
   }
   /* project part ------------------------ */
   #project_m {display: none;}
+  
   #project {
     width: 100%; min-width: 1280px;
     height: 1100px;
