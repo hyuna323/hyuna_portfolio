@@ -388,8 +388,10 @@
       width: 30%;
     }
   }
-
+  
   /* project part ------------------------ */
+  #project {display: none;}
+
   #project_m {
     width: 100%; min-width: 320px;
     margin: 0 auto;
@@ -578,6 +580,44 @@
     background-size: 100% 100%;
   }
 
+    /* project_05 */
+    .project_05 {
+      width: 93.75%;
+      height: auto;
+      margin: auto;
+      display: flex;
+    }
+    .left_img05 {
+      width: 40%;
+    }
+    .image_inner05 {
+      width: auto;
+      height: auto;
+      margin: 26px auto;
+      border-radius: 5%;
+    }
+    .image_inner05 p {
+      width: 80px;
+      height: 80px;
+      margin: auto;
+      /* margin-top: 32%; */
+      background-repeat: no-repeat;
+      background-image: url(../../img/interactive_logo.svg);
+      background-size: 100% 100%;
+    }
+    .right_txt05 {
+      width: 60%;
+      height: 100%;
+      margin: 20px auto;
+      text-align: center;
+    }
+    .txt_inner05 p {
+      width: 100%;
+      font-size: 0.625rem;
+      font-weight: 500;
+      color: #000;
+    }
+
   /* project 자세히 보기 */
   .project_contact {
     width: 100%;
@@ -613,7 +653,7 @@
     cursor: pointer;
   }
 
-  #project {display: none;}
+  /* #project {display: none;} */
 
   /* modal ====================================== */
   .modal {

@@ -113,7 +113,7 @@
                 </label>
                 <input type="checkbox" id="slide_btn04">
                 <label for="slide_btn04">
-                  <a href="#project">project</a>
+                  <a href="#project_m">project</a>
                 </label>
                 <input type="checkbox" id="slide_btn05">
                 <label for="slide_btn05">
@@ -205,7 +205,7 @@
         </section>
 
         <!-- mobile -->
-        <section id="project">
+        <section id="project_m">
           <div class="scrolling">
             <div class="project_logo">
               <h3>project</h3>
@@ -223,13 +223,7 @@
                       <p>&#35;첫번째 프로젝트</p>
                       <p>&#35;반응형</p>
                       <div class="project_contact">
-                        <button class="btn">planning</button>
-                        <div class="modal on">
-                          <div class="modal_content">
-                            <button class="close"><img src="../img/close.svg" alt="닫기"></button>
-                            <iframe src="../html/ohou_modal.html"></iframe>
-                          </div>
-                        </div>
+                        <button class="btn" onclick="ohouModal()">planning</button>
                         <button class="web_btn" onclick="ohou()">web</button>
                       </div>
                     </div>
@@ -243,13 +237,7 @@
                       <p>&#35;두번째 프로젝트</p>
                       <p>&#35;반응형</p>
                       <div class="project_contact">
-                        <button class="btn">planning</button>
-                        <div class="modal on">
-                          <div class="modal_content">
-                            <button class="close"><img src="../img/close.svg" alt="닫기"></button>
-                            <iframe src="../html/ediya_modal.html"></iframe>
-                          </div>
-                        </div>
+                        <button class="btn" onclick="ediyaModal()">planning</button>
                         <button class="web_btn" onclick="ediya()">web</button>
                       </div>
                     </div>
@@ -273,13 +261,7 @@
                       <p>&#35;세번째 프로젝트</p>
                       <p>&#35;반응형</p>
                       <div class="project_contact">
-                        <button class="btn">planning</button>
-                        <div class="modal on">
-                          <div class="modal_content">
-                            <button class="close"><img src="../img/close.svg" alt="닫기"></button>
-                            <iframe src="../html/portfolio_modal.html"></iframe>
-                          </div>
-                        </div>
+                        <button class="btn" onclick="portfoiloaModal()">planning</button>
                         <button class="web_btn" onclick="portfolio()">web</button>
                       </div>
                     </div>
@@ -293,13 +275,7 @@
                       <p>&#35;네번째 프로젝트</p>
                       <p>&#35;반응형</p>
                       <div class="project_contact">
-                        <button class="btn">planning</button>
-                        <div class="modal on">
-                          <div class="modal_content">
-                            <button class="close"><img src="../img/close.svg" alt="닫기"></button>
-                            <iframe src="../html/of_modal.html"></iframe>
-                          </div>
-                        </div>
+                        <button class="btn" onclick="ofModal()">planning</button>
                         <button class="web_btn" onclick="ofproject()">web</button>
                       </div>
                     </div>
@@ -320,16 +296,10 @@
                   </div>
                   <div class="right_txt05">
                     <div class="txt_inner05">
-                      <p>&#35;세번째 프로젝트</p>
-                      <p>&#35;반응형</p>
+                      <p>&#35;다섯번째 프로젝트</p>
+                      <p>&#35;interactive</p>
                       <div class="project_contact">
-                        <button class="btn">planning</button>
-                        <div class="modal on">
-                          <div class="modal_content">
-                            <button class="close"><img src="../img/close.svg" alt="닫기"></button>
-                            <iframe src="../html/interactive_modal.html"></iframe>
-                          </div>
-                        </div>
+                        <button class="btn" onclick="interactiveModal()">planning</button>
                         <button class="web_btn" onclick="interactive_project()">web</button>
                       </div>
                     </div>
@@ -338,6 +308,122 @@
               </div>
             </div>
           </div>
+        </section>
+
+        <!-- pc -->
+        <section id="project">
+          <div class="project_logo">
+            <h3>project</h3>
+          </div>
+          <div class="project_inner">
+            <ul class="project_list">
+              
+              <!-- ohou -->
+              <li class="project_list_item box">
+                <div class="scrolling">
+                  <a href="https://hyuna323.github.io/ohou_project/html/01_prototype_1280_main.html" target="blank
+                  " rel="noopener" class="project_link">
+                    <picture>
+                      <source srcset="../img/ohoulogo.png" type="image/webp">
+                      <img class="project_list_img01" src="../img/ohoulogo.png" alt="오늘의집">
+                    </picture>
+                  </a>
+                  <p class="project_tag">
+                    <span class="project_tag_item">첫번째 프로젝트</span>
+                    <span class="project_tag_item">반응형</span>
+                  </p>
+                  <div class="project_contact">
+                    <button class="btn" onclick="ohouModal()">planning</button>
+                    <button class="web_btn" onclick="ohou()">web</button>
+                  </div>
+                </div>
+              </li>
+                <!-- ediya -->
+              <li class="project_list_item box">
+                <div class="scrolling">
+                  <a href="https://hyuna323.github.io/ediya_project/html/01_ediya_main.html" target="blank
+                  " rel="noopener" class="project_link">
+                    <picture>
+                      <source srcset="../img/ediyalogo.png" type="image/webp">
+                      <img class="project_list_img02" src="../img/ediyalogo.png" alt="이디야">
+                    </picture>
+                  </a>
+                  <p class="project_tag">
+                    <span class="project_tag_item">두번째 프로젝트</span>
+                    <span class="project_tag_item">반응형</span>
+                  </p>
+                  <div class="project_contact">
+                    <button class="btn" onclick="ediyaModal()">planning</button>
+                    <button class="web_btn" onclick="ediya()">web</button>
+                  </div>
+                </div>
+              </li>
+
+                <!-- portfolio -->
+              <li class="project_list_item box">
+                <div class="scrolling">
+                  <a href="https://hyuna323.github.io/hyuna_portfolio/html/portfolio_main.html" target="blank
+                  " rel="noopener" class="project_link">
+                    <picture>
+                      <source srcset="../img/new_logo.svg" type="image/webp">
+                      <img class="project_list_img03" src="../img/new_logo.svg" alt="오현아 포트폴리오">
+                    </picture>
+                  </a>
+                  <p class="project_tag">
+                    <span class="project_tag_item">세번째 프로젝트</span>
+                    <span class="project_tag_item">반응형</span>
+                  </p>
+                  <div class="project_contact">
+                    <button class="btn" onclick="portfoiloaModal()">planning</button>
+                    <button class="web_btn" onclick="portfolio()">web</button>
+                  </div>
+                </div>
+              </li>
+
+                <!-- of -->
+                <li class="project_list_item box">
+                  <div class="scrolling">
+                  <a href="https://hyuna323.github.io/OF_project/html/ofproject.html" target="blank
+                  " rel="noopener" class="project_link">
+                    <picture>
+                      <source srcset="../img/oflogo.png" type="image/webp">
+                      <img class="project_list_img04" src="../img/oflogo.png" alt="을지로 of">
+                    </picture>
+                  </a>
+                  <p class="project_tag">
+                    <span class="project_tag_item">네번째 프로젝트</span>
+                    <span class="project_tag_item">반응형</span>
+                  </p>
+                  <div class="project_contact">
+                    <button class="btn" onclick="ofModal()">planning</button>
+                    <button class="web_btn" onclick="ofproject()">web</button>
+                  </div>
+                </div>
+              </li>
+
+              <!-- interactive -->
+              <li class="project_list_item box">
+                <div class="scrolling">
+                  <a href="https://hyuna323.github.io/interactive_learning/html/interactive_main.html" target="blank
+                  " rel="noopener" class="project_link">
+                    <picture>
+                      <source srcset="../img/interactive_logo.svg" type="image/webp">
+                      <img class="project_list_img05" src="../img/interactive_logo.svg" alt="interactive 웹페이지 제작">
+                    </picture>
+                  </a>
+                  <p class="project_tag">
+                    <span class="project_tag_item">다섯번째 프로젝트</span>
+                    <span class="project_tag_item">interactive</span>
+                  </p>
+                  <div class="project_contact">
+                    <button class="btn" onclick="interactiveModal()">planning</button>
+                    <button class="web_btn" onclick="interactive()">web</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="project_text"></div>
         </section>
 
 
@@ -426,6 +512,10 @@
 
   <!-- script -->
   <script src="../js/src/portfolio_main.js"></script>
+  <script src="../js/src/scroll_magic.js"></script>
+  <script src="../js/src/animaition.js"></script>
+  <script src="../js/src/modal.js"></script>
+  <script src="../js/src/page_move.js"></script>
   
 </body>
 </html>
