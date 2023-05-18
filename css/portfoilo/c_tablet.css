@@ -917,7 +917,7 @@
   }
   /* contact address */
   .contect_info {
-    width: 73.1707%; min-width: 600px;
+    width: 600px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

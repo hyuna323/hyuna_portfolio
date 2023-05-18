@@ -837,7 +837,7 @@
   }
   /* contact address */
   .contect_info {
-    width: 43.2292%; min-width: 830px;
+    width: 830px;
     margin: auto;
     display: flex;
   }

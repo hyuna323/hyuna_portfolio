@@ -840,7 +840,7 @@
   }
   /* contact address */
   .contect_info {
-    width: 55.5556%; min-width: 800px;
+    width: 800px;
     margin: auto;
     display: flex;
   }
