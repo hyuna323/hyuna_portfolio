@@ -1,10 +1,11 @@
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
 html,body {
   /* overflow: hidden; */
   margin: 0;
   height: 100%;
 }
 #wrap {width: 960px; height: auto; min-height: 600px;
-  font-family: 'Pretendard';
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
 }
 #headBox {width: 100%;}
 #viewBox {margin: auto;}

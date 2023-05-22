@@ -830,7 +830,7 @@
   }
   /* contact address */
   .contect_info {
-   width: 735px;
+    width: 735px;
     margin: auto;
     display: flex;
   }

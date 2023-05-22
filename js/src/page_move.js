@@ -18,6 +18,9 @@ function portfolio(){
 function ofproject(){
   window.open("https://hyuna323.github.io/OF_project/html/ofproject.html", "_blank");
 }
+function interactive(){
+  window.open("https://hyuna323.github.io/interactive_learning/html/interactive_main.html", "_blank");
+}
 
 // notion으로 이동
 function ohouModal(){
